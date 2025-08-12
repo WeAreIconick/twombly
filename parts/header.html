@@ -1,29 +1,31 @@
-<!-- wp:group {"layout":{"inherit":"true"}} -->
-<div class="wp-block-group">
-	<!-- wp:group {"align":"full","layout":{"type":"flex","justifyContent":"space-between"},"style":{"spacing":{"padding":{"bottom":"30px","top":"30px"}}}} -->
-	<div class="wp-block-group alignfull" style="padding-bottom:30px;padding-top:30px">
+<!-- wp:group {"layout":{"inherit":"true","type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"30px","top":"30px"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group alignfull" style="padding-top:30px;padding-bottom:30px"><!-- wp:group {"metadata":{"name":"Site Identity"},"layout":{"type":"flex","verticalAlignment":"top"}} -->
+<div class="wp-block-group"><!-- wp:site-logo {"width":64,"shouldSyncIcon":true} /-->
 
-		<!-- wp:group {"layout":{"type":"flex"}} -->
-		<div class="wp-block-group">
-			<!-- wp:site-logo {"width":64} /-->
+<!-- wp:group {"metadata":{"name":"Title'n'Tagline"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:site-title {"fontSize":"medium"} /-->
 
-			<!-- wp:group -->
-			<div class="wp-block-group">
-				<!-- wp:site-title /-->
-				<!-- wp:site-tagline /-->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:group -->
-
-		<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0"}}}} /-->
-
-	</div>
-	<!-- /wp:group -->
-
-</div>
+<!-- wp:site-tagline /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:spacer {"height":50} -->
-<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:navigation {"style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"medium","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"left","orientation":"vertical"}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"250px"} -->
+<div style="height:250px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button">Get Pro Access</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:separator {"className":"is-style-default"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-default"/>
+<!-- /wp:separator -->
+
+<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","buttonPosition":"button-only","buttonUseIcon":true,"isSearchFieldHidden":true,"backgroundColor":"primary"} /-->
