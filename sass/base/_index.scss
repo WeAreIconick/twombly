@@ -1,6 +1,6 @@
 
-// Layout Settings.
-.wp-site-blocks {
+// Layout Settings:
+.wp-site-blocks.wp-site-blocks { // Doubling up to avoid `flow-root` changing the `display:` away from `grid`
 	max-width: 1800px;
 	margin: 0 auto;
 	padding-right: var( --wp--style--root--padding-right );
