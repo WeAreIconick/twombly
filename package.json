@@ -33,7 +33,8 @@
 		"lint:readme-md": "wp-scripts lint-md-docs README.md",
 		"lint:css": "wp-scripts lint-style ./sass",
 		"lint:js": "wp-scripts lint-js ./js",
-        "build": "sass sass/style.scss:style.css --style=expanded --source-map",
+		"build": "sass sass/style.scss:style.css --style=expanded --source-map",
+		"start": "sass --watch sass/style.scss:style.css --style=expanded --source-map",
 		"theme-zip": "wp-scripts plugin-zip"
     }
 }
