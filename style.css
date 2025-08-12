@@ -10,6 +10,35 @@ Text Domain:  iconick
 Domain Path:  /languages
 Requires PHP: 8.2
 */
+.wp-site-blocks {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-right: var(--wp--style--root--padding-right);
+  padding-left: var(--wp--style--root--padding-left);
+  display: grid;
+  grid-template-columns: 280px 1fr clamp(600px, 60%, 1400px) 1fr;
+  grid-template-areas: "header . content ." "footer footer footer footer";
+}
+.wp-site-blocks > * {
+  grid-area: content;
+}
+.wp-site-blocks > .wp-block-template-part.header {
+  grid-area: header;
+  margin-top: var(--wp--style--block-gap);
+}
+.wp-site-blocks > .wp-block-template-part.footer {
+  grid-area: footer;
+  margin-top: var(--wp--style--block-gap);
+}
+
+.wp-site-blocks .iconick-card,
+.wp-site-blocks .wp-block-post-template {
+  background-color: var(--wp--preset--color--background);
+  border: 1px solid var(--wp--preset--color--border);
+  border-radius: 16px;
+  padding: 20px;
+}
+
 /*
  * Button Styles: (This example pattern will also make a
  * graceful gradient background change)

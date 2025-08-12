@@ -44,8 +44,8 @@
 			]
 		},
 		"layout": {
-			"contentSize": "620px",
-			"wideSize": "1000px"
+			"contentSize": "800px",
+			"wideSize": "1200px"
 		},
 		"spacing": {
 			"units": [
@@ -151,6 +151,14 @@
 				"color": {
 					"text": "var(--wp--preset--color--white)"
 				}
+			}
+		},
+		"spacing": {
+			"padding": {
+				"bottom": "2rem",
+				"left": "2rem",
+				"right": "2rem",
+				"top": "2rem"
 			}
 		},
 		"typography": {
