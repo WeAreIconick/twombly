@@ -1,4 +1,5 @@
-# Theme Repo Template
-A repository to create theme repositories with built tools pre-configured.
+# EXAMPLE_REPO_NAME
+EXAMPLE_REPO_DESCRIPTION
 
-Use this repository as a template, and then populate a couple arguments and run the Repository Workflow to fill in the scaffold (in the generated repository, not this one!)
+# Testing:
+[Test it out on Playground](EXAMPLE_REPO_PLAYGROUND_URL)
