@@ -10,16 +10,6 @@
 	},
 	"steps": [
 		{
-			"step": "installPlugin",
-			"pluginData": {
-				"resource": "wordpress.org/plugins",
-				"slug": "gutenberg"
-			},
-			"options": {
-				"activate": true
-			}
-		},
-		{
 			"step": "installTheme",
 			"themeData": {
 				"resource": "url",
