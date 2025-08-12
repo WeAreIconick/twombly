@@ -20,6 +20,13 @@
 			}
 		},
 		{
+			"step": "importWxr",
+			"file": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/WPTT/theme-unit-test/master/themeunittestdata.wordpress.xml"
+			}
+		},
+		{
 			"step": "login",
 			"username": "admin"
 		}
