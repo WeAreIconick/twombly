@@ -1,19 +1,47 @@
 {
 	"settings": {
 		"appearanceTools": true,
-		"custom": {
-			"theme": {
-				"background": "#1e1e2e",
-				"base": "#171725",
-				"border": "#2e2e44",
-				"button background": "#1e1e2e",
-				"button text dark": "#171725",
-				"button text light": "#ffffff",
-				"gray": "#212131",
-				"primary": "#54e27e",
-				"text": "#828895",
-				"white": "#ffffff"
-			}
+		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "White",
+					"slug": "white"
+				},
+				{
+					"color": "#171725",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#1e1e2e",
+					"name": "Background",
+					"slug": "background"
+				},
+				{
+					"color": "#212131",
+					"name": "Gray",
+					"slug": "gray"
+				},
+				{
+					"color": "#2e2e44",
+					"name": "Border",
+					"slug": "border"
+				},
+				{
+					"color": "#828895",
+					"name": "Text",
+					"slug": "text"
+				},
+				{
+					"color": "#54E27E",
+					"name": "Primary",
+					"slug": "primary"
+				}
+			]
 		},
 		"layout": {
 			"contentSize": "620px",
