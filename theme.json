@@ -1,38 +1,113 @@
 {
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"version": 3,
 	"settings": {
 		"appearanceTools": true,
+		"custom": {
+			"theme": {
+				"background": "#1e1e2e",
+				"base": "#171725",
+				"border": "#2e2e44",
+				"button background": "#1e1e2e",
+				"button text dark": "#171725",
+				"button text light": "#ffffff",
+				"gray": "#212131",
+				"primary": "#54e27e",
+				"text": "#828895",
+				"white": "#ffffff"
+			}
+		},
 		"layout": {
 			"contentSize": "620px",
 			"wideSize": "1000px"
 		},
 		"spacing": {
-			"units": [ "%", "px", "rem" ]
+			"units": [
+				"%",
+				"px",
+				"rem"
+			]
 		},
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-					"name": "System Font",
-					"slug": "system-font"
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/inter/inter-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/inter/inter-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/inter/inter-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/inter/inter-400-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Inter, sans-serif",
+					"name": "Inter",
+					"slug": "inter"
 				}
-			]
+			],
+			"fontSizes": []
 		},
-		"useRootPaddingAwareAlignments": true,
-		"custom": {
-			"theme": {
-				"base": "#171725",
-				"background": "#1e1e2e",
-				"gray": "#212131",
-				"border": "#2e2e44",
-				"text": "#828895",
-				"white": "#ffffff",
-				"primary": "#54e27e",
-				"button text dark": "#171725",
-				"button text light": "#ffffff",
-				"button background": "#1e1e2e"
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontSize": "62px"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "42px"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "32px"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "26px"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "20px"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "16px"
+				}
 			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--inter)",
+			"fontSize": "14px"
 		}
 	},
 	"templateParts": [
@@ -44,5 +119,7 @@
 			"area": "footer",
 			"name": "footer"
 		}
-	]
+	],
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.8/theme.json"
 }
