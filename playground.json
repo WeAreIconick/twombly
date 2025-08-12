@@ -23,7 +23,7 @@
 			"step": "installTheme",
 			"themeData": {
 				"resource": "url",
-				"url": "https://github-proxy.com/proxy/?repo=georgestephanis/theme-repo-template"
+				"url": "https://github-proxy.com/proxy/?repo=georgestephanis/iconick"
 			},
 			"options": {
 				"activate": true

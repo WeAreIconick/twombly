@@ -1,7 +1,7 @@
 {
-    "name": "theme-repo-template",
+    "name": "iconick",
     "version": "1.0.0",
-    "description": "A starter theme for FSE.  Will generally be overwritten.",
+    "description": "A block-based buildout of the Mirak template.",
     "author": {
         "name": "George Stephanis",
         "url": "https://georgestephanis.wordpress.com"
@@ -11,9 +11,9 @@
         "wordpress",
         "theme"
     ],
-    "homepage": "https://github.com/georgestephanis/theme-repo-template",
-    "repository": "https://github.com/georgestephanis/theme-repo-template",
-    "bugs": "https://github.com/georgestephanis/theme-repo-template/issues",
+    "homepage": "https://github.com/georgestephanis/iconick",
+    "repository": "https://github.com/georgestephanis/iconick",
+    "bugs": "https://github.com/georgestephanis/iconick/issues",
     "private": false,
     "engines": {
         "node": ">=20.0",
