@@ -1,5 +1,11 @@
 {
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Demo of new Iconick theme",
+		"description": "Blueprint with demo content for the Iconick theme",
+		"author": "georgestephanis",
+		"categories": [ "Themes", "iconick" ]
+	},
 	"landingPage": "/",
 	"preferredVersions": {
 		"php": "latest",
@@ -20,10 +26,34 @@
 			}
 		},
 		{
+			"step": "runPHP",
+			"code": "<?php\nrequire '/wordpress/wp-load.php';\n\n$posts = get_posts(array(\n    'numberposts' => -1,\n    'post_type' => array('post', 'page'),\n    'post_status' => 'any'\n));\n\nforeach ($posts as $post) {\n    wp_delete_post($post->ID, true);\n}"
+		},
+		{
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/WPTT/theme-unit-test/master/themeunittestdata.wordpress.xml"
+				"url": "https://github.com/WordPress/blueprints/blob/trunk/blueprints/install-activate-setup-theme-from-gh-repo/blueprint-content.xml"
+			}
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/mu-plugins/rewrite.php",
+			"data": "<?php add_action( 'after_setup_theme', function() { global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); $wp_rewrite->flush_rules(); } );"
+		},
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"blogname": "Iconick",
+				"blogdescription": "Blockratize Publishing"
+			}
+		},
+		{
+			"step": "defineWpConfigConsts",
+			"consts": {
+				"WP_DEBUG": true,
+				"WP_DEBUG_DISPLAY": true,
+				"SCRIPT_DEBUG": true
 			}
 		},
 		{
