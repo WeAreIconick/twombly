@@ -1,0 +1,39 @@
+{
+    "name": "theme-repo-template",
+    "version": "1.0.0",
+    "description": "A starter theme for FSE.  Will generally be overwritten.",
+    "author": {
+        "name": "George Stephanis",
+        "url": "https://georgestephanis.wordpress.com"
+    },
+    "license": "GPL-2.0-or-later",
+    "keywords": [
+        "wordpress",
+        "theme"
+    ],
+    "homepage": "https://github.com/georgestephanis/theme-repo-template",
+    "repository": "https://github.com/georgestephanis/theme-repo-template",
+    "bugs": "https://github.com/georgestephanis/theme-repo-template/issues",
+    "private": false,
+    "engines": {
+        "node": ">=20.0",
+        "npm": ">=10.0"
+    },
+    "devDependencies": {
+        "@wordpress/scripts": "^30.21.0",
+		"npm-run-all": "^4.1.5",
+        "sass": "^1.90.0"
+    },
+    "scripts": {
+		"format": "npm-run-all --sequential format:**",
+		"format:sass": "npm run lint:css -- --fix",
+		"format:js": "wp-scripts format ./js",
+		"lint": "npm-run-all --sequential lint:**",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"lint:readme-md": "wp-scripts lint-md-docs README.md",
+		"lint:css": "wp-scripts lint-style ./sass",
+		"lint:js": "wp-scripts lint-js ./js",
+        "build": "sass sass/style.scss:style.css --style=expanded --source-map",
+		"theme-zip": "wp-scripts plugin-zip"
+    }
+}

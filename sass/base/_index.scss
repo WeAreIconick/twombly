@@ -1,0 +1,34 @@
+
+/*
+ * Button Styles: (This example pattern will also make a
+ * graceful gradient background change)
+ */
+
+@property --focus-button-start {
+	syntax: "<color>";
+	initial-value: #263450;
+	inherits: false;
+}
+
+@property --focus-button-end {
+	syntax: "<color>";
+	initial-value: #466096;
+	inherits: false;
+}
+
+.wp-block-button.is-style-focus-button {
+
+	.wp-block-button__link {
+		background: linear-gradient(135deg, var(--focus-button-start) 0%, var(--focus-button-end) 100%) !important;
+		transition: --focus-button-start 0.5s, --focus-button-end 0.5s;
+		color: #fff;
+		border-radius: 0;
+		font-weight: 700;
+
+		&:hover,
+		&:focus {
+			--focus-button-start: #466096;
+			--focus-button-end: #6a7fab;
+		}
+	}
+}
