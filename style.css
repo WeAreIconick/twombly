@@ -68,6 +68,21 @@ Requires PHP: 8.2
   margin-right: auto;
   margin-left: auto;
 }
+.wp-site-blocks .wp-block-template-part.header .wp-block-navigation__container li {
+  padding: 0.5em 1em;
+  border-radius: var(--card--border-radius);
+}
+.wp-site-blocks .wp-block-template-part.header .wp-block-navigation__container li:hover {
+  background: var(--wp--preset--color--base);
+}
+.wp-site-blocks .wp-block-template-part.header .wp-block-navigation__container li:hover a {
+  color: var(--wp--preset--color--white);
+}
+.wp-site-blocks .wp-block-template-part.header .wp-block-separator {
+  border-top-width: 1px;
+  opacity: 0.5;
+  margin: var(--wp--style--block-gap) 0;
+}
 .wp-site-blocks .wp-block-post .wp-block-post-featured-image {
   border: 1px solid var(--wp--preset--color--border);
   border-bottom-width: 0;
