@@ -1,10 +1,18 @@
 
+$mobile-breakpoint: 599px;
+
 // Layout Settings:
 .wp-site-blocks.wp-site-blocks { // Doubling up to avoid `flow-root` changing the `display:` away from `grid`
-	max-width: 1800px;
-	margin: 0 auto;
+	min-height: calc( 100vh - var( --wp-admin--admin-bar--height, 0 ) );
 
-	position: relative;
+	--twombly--header-width: 280px;
+
+	box-sizing: border-box;
+	max-width: calc( 1.5 * var(--wp--style--global--wide-size) );
+	margin: 0 auto;
+	padding-left: var( --wp--style--root--padding-left, 0 );
+	padding-right: var( --wp--style--root--padding-right, 0 );
+
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -12,26 +20,77 @@
 	gap: var( --wp--style--block-gap );
 
 	> * {
-		flex-grow: 1;
-		flex-basis: calc( 100% - 400px );
+		width: calc( 100% - var(--twombly--header-width) - var( --wp--style--block-gap ) );
+		margin-left: auto;
+
 	}
+
 	> .wp-block-template-part.header {
-		width: 280px;
+		align-self: start;
+		box-sizing: border-box;
+		width: var(--twombly--header-width);
 		flex-grow: 0;
-		flex-basis: 280px;
 		position: sticky;
 		top: calc( var( --wp--style--root--padding-top, 0 ) + var( --wp-admin--admin-bar--height, 0 ) );
+	}
+
+	> .wp-block-template-part.footer {
+		margin-top: auto;
+	}
+
+	@media ( max-width: $mobile-breakpoint ) {
+		flex-direction: column;
+
+		> * {
+			width: 100%;
+		}
+		> .wp-block-template-part.header {
+			width: 100%;
+		}
 	}
 }
 
 .wp-site-blocks {
+	--card--border-radius: 16px;
+
 	.twombly-card,
+	.wp-block-template-part.footer > .wp-block-group,
 	.wp-block-post-content {
+		box-sizing: border-box;
 		background-color: var(--wp--preset--color--background);
 		border: 1px solid var(--wp--preset--color--border);
-		border-radius: 16px;
+		border-radius: var(--card--border-radius);
 		padding: 20px;
-		width: 100%;
+	}
+
+	> main > * {
+		max-width: var(--wp--style--global--wide-size);
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.wp-block-post {
+		.wp-block-post-featured-image {
+			border: 1px solid var(--wp--preset--color--border);
+			border-bottom-width: 0;
+			border-radius: var(--card--border-radius) var(--card--border-radius) 0 0;
+			overflow: hidden;
+
+			+ .wp-block-post-content {
+				border-top-left-radius: 0;
+				border-top-right-radius: 0;
+				margin-block-start: 0;
+			}
+		}
+	}
+
+	.wp-block-template-part.footer {
+		> * {
+			// --wp--style--global--content-size or --wp--style--global--wide-size
+			max-width: var(--wp--style--global--content-size);
+			margin-right: auto;
+			margin-left: auto;
+		}
 	}
 }
 
