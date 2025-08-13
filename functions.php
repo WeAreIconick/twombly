@@ -1,13 +1,13 @@
 <?php
 /**
- * Iconick theme functions and definitions.
+ * Twombly theme functions and definitions.
  *
  * @link    https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Iconick_Theme
+ * @package Twombly_Theme
  */
 
-namespace Iconick\Theme;
+namespace Twombly\Theme;
 
 /**
  * Handle addition of any enqueues for the front-end.
@@ -17,7 +17,7 @@ namespace Iconick\Theme;
 function enqueue_block_assets() {
 	// Handle adding the theme's style.css for generic non-block-specific styles.
 	\wp_enqueue_style(
-		'iconick',
+		'twombly',
 		\get_stylesheet_uri(),
 		array(),
 		(string) filemtime( __DIR__ . '/style.css' )
@@ -32,7 +32,7 @@ function enqueue_block_assets() {
  */
 function enqueue_block_editor_assets() {
 	\wp_enqueue_script(
-		'iconick',
+		'twombly',
 		\get_theme_file_uri( 'js/block-editor.js' ),
 		array(),
 		(string) filemtime( __DIR__ . '/js/block-editor.js' ),

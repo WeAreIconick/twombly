@@ -1,10 +1,10 @@
 {
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
 	"meta": {
-		"title": "Demo of new Iconick theme",
-		"description": "Blueprint with demo content for the Iconick theme",
+		"title": "Demo of new Twombly theme",
+		"description": "Blueprint with demo content for the Twombly theme",
 		"author": "georgestephanis",
-		"categories": [ "Themes", "iconick" ]
+		"categories": [ "Themes", "twombly" ]
 	},
 	"landingPage": "/",
 	"preferredVersions": {
@@ -19,7 +19,7 @@
 			"step": "installTheme",
 			"themeData": {
 				"resource": "url",
-				"url": "https://github-proxy.com/proxy/?repo=georgestephanis/iconick"
+				"url": "https://github-proxy.com/proxy/?repo=georgestephanis/twombly"
 			},
 			"options": {
 				"activate": true
@@ -44,7 +44,7 @@
 		{
 			"step": "setSiteOptions",
 			"options": {
-				"blogname": "Iconick",
+				"blogname": "Twombly",
 				"blogdescription": "Blockratize Publishing"
 			}
 		},

@@ -1,12 +1,12 @@
 /*!
-Theme Name:   Iconick
-Theme URI:    https://github.com/georgestephanis/iconick
+Theme Name:   Twombly
+Theme URI:    https://github.com/georgestephanis/twombly
 Author:       George Stephanis
 Author URI:   https://georgestephanis.wordpress.com
 Description:  A block-based buildout of the Mirak template.
 Version:      1.0
 License:      GPL-2.0-or-later
-Text Domain:  iconick
+Text Domain:  twombly
 Domain Path:  /languages
 Requires PHP: 8.2
 */
@@ -31,7 +31,7 @@ Requires PHP: 8.2
   margin-top: var(--wp--style--block-gap);
 }
 
-.wp-site-blocks .iconick-card,
+.wp-site-blocks .twombly-card,
 .wp-site-blocks .wp-block-post-content {
   background-color: var(--wp--preset--color--background);
   border: 1px solid var(--wp--preset--color--border);
