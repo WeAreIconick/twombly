@@ -3,24 +3,24 @@
 .wp-site-blocks.wp-site-blocks { // Doubling up to avoid `flow-root` changing the `display:` away from `grid`
 	max-width: 1800px;
 	margin: 0 auto;
-	padding-right: var( --wp--style--root--padding-right );
-	padding-left: var( --wp--style--root--padding-left );
 
-	display: grid;
-	grid-template-columns: 280px 1fr clamp( 600px, 60%, 1400px ) 1fr;
-	grid-template-areas: "header . content ."
-						"footer footer footer footer";
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: var( --wp--style--block-gap );
 
 	> * {
-		grid-area: content;
+		flex-grow: 1;
+		flex-basis: calc( 100% - 400px );
 	}
 	> .wp-block-template-part.header {
-		grid-area: header;
-		margin-top: var( --wp--style--block-gap );
-	}
-	> .wp-block-template-part.footer {
-		grid-area: footer;
-		margin-top: var( --wp--style--block-gap );
+		width: 280px;
+		flex-grow: 0;
+		flex-basis: 280px;
+		position: sticky;
+		top: calc( var( --wp--style--root--padding-top, 0 ) + var( --wp-admin--admin-bar--height, 0 ) );
 	}
 }
 
@@ -31,6 +31,7 @@
 		border: 1px solid var(--wp--preset--color--border);
 		border-radius: 16px;
 		padding: 20px;
+		width: 100%;
 	}
 }
 

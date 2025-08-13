@@ -155,10 +155,10 @@
 		},
 		"spacing": {
 			"padding": {
-				"bottom": "2rem",
-				"left": "2rem",
-				"right": "2rem",
-				"top": "2rem"
+				"bottom": "24px",
+				"left": "24px",
+				"right": "24px",
+				"top": "24px"
 			}
 		},
 		"typography": {
