@@ -27,7 +27,7 @@
 		},
 		{
 			"step": "runPHP",
-			"code": "<?php\nrequire '/wordpress/wp-load.php';\n\n$posts = get_posts(array(\n    'numberposts' => -1,\n    'post_type' => array('post', 'page'),\n    'post_status' => 'any'\n));\n\nforeach ($posts as $post) {\n    wp_delete_post($post->ID, true);\n}"
+			"code": "<?php require '/wordpress/wp-load.php';foreach(get_posts(['numberposts'=>-1,'post_type'=>['post','page'],'post_status'=>'any']) as $post)wp_delete_post($post->ID,true);include_once get_theme_file_path('inc/playground-setup.php');"
 		},
 		{
 			"step": "importWxr",
