@@ -16,6 +16,16 @@
 	},
 	"steps": [
 		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "wordpress.org/plugins",
+				"slug": "create-block-theme"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
 			"step": "installTheme",
 			"themeData": {
 				"resource": "url",
@@ -27,7 +37,7 @@
 		},
 		{
 			"step": "runPHP",
-			"code": "<?php require '/wordpress/wp-load.php';foreach(get_posts(['numberposts'=>-1,'post_type'=>['post','page'],'post_status'=>'any']) as $post)wp_delete_post($post->ID,true);include_once get_theme_file_path('inc/playground-setup.php');"
+			"code": "<?php require '/wordpress/wp-load.php';include_once get_theme_file_path('_playground/setup.php');"
 		},
 		{
 			"step": "importWxr",
