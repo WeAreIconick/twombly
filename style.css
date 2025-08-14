@@ -10,9 +10,13 @@ Text Domain:  twombly
 Domain Path:  /languages
 Requires PHP: 8.2
 */
+:root {
+  --twombly--header-width: 280px;
+  --card--border-radius: 16px;
+}
+
 .wp-site-blocks.wp-site-blocks {
   min-height: calc(100vh - var(--wp-admin--admin-bar--height, 0));
-  --twombly--header-width: 280px;
   box-sizing: border-box;
   max-width: calc(1.5 * var(--wp--style--global--wide-size));
   margin: 0 auto;
@@ -51,79 +55,52 @@ Requires PHP: 8.2
   }
 }
 
-.wp-site-blocks {
-  --card--border-radius: 16px;
-}
-.wp-site-blocks .twombly-card,
-.wp-site-blocks .wp-block-template-part.footer > .wp-block-group,
-.wp-site-blocks .wp-block-post-content {
+.is-style-twombly-card {
   box-sizing: border-box;
   background-color: var(--wp--preset--color--background);
   border: 1px solid var(--wp--preset--color--border);
   border-radius: var(--card--border-radius);
-  padding: 20px;
+  padding: 20px !important;
 }
+
 .wp-site-blocks > main > * {
   max-width: var(--wp--style--global--wide-size);
   margin-right: auto;
   margin-left: auto;
 }
-.wp-site-blocks .wp-block-template-part.header .wp-block-navigation__container li {
+
+.wp-block-template-part.header .wp-block-navigation__container li {
   padding: 0.5em 1em;
   border-radius: var(--card--border-radius);
 }
-.wp-site-blocks .wp-block-template-part.header .wp-block-navigation__container li:hover {
+.wp-block-template-part.header .wp-block-navigation__container li:hover {
   background: var(--wp--preset--color--base);
 }
-.wp-site-blocks .wp-block-template-part.header .wp-block-navigation__container li:hover a {
+.wp-block-template-part.header .wp-block-navigation__container li:hover a {
   color: var(--wp--preset--color--white);
 }
-.wp-site-blocks .wp-block-template-part.header .wp-block-separator {
+.wp-block-template-part.header .wp-block-separator {
   border-top-width: 1px;
   opacity: 0.5;
   margin: var(--wp--style--block-gap) 0;
 }
-.wp-site-blocks .wp-block-post .wp-block-post-featured-image {
+
+.wp-block-post .wp-block-post-featured-image {
   border: 1px solid var(--wp--preset--color--border);
   border-bottom-width: 0;
   border-radius: var(--card--border-radius) var(--card--border-radius) 0 0;
   overflow: hidden;
 }
-.wp-site-blocks .wp-block-post .wp-block-post-featured-image + .wp-block-post-content {
+.wp-block-post .wp-block-post-featured-image + .wp-block-post-content {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   margin-block-start: 0;
 }
-.wp-site-blocks .wp-block-template-part.footer > * {
+
+.wp-block-template-part.footer > * {
   max-width: var(--wp--style--global--content-size);
   margin-right: auto;
   margin-left: auto;
-}
-
-/*
- * Button Styles: (This example pattern will also make a
- * graceful gradient background change)
- */
-@property --focus-button-start {
-  syntax: "<color>";
-  initial-value: #263450;
-  inherits: false;
-}
-@property --focus-button-end {
-  syntax: "<color>";
-  initial-value: #466096;
-  inherits: false;
-}
-.wp-block-button.is-style-focus-button .wp-block-button__link {
-  background: linear-gradient(135deg, var(--focus-button-start) 0%, var(--focus-button-end) 100%) !important;
-  transition: --focus-button-start 0.5s, --focus-button-end 0.5s;
-  color: #fff;
-  border-radius: 0;
-  font-weight: 700;
-}
-.wp-block-button.is-style-focus-button .wp-block-button__link:hover, .wp-block-button.is-style-focus-button .wp-block-button__link:focus {
-  --focus-button-start: #466096;
-  --focus-button-end: #6a7fab;
 }
 
 /*# sourceMappingURL=style.css.map */

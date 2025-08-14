@@ -1,11 +1,13 @@
-
 $mobile-breakpoint: 599px;
+
+:root {
+	--twombly--header-width: 280px;
+	--card--border-radius: 16px;
+}
 
 // Layout Settings:
 .wp-site-blocks.wp-site-blocks { // Doubling up to avoid `flow-root` changing the `display:` away from `grid`
 	min-height: calc( 100vh - var( --wp-admin--admin-bar--height, 0 ) );
-
-	--twombly--header-width: 280px;
 
 	box-sizing: border-box;
 	max-width: calc( 1.5 * var(--wp--style--global--wide-size) );
@@ -50,102 +52,62 @@ $mobile-breakpoint: 599px;
 	}
 }
 
-.wp-site-blocks {
-	--card--border-radius: 16px;
+.is-style-twombly-card {
+	box-sizing: border-box;
+	background-color: var(--wp--preset--color--background);
+	border: 1px solid var(--wp--preset--color--border);
+	border-radius: var(--card--border-radius);
+	padding: 20px !important;
+}
 
-	.twombly-card,
-	.wp-block-template-part.footer > .wp-block-group,
-	.wp-block-post-content {
-		box-sizing: border-box;
-		background-color: var(--wp--preset--color--background);
-		border: 1px solid var(--wp--preset--color--border);
-		border-radius: var(--card--border-radius);
-		padding: 20px;
-	}
+.wp-site-blocks > main > * {
+	max-width: var(--wp--style--global--wide-size);
+	margin-right: auto;
+	margin-left: auto;
+}
 
-	> main > * {
-		max-width: var(--wp--style--global--wide-size);
-		margin-right: auto;
-		margin-left: auto;
-	}
+.wp-block-template-part.header {
+	.wp-block-navigation__container {
+		li {
+			padding: 0.5em 1em;
+			border-radius: var(--card--border-radius);
 
-	.wp-block-template-part.header {
-		.wp-block-navigation__container {
-			li {
-				padding: 0.5em 1em;
-				border-radius: var(--card--border-radius);
-
-				&:hover {
-					background: var(--wp--preset--color--base);
-					a {
-						color: var(--wp--preset--color--white);
-					}
+			&:hover {
+				background: var(--wp--preset--color--base);
+				a {
+					color: var(--wp--preset--color--white);
 				}
 			}
 		}
-
-		.wp-block-separator {
-			border-top-width: 1px;
-			opacity: 0.5;
-			margin: var( --wp--style--block-gap ) 0;
-		}
 	}
 
-	.wp-block-post {
-		.wp-block-post-featured-image {
-			border: 1px solid var(--wp--preset--color--border);
-			border-bottom-width: 0;
-			border-radius: var(--card--border-radius) var(--card--border-radius) 0 0;
-			overflow: hidden;
-
-			+ .wp-block-post-content {
-				border-top-left-radius: 0;
-				border-top-right-radius: 0;
-				margin-block-start: 0;
-			}
-		}
+	.wp-block-separator {
+		border-top-width: 1px;
+		opacity: 0.5;
+		margin: var( --wp--style--block-gap ) 0;
 	}
+}
 
-	.wp-block-template-part.footer {
-		> * {
-			// --wp--style--global--content-size or --wp--style--global--wide-size
-			max-width: var(--wp--style--global--content-size);
-			margin-right: auto;
-			margin-left: auto;
+.wp-block-post {
+	.wp-block-post-featured-image {
+		border: 1px solid var(--wp--preset--color--border);
+		border-bottom-width: 0;
+		border-radius: var(--card--border-radius) var(--card--border-radius) 0 0;
+		overflow: hidden;
+
+		+ .wp-block-post-content {
+			border-top-left-radius: 0;
+			border-top-right-radius: 0;
+			margin-block-start: 0;
 		}
 	}
 }
 
-/*
- * Button Styles: (This example pattern will also make a
- * graceful gradient background change)
- */
-
-@property --focus-button-start {
-	syntax: "<color>";
-	initial-value: #263450;
-	inherits: false;
-}
-
-@property --focus-button-end {
-	syntax: "<color>";
-	initial-value: #466096;
-	inherits: false;
-}
-
-.wp-block-button.is-style-focus-button {
-
-	.wp-block-button__link {
-		background: linear-gradient(135deg, var(--focus-button-start) 0%, var(--focus-button-end) 100%) !important;
-		transition: --focus-button-start 0.5s, --focus-button-end 0.5s;
-		color: #fff;
-		border-radius: 0;
-		font-weight: 700;
-
-		&:hover,
-		&:focus {
-			--focus-button-start: #466096;
-			--focus-button-end: #6a7fab;
-		}
+.wp-block-template-part.footer {
+	> * {
+		// --wp--style--global--content-size or --wp--style--global--wide-size
+		max-width: var(--wp--style--global--content-size);
+		margin-right: auto;
+		margin-left: auto;
 	}
 }
