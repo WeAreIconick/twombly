@@ -92,6 +92,7 @@ $mobile-breakpoint: 599px;
 	.wp-block-post-featured-image {
 		border: 1px solid var(--wp--preset--color--border);
 		border-radius: var(--card--border-radius);
+		overflow: hidden;
 	}
 }
 
