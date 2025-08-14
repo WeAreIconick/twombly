@@ -92,6 +92,29 @@ Requires PHP: 8.2
   overflow: hidden;
 }
 
+.wp-block-comments-pagination-previous,
+.wp-block-comments-pagination-next {
+  text-decoration: none;
+}
+
+.wp-block-comments-pagination-numbers .page-numbers {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.75rem;
+  color: var(--wp--preset--color--text);
+}
+.wp-block-comments-pagination-numbers .page-numbers:hover {
+  color: var(--wp--preset--color--white);
+}
+.wp-block-comments-pagination-numbers .page-numbers.current {
+  background-color: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--white);
+}
+
 .wp-block-template-part.footer > * {
   max-width: var(--wp--style--global--content-size);
   margin-right: auto;
