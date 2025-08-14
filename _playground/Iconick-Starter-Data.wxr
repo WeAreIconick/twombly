@@ -1,0 +1,5989 @@
+<!-- generator="WordPress/6.8.2" created="2025-08-14 17:39" -->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+	<channel>
+		<title>Iconick</title>
+		<link>http://iconick.wp.local</link>
+		<description>Blockratize Publishing</description>
+		<pubDate>Thu, 14 Aug 2025 17:39:55 +0000</pubDate>
+		<language>en-US</language>
+		<wp:wxr_version>1.2</wp:wxr_version>
+		<wp:base_site_url>http://iconick.wp.local</wp:base_site_url>
+		<wp:base_blog_url>http://iconick.wp.local</wp:base_blog_url>
+		<wp:author>
+			<wp:author_id>1</wp:author_id>
+			<wp:author_login>
+				<![CDATA[admin]]>
+			</wp:author_login>
+			<wp:author_email>
+				<![CDATA[admin@localhost.com]]>
+			</wp:author_email>
+			<wp:author_display_name>
+				<![CDATA[Dr. Ad Ministrator]]>
+			</wp:author_display_name>
+			<wp:author_first_name>
+				<![CDATA[Ad]]>
+			</wp:author_first_name>
+			<wp:author_last_name>
+				<![CDATA[Ministrator]]>
+			</wp:author_last_name>
+		</wp:author>
+		<wp:category>
+			<wp:term_id>242</wp:term_id>
+			<wp:category_nicename>
+				<![CDATA[giving]]>
+			</wp:category_nicename>
+			<wp:category_parent>
+				<![CDATA[]]>
+			</wp:category_parent>
+			<wp:cat_name>
+				<![CDATA[Giving]]>
+			</wp:cat_name>
+		</wp:category>
+		<wp:category>
+			<wp:term_id>239</wp:term_id>
+			<wp:category_nicename>
+				<![CDATA[our-people]]>
+			</wp:category_nicename>
+			<wp:category_parent>
+				<![CDATA[]]>
+			</wp:category_parent>
+			<wp:cat_name>
+				<![CDATA[Our People]]>
+			</wp:cat_name>
+		</wp:category>
+		<wp:category>
+			<wp:term_id>240</wp:term_id>
+			<wp:category_nicename>
+				<![CDATA[staff]]>
+			</wp:category_nicename>
+			<wp:category_parent>
+				<![CDATA[our-people]]>
+			</wp:category_parent>
+			<wp:cat_name>
+				<![CDATA[Staff]]>
+			</wp:cat_name>
+		</wp:category>
+		<wp:category>
+			<wp:term_id>1</wp:term_id>
+			<wp:category_nicename>
+				<![CDATA[uncategorized]]>
+			</wp:category_nicename>
+			<wp:category_parent>
+				<![CDATA[]]>
+			</wp:category_parent>
+			<wp:cat_name>
+				<![CDATA[Uncategorized]]>
+			</wp:cat_name>
+		</wp:category>
+		<wp:category>
+			<wp:term_id>241</wp:term_id>
+			<wp:category_nicename>
+				<![CDATA[volunteers]]>
+			</wp:category_nicename>
+			<wp:category_parent>
+				<![CDATA[our-people]]>
+			</wp:category_parent>
+			<wp:cat_name>
+				<![CDATA[Volunteers]]>
+			</wp:cat_name>
+		</wp:category>
+		<wp:tag>
+			<wp:term_id>204</wp:term_id>
+			<wp:tag_slug>
+				<![CDATA[donations]]>
+			</wp:tag_slug>
+			<wp:tag_name>
+				<![CDATA[Donations]]>
+			</wp:tag_name>
+		</wp:tag>
+		<wp:tag>
+			<wp:term_id>203</wp:term_id>
+			<wp:tag_slug>
+				<![CDATA[staff]]>
+			</wp:tag_slug>
+			<wp:tag_name>
+				<![CDATA[Staff]]>
+			</wp:tag_name>
+		</wp:tag>
+		<wp:term>
+			<wp:term_id>210</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[amazon-boxes]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Amazon boxes]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>217</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[boxes]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Boxes]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>223</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[boxes-of-groceries]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Boxes of groceries]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>211</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[cardboard-boxes]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Cardboard boxes]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>222</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[cardboard-boxes-full-of-food]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Cardboard boxes full of food]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>221</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[community-food-drive]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Community food drive]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>238</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[community-service]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Community Service]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>228</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[donation]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Donation]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>225</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[food]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Food]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>220</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[food-donation-boxes]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Food donation boxes]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>232</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[food-supplies]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Food supplies]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>230</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[grocery-store]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Grocery store]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>206</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[group-work]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Group work]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>237</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[healthcare-workers]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Healthcare Workers]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>216</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[helmet]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Helmet]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>233</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[marketplace]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Marketplace]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>236</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[medical-professionals]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Medical Professionals]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>205</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[office-environment]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Office environment]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>219</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[outdoor-activity]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Outdoor activity]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>235</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[outdoor-event]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Outdoor Event]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>212</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[package-delivery]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Package delivery]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>218</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[packages]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Packages]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>215</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[people]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[People]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>207</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[personal-protective-equipment-ppe]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Personal protective equipment (PPE)]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>231</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[signage]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Signage]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>229</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[storefront]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Storefront]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>234</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[team]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Team]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>209</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[team-meeting]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Team meeting]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>213</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[unloading-boxes]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Unloading boxes]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>226</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[unpacked]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Unpacked]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>214</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[ups-truck]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[UPS truck]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>227</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[variety]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Variety]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>224</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[volunteer-event-organization]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Volunteer event organization]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>208</wp:term_id>
+			<wp:term_taxonomy>
+				<![CDATA[classifai-image-tags]]>
+			</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[workstations]]>
+			</wp:term_slug>
+			<wp:term_parent>
+				<![CDATA[]]>
+			</wp:term_parent>
+			<wp:term_name>
+				<![CDATA[Workstations]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>183</wp:term_id>
+			<wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[all-pages]]>
+			</wp:term_slug>
+			<wp:term_name>
+				<![CDATA[All Pages]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>184</wp:term_id>
+			<wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[all-pages-flat]]>
+			</wp:term_slug>
+			<wp:term_name>
+				<![CDATA[All Pages Flat]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>185</wp:term_id>
+			<wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[empty-menu]]>
+			</wp:term_slug>
+			<wp:term_name>
+				<![CDATA[Empty Menu]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>186</wp:term_id>
+			<wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[short]]>
+			</wp:term_slug>
+			<wp:term_name>
+				<![CDATA[Short]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>188</wp:term_id>
+			<wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[social-menu]]>
+			</wp:term_slug>
+			<wp:term_name>
+				<![CDATA[Social menu]]>
+			</wp:term_name>
+		</wp:term>
+		<wp:term>
+			<wp:term_id>187</wp:term_id>
+			<wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+			<wp:term_slug>
+				<![CDATA[testing-menu]]>
+			</wp:term_slug>
+			<wp:term_name>
+				<![CDATA[Testing Menu]]>
+			</wp:term_name>
+		</wp:term>
+		<generator>https://wordpress.org/?v=6.8.2</generator>
+		<image>
+			<url>http://iconick.wp.local/wp-content/uploads/2025/08/original_wapuu-150x150.png</url>
+			<title>Iconick</title>
+			<link>http://iconick.wp.local</link>
+			<width>32</width>
+			<height>32</height>
+		</image>
+		<item>
+			<title>
+				<![CDATA[original_wapuu]]>
+			</title>
+			<link>http://iconick.wp.local/?attachment_id=23</link>
+			<pubDate>Tue, 12 Aug 2025 19:09:32 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/wp-content/uploads/2025/08/original_wapuu.png</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>23</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:09:32]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:09:32]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:09:32]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:09:32]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[open]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[original_wapuu]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[inherit]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[attachment]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<wp:attachment_url>
+				<![CDATA[http://iconick.wp.local/wp-content/uploads/2025/08/original_wapuu.png]]>
+			</wp:attachment_url>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attached_file]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[2025/08/original_wapuu.png]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_metadata]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:6:{s:5:"width";i:907;s:6:"height";i:1001;s:4:"file";s:26:"2025/08/original_wapuu.png";s:8:"filesize";i:80943;s:5:"sizes";a:3:{s:6:"medium";a:5:{s:4:"file";s:26:"original_wapuu-272x300.png";s:5:"width";i:272;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:28501;}s:9:"thumbnail";a:5:{s:4:"file";s:26:"original_wapuu-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:13775;}s:12:"medium_large";a:5:{s:4:"file";s:26:"original_wapuu-768x848.png";s:5:"width";i:768;s:6:"height";i:848;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:106256;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Pages]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1726</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1726</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1726</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[pages]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>2</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[0]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1726]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Categories]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1727</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1727</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1727</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[categories]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>10</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[0]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1727]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1729</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1729</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[Posts in this category test post formats.]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1729</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[1729]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>24</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[taxonomy]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1727]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[141]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[category]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Depth]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1731</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1731</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1731</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[depth]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>29</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[0]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1731]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Level 01]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1732</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1732</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1732</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[level-01]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>30</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1731]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1732]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Level 02]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1733</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1733</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1733</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[level-02]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>31</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1732]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1733]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Level 03]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1734</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1734</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1734</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[level-03]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>32</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1733]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1734]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Level 04]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1735</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1735</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1735</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[level-04]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>33</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1734]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1735]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Level 05]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1736</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1736</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1736</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[level-05]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>34</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1735]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1736]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Level 06]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1737</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1737</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1737</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[level-06]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>35</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1736]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1737]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Level 07]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1738</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1738</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1738</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[level-07]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>36</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1737]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1738]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Level 08]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1739</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1739</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1739</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[level-08]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>37</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1738]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1739]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[00003-1059238638]]>
+			</title>
+			<link>http://iconick.wp.local/?attachment_id=1954</link>
+			<pubDate>Thu, 14 Aug 2025 17:09:43 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/wp-content/uploads/2025/08/00003-1059238638.jpeg</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1954</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 17:09:43]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 17:09:43]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 17:09:43]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 17:09:43]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[open]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[00003-1059238638]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[inherit]]>
+			</wp:status>
+			<wp:post_parent>1937</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[attachment]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<wp:attachment_url>
+				<![CDATA[http://iconick.wp.local/wp-content/uploads/2025/08/00003-1059238638.jpeg]]>
+			</wp:attachment_url>
+			<category domain="classifai-image-tags" nicename="group-work">
+				<![CDATA[Group work]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="office-environment">
+				<![CDATA[Office environment]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="personal-protective-equipment-ppe">
+				<![CDATA[Personal protective equipment (PPE)]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="team-meeting">
+				<![CDATA[Team meeting]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="workstations">
+				<![CDATA[Workstations]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attached_file]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[2025/08/00003-1059238638.jpeg]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_metadata]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:6:{s:5:"width";i:1216;s:6:"height";i:832;s:4:"file";s:29:"2025/08/00003-1059238638.jpeg";s:8:"filesize";i:283615;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:29:"00003-1059238638-300x205.jpeg";s:5:"width";i:300;s:6:"height";i:205;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:18318;}s:5:"large";a:5:{s:4:"file";s:30:"00003-1059238638-1024x701.jpeg";s:5:"width";i:1024;s:6:"height";i:701;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:122370;}s:9:"thumbnail";a:5:{s:4:"file";s:29:"00003-1059238638-150x150.jpeg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:7949;}s:12:"medium_large";a:5:{s:4:"file";s:29:"00003-1059238638-768x525.jpeg";s:5:"width";i:768;s:6:"height";i:525;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:79106;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_image_alt]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[Sure, I can help with that. Please provide me with the image and I'll describe it for you.]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[00004-130210292]]>
+			</title>
+			<link>http://iconick.wp.local/?attachment_id=1955</link>
+			<pubDate>Thu, 14 Aug 2025 17:15:51 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/wp-content/uploads/2025/08/00004-130210292.jpeg</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1955</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 17:15:51]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 17:15:51]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 17:15:51]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 17:15:51]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[open]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[00004-130210292]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[inherit]]>
+			</wp:status>
+			<wp:post_parent>1943</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[attachment]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<wp:attachment_url>
+				<![CDATA[http://iconick.wp.local/wp-content/uploads/2025/08/00004-130210292.jpeg]]>
+			</wp:attachment_url>
+			<category domain="classifai-image-tags" nicename="boxes">
+				<![CDATA[Boxes]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="donation">
+				<![CDATA[Donation]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="food">
+				<![CDATA[Food]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="unpacked">
+				<![CDATA[Unpacked]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="variety">
+				<![CDATA[Variety]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attached_file]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[2025/08/00004-130210292.jpeg]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_metadata]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:6:{s:5:"width";i:1216;s:6:"height";i:832;s:4:"file";s:28:"2025/08/00004-130210292.jpeg";s:8:"filesize";i:364129;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:28:"00004-130210292-300x205.jpeg";s:5:"width";i:300;s:6:"height";i:205;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:20426;}s:5:"large";a:5:{s:4:"file";s:29:"00004-130210292-1024x701.jpeg";s:5:"width";i:1024;s:6:"height";i:701;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:154576;}s:9:"thumbnail";a:5:{s:4:"file";s:28:"00004-130210292-150x150.jpeg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:8776;}s:12:"medium_large";a:5:{s:4:"file";s:28:"00004-130210292-768x525.jpeg";s:5:"width";i:768;s:6:"height";i:525;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:97768;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_image_alt]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[[img-0] In this image of a city skyline at dusk, we can see a large skyscraper dominating the foreground. This building is likely to be an office or business tower and appears to have multiple floors, windows and a distinctive architectural style. In the background, there are several other tall buildings with varying shapes and designs. The skyline itself is dotted with lights that create a beautiful contrast against the dark night sky.]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[00006-640614319]]>
+			</title>
+			<link>http://iconick.wp.local/?attachment_id=1956</link>
+			<pubDate>Thu, 14 Aug 2025 17:15:52 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/wp-content/uploads/2025/08/00006-640614319.jpeg</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1956</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 17:15:52]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 17:15:52]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 17:15:52]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 17:15:52]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[open]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[00006-640614319]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[inherit]]>
+			</wp:status>
+			<wp:post_parent>1943</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[attachment]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<wp:attachment_url>
+				<![CDATA[http://iconick.wp.local/wp-content/uploads/2025/08/00006-640614319.jpeg]]>
+			</wp:attachment_url>
+			<category domain="classifai-image-tags" nicename="boxes">
+				<![CDATA[Boxes]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="helmet">
+				<![CDATA[Helmet]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="outdoor-activity">
+				<![CDATA[Outdoor activity]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="packages">
+				<![CDATA[Packages]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="people">
+				<![CDATA[People]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attached_file]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[2025/08/00006-640614319.jpeg]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_metadata]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:6:{s:5:"width";i:1216;s:6:"height";i:832;s:4:"file";s:28:"2025/08/00006-640614319.jpeg";s:8:"filesize";i:255108;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:28:"00006-640614319-300x205.jpeg";s:5:"width";i:300;s:6:"height";i:205;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:16870;}s:5:"large";a:5:{s:4:"file";s:29:"00006-640614319-1024x701.jpeg";s:5:"width";i:1024;s:6:"height";i:701;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:112452;}s:9:"thumbnail";a:5:{s:4:"file";s:28:"00006-640614319-150x150.jpeg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:7225;}s:12:"medium_large";a:5:{s:4:"file";s:28:"00006-640614319-768x525.jpeg";s:5:"width";i:768;s:6:"height";i:525;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:72803;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_image_alt]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[[img-1] The main item I see in this image is a man standing with his hands on his hips and wearing a baseball cap. He appears to be looking off into the distance.]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[00007-3462066278]]>
+			</title>
+			<link>http://iconick.wp.local/?attachment_id=1957</link>
+			<pubDate>Thu, 14 Aug 2025 17:15:52 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/wp-content/uploads/2025/08/00007-3462066278.jpeg</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1957</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 17:15:52]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 17:15:52]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 17:15:52]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 17:15:52]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[open]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[00007-3462066278]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[inherit]]>
+			</wp:status>
+			<wp:post_parent>1943</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[attachment]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<wp:attachment_url>
+				<![CDATA[http://iconick.wp.local/wp-content/uploads/2025/08/00007-3462066278.jpeg]]>
+			</wp:attachment_url>
+			<category domain="classifai-image-tags" nicename="amazon-boxes">
+				<![CDATA[Amazon boxes]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="cardboard-boxes">
+				<![CDATA[Cardboard boxes]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="package-delivery">
+				<![CDATA[Package delivery]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="unloading-boxes">
+				<![CDATA[Unloading boxes]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="ups-truck">
+				<![CDATA[UPS truck]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attached_file]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[2025/08/00007-3462066278.jpeg]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_metadata]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:6:{s:5:"width";i:1216;s:6:"height";i:832;s:4:"file";s:29:"2025/08/00007-3462066278.jpeg";s:8:"filesize";i:263539;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:29:"00007-3462066278-300x205.jpeg";s:5:"width";i:300;s:6:"height";i:205;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:16633;}s:5:"large";a:5:{s:4:"file";s:30:"00007-3462066278-1024x701.jpeg";s:5:"width";i:1024;s:6:"height";i:701;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:113781;}s:9:"thumbnail";a:5:{s:4:"file";s:29:"00007-3462066278-150x150.jpeg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:6932;}s:12:"medium_large";a:5:{s:4:"file";s:29:"00007-3462066278-768x525.jpeg";s:5:"width";i:768;s:6:"height";i:525;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:72664;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_image_alt]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[[img-1] Sure, I can do that! Here's a description of what I see in the image: It's a close-up of an adult female bison grazing on grassy plains. The bison has a brown and white coat with short fur and large black hooves for walking on rough terrain. It is standing upright, with its head tilted to one side and ears perked up. The image captures the majestic creature in its natural habitat, surrounded by expansive landscapes that make it feel at home in the wild.]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[00005-2860813240]]>
+			</title>
+			<link>http://iconick.wp.local/?attachment_id=1958</link>
+			<pubDate>Thu, 14 Aug 2025 17:15:53 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/wp-content/uploads/2025/08/00005-2860813240.jpeg</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1958</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 17:15:53]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 17:15:53]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 17:15:53]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 17:15:53]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[open]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[00005-2860813240]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[inherit]]>
+			</wp:status>
+			<wp:post_parent>1943</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[attachment]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<wp:attachment_url>
+				<![CDATA[http://iconick.wp.local/wp-content/uploads/2025/08/00005-2860813240.jpeg]]>
+			</wp:attachment_url>
+			<category domain="classifai-image-tags" nicename="boxes-of-groceries">
+				<![CDATA[Boxes of groceries]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="cardboard-boxes-full-of-food">
+				<![CDATA[Cardboard boxes full of food]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="community-food-drive">
+				<![CDATA[Community food drive]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="food-donation-boxes">
+				<![CDATA[Food donation boxes]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="volunteer-event-organization">
+				<![CDATA[Volunteer event organization]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attached_file]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[2025/08/00005-2860813240.jpeg]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_metadata]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:6:{s:5:"width";i:1216;s:6:"height";i:832;s:4:"file";s:29:"2025/08/00005-2860813240.jpeg";s:8:"filesize";i:337476;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:29:"00005-2860813240-300x205.jpeg";s:5:"width";i:300;s:6:"height";i:205;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:19955;}s:5:"large";a:5:{s:4:"file";s:30:"00005-2860813240-1024x701.jpeg";s:5:"width";i:1024;s:6:"height";i:701;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:143835;}s:9:"thumbnail";a:5:{s:4:"file";s:29:"00005-2860813240-150x150.jpeg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:8889;}s:12:"medium_large";a:5:{s:4:"file";s:29:"00005-2860813240-768x525.jpeg";s:5:"width";i:768;s:6:"height";i:525;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:91296;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_image_alt]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[[img-0] I see a man sitting on a bench with a cup of coffee in his hand. He is wearing jeans and a t-shirt and appears to be enjoying his morning routine. Behind him, there is a green park with trees and flowers and a few people walking around. The image overall has a calm and relaxing feel.]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[00008-617344052]]>
+			</title>
+			<link>http://iconick.wp.local/?attachment_id=1973</link>
+			<pubDate>Thu, 14 Aug 2025 17:26:39 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/wp-content/uploads/2025/08/00008-617344052.jpeg</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1973</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 17:26:39]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 17:26:39]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 17:26:39]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 17:26:39]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[open]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[00008-617344052]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[inherit]]>
+			</wp:status>
+			<wp:post_parent>1947</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[attachment]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<wp:attachment_url>
+				<![CDATA[http://iconick.wp.local/wp-content/uploads/2025/08/00008-617344052.jpeg]]>
+			</wp:attachment_url>
+			<category domain="classifai-image-tags" nicename="food-supplies">
+				<![CDATA[Food supplies]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="grocery-store">
+				<![CDATA[Grocery store]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="marketplace">
+				<![CDATA[Marketplace]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="signage">
+				<![CDATA[Signage]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="storefront">
+				<![CDATA[Storefront]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attached_file]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[2025/08/00008-617344052.jpeg]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_metadata]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:6:{s:5:"width";i:1216;s:6:"height";i:832;s:4:"file";s:28:"2025/08/00008-617344052.jpeg";s:8:"filesize";i:352117;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:28:"00008-617344052-300x205.jpeg";s:5:"width";i:300;s:6:"height";i:205;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:20809;}s:5:"large";a:5:{s:4:"file";s:29:"00008-617344052-1024x701.jpeg";s:5:"width";i:1024;s:6:"height";i:701;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:154204;}s:9:"thumbnail";a:5:{s:4:"file";s:28:"00008-617344052-150x150.jpeg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:9040;}s:12:"medium_large";a:5:{s:4:"file";s:28:"00008-617344052-768x525.jpeg";s:5:"width";i:768;s:6:"height";i:525;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:97554;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_image_alt]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[[img-1]]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[00010-4050348129]]>
+			</title>
+			<link>http://iconick.wp.local/?attachment_id=1975</link>
+			<pubDate>Thu, 14 Aug 2025 17:28:29 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/wp-content/uploads/2025/08/00010-4050348129.jpeg</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1975</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 17:28:29]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 17:28:29]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 17:28:29]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 17:28:29]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[open]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[00010-4050348129]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[inherit]]>
+			</wp:status>
+			<wp:post_parent>1949</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[attachment]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<wp:attachment_url>
+				<![CDATA[http://iconick.wp.local/wp-content/uploads/2025/08/00010-4050348129.jpeg]]>
+			</wp:attachment_url>
+			<category domain="classifai-image-tags" nicename="community-service">
+				<![CDATA[Community Service]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="healthcare-workers">
+				<![CDATA[Healthcare Workers]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="medical-professionals">
+				<![CDATA[Medical Professionals]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="outdoor-event">
+				<![CDATA[Outdoor Event]]>
+			</category>
+			<category domain="classifai-image-tags" nicename="team">
+				<![CDATA[Team]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attached_file]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[2025/08/00010-4050348129.jpeg]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_metadata]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:6:{s:5:"width";i:1216;s:6:"height";i:832;s:4:"file";s:29:"2025/08/00010-4050348129.jpeg";s:8:"filesize";i:398585;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:29:"00010-4050348129-300x205.jpeg";s:5:"width";i:300;s:6:"height";i:205;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:24011;}s:5:"large";a:5:{s:4:"file";s:30:"00010-4050348129-1024x701.jpeg";s:5:"width";i:1024;s:6:"height";i:701;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:181887;}s:9:"thumbnail";a:5:{s:4:"file";s:29:"00010-4050348129-150x150.jpeg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:9984;}s:12:"medium_large";a:5:{s:4:"file";s:29:"00010-4050348129-768x525.jpeg";s:5:"width";i:768;s:6:"height";i:525;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:117447;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_wp_attachment_image_alt]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[The main item I see in this image is a person standing against a brick wall, wearing a black shirt and dark pants. The wall behind them appears to be made of bricks, with cracks between each one. There are two windows visible on the left side of the image, both with blinds drawn shut.]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Level 09]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1740</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1740</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1740</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[level-09]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>38</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1739]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1740]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Level 10]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1741</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1741</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1741</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[level-10]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>39</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1740]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1741]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Advanced]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1742</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1742</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1742</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[advanced]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>40</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[0]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1742]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Menu Description]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1743</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1743</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[Custom Menu Description]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1743</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[menu-description]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>44</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[0]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1743]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Menu Title Attribute]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1744</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1744</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[Custom Title Attribute]]>
+			</excerpt:encoded>
+			<wp:post_id>1744</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[menu-title-attribute]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>41</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1742]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1744]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Menu CSS Class]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1745</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1745</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1745</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[menu-css-class]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>42</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1742]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1745]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:21:"custom-menu-css-class";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[#]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[New Window / Tab]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1746</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1746</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1746</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[new-window-tab]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>43</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="testing-menu">
+				<![CDATA[Testing Menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1742]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1746]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[_blank]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[https://wordpressfoundation.org/]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[twitter.com]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1747</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1747</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1747</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[twitter-com]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>1</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="social-menu">
+				<![CDATA[Social menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[0]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1747]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[https://twitter.com/wordpress]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[facebook.com]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1748</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1748</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1748</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[facebook-com]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>2</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="social-menu">
+				<![CDATA[Social menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[0]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1748]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[https://www.facebook.com/WordPress/]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[github.com]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1749</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1749</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1749</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[github-com]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>3</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="social-menu">
+				<![CDATA[Social menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[0]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1749]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[https://github.com/WordPress/]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[instagram.com]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1750</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1750</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1750</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[instagram-com]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>5</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="social-menu">
+				<![CDATA[Social menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[0]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1750]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[https://www.instagram.com/photomatt/]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[linkedin.com]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1751</link>
+			<pubDate>Tue, 12 Aug 2025 19:41:28 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1751</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1751</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-12 19:41:28]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[linkedin-com]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>4</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[nav_menu_item]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="social-menu">
+				<![CDATA[Social menu]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_type]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_menu_item_parent]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[0]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1751]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_object]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[custom]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_target]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_classes]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[a:1:{i:0;s:0:"";}]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_xfn]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_menu_item_url]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[https://www.linkedin.com/company/wordpress/]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Outreach Programs]]>
+			</title>
+			<link>http://iconick.wp.local/?page_id=1926</link>
+			<pubDate>Thu, 14 Aug 2025 16:11:07 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?page_id=1926</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[
+				<!-- wp:paragraph -->
+				<p>Welcome to [Non-Profit Organization Name]'s Outreach Programs Page! Our organization is dedicated to serving the community and making a positive impact on the lives of those in need. We believe that everyone deserves access to basic necessities like food, clothing, and healthcare, regardless of their financial situation.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Through our outreach programs, we aim to reach more people and provide them with the support they need to lead a dignified life. Our team of dedicated volunteers and staff work tirelessly to identify areas of need within the community and develop targeted programs that address those needs.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Some of our current outreach programs include:</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:list -->
+				<ul class="wp-block-list">
+					<!-- wp:list-item -->
+					<li>Food Bank Program: We operate a food bank that provides groceries to families in need. Our food bank is stocked with donations from local businesses and individuals, and we distribute these items to families who are struggling to make ends meet.</li>
+					<!-- /wp:list-item -->
+					<!-- wp:list-item -->
+					<li>Clothing Drive: We collect gently used clothing and distribute it to individuals and families who are in need of basic essentials. Our clothing drive is open to anyone in the community, and we accept donations of all types of clothing, including winter coats, socks, and underwear.</li>
+					<!-- /wp:list-item -->
+					<!-- wp:list-item -->
+					<li>Health Clinic: We operate a mobile health clinic that travels throughout the community to provide medical care to individuals who may not have access to regular healthcare services. Our clinic is staffed by licensed medical professionals who provide check-ups, vaccinations, and other medical services to those in need.</li>
+					<!-- /wp:list-item -->
+					<!-- wp:list-item -->
+					<li>Education Program: We offer educational resources and support to children in the community who are struggling in school. Our program provides tutoring, homework help, and mentorship to help these students succeed academically and reach their full potential.</li>
+					<!-- /wp:list-item -->
+					<!-- wp:list-item -->
+					<li>Community Events: We host various community events throughout the year to bring the community together and provide a platform for socialization and support. Our events include holiday celebrations, cultural festivals, and other activities that promote unity and inclusivity.</li>
+					<!-- /wp:list-item -->
+				</ul>
+				<!-- /wp:list -->
+				<!-- wp:paragraph -->
+				<p>We are always looking for ways to expand our outreach programs and serve more members of the community. If you would like to get involved or make a donation, please visit our website or contact us directly. Together, we can make a difference in the lives of those who need it most!</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p></p>
+				<!-- /wp:paragraph -->]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1926</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 16:11:07]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 16:11:07]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 16:11:07]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 16:11:07]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[outreach-programs]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[page]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+		</item>
+		<item>
+			<title>
+				<![CDATA[About Us]]>
+			</title>
+			<link>http://iconick.wp.local/?page_id=1928</link>
+			<pubDate>Thu, 14 Aug 2025 16:12:11 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?page_id=1928</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[
+				<!-- wp:paragraph -->
+				<p>Welcome to the Founding Story of [Non-Profit Organization Name]! Our organization was founded on the belief that every individual deserves access to basic necessities like food, clothing, and healthcare, regardless of their financial situation. This conviction led a group of dedicated individuals to come together and establish [Non-Profit Organization Name], with the mission of serving the community and making a positive impact on the lives of those in need.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>The Founding Moment</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>It all started on a fateful day when our founders stumbled upon a local food bank that was struggling to keep up with the increasing demand for their services. The food bank was located in a small, run-down building and lacked the resources to provide adequate support to the community. Seeing the dire need for more comprehensive services, our founders decided to take action.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>With the help of a few dedicated volunteers, they launched [Non-Profit Organization Name] with the goal of providing sustainable solutions to address the community's basic needs. They began by distributing food and clothing to those in need, but soon realized that more was required to truly make a lasting impact.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Expansion and Growth</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Over the years, [Non-Profit Organization Name] has grown significantly, expanding its outreach programs to include healthcare services, educational resources, and community events. Our team of dedicated volunteers and staff have worked tirelessly to identify areas of need within the community and develop targeted programs that address those needs.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Today, we operate a food bank, clothing drive, mobile health clinic, education program, and host various community events throughout the year. We are proud to have served thousands of individuals and families in need, and look forward to continuing our mission of serving the community with compassion and empathy.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Impact and Future Plans</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Thanks to the support of our donors, volunteers, and the community at large, [Non-Profit Organization Name] has made a significant impact in the lives of those we serve. However, there is still much work to be done. Our goal is to continue expanding our outreach programs and serving more members of the community who are in need of basic necessities.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>In the near future, we plan to launch additional healthcare services, including dental care and mental health support. We also aim to establish partnerships with local schools and businesses to provide educational resources and job training opportunities for individuals in need.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Conclusion</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>[Non-Profit Organization Name] was founded on the belief that every individual deserves access to basic necessities like food, clothing, and healthcare. Today, we are proud of the impact we have made in the community and look forward to continuing our mission of serving those in need with compassion and empathy. Thank you for your support!</p>
+				<!-- /wp:paragraph -->]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1928</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 16:12:11]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 16:12:11]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 16:12:11]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 16:12:11]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[about-us]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[page]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Contact Us]]>
+			</title>
+			<link>http://iconick.wp.local/?page_id=1930</link>
+			<pubDate>Thu, 14 Aug 2025 16:12:44 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?page_id=1930</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[
+				<!-- wp:paragraph -->
+				<p>Welcome to the Contact Page of [Non-Profit Organization Name]! We are glad you stopped by and hope to provide you with all the information you need to get in touch with us. Here are some ways to reach out to us:</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Email:&nbsp;
+					<a href="mailto:info@nonprofitorg.com">Nonprofit email address</a>
+				</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>We love hearing from our supporters and potential partners! If you have any questions, comments, or would like to learn more about our organization, please shoot us an email. We will get back to you as soon as possible.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Phone: (555) 123-4567</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>If you prefer to reach out to us over the phone, feel free to give us a call during our business hours. Our team is happy to answer any questions or concerns you may have.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Mailing Address: [Nonprofit mailing address](mailto:P.O. Box 123456 City, State ZIP Code)</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>If you would like to send us a donation, volunteer your time, or simply want to drop us a line, you can reach us at our mailing address.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Social Media: Follow us on social media platforms such as&nbsp;
+					<a href="https://www.facebook.com/nonprofitorg">Facebook link</a>,&nbsp;
+					<a href="https://twitter.com/nonprofitorg">Twitter link</a>, and&nbsp;
+					<a href="https://www.instagram.com/nonprofitorg/">Instagram link</a>&nbsp;to stay up-to-date on our latest news, events, and initiatives.
+				</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Volunteer Opportunities: If you are interested in volunteering your time with us, please fill out the form on our Volunteer page. We would love to have you join our team!</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Donation Information: To make a donation, please visit our Donate page. From there, you can choose how you would like to contribute and provide any necessary information.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Community Partnerships: If your organization is interested in partnering with us, please fill out the form on our Community Partnerships page. We are always looking for new ways to collaborate and make a positive impact in our community.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Thank you for your interest in [Non-Profit Organization Name]! We look forward to hearing from you soon.</p>
+				<!-- /wp:paragraph -->]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1930</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 16:12:44]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 16:12:44]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 16:12:44]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 16:12:44]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[contact-us]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[page]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Our People]]>
+			</title>
+			<link>http://iconick.wp.local/?page_id=1932</link>
+			<pubDate>Thu, 14 Aug 2025 16:13:43 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?page_id=1932</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[
+				<!-- wp:paragraph -->
+				<p>Meet the dedicated individuals who work tirelessly behind the scenes to make our mission a reality.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:list {"ordered":true} -->
+				<ol class="wp-block-list">
+					<!-- wp:list-item -->
+					<li>Executive Director: [Name], Executive Director</li>
+					<!-- /wp:list-item -->
+				</ol>
+				<!-- /wp:list -->
+				<!-- wp:paragraph -->
+				<p>As the leader of [Non-Profit Organization Name], [Name] brings over a decade of experience in non-profit management and community organizing. Prior to joining our team, [Name] worked at several prominent social justice organizations, where they honed their skills in strategic planning, fundraising, and program development. [Name] is passionate about creating equitable opportunities for all members of the community and is committed to advancing our organization's mission.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:list {"ordered":true,"start":2} -->
+				<ol start="2" class="wp-block-list">
+					<!-- wp:list-item -->
+					<li>Program Manager: [Name], Program Manager</li>
+					<!-- /wp:list-item -->
+				</ol>
+				<!-- /wp:list -->
+				<!-- wp:paragraph -->
+				<p>With over five years of experience in non-profit programming, [Name] is responsible for managing our organization's education initiatives. They have a proven track record of developing successful programs that improve educational outcomes for underserved students. [Name] holds a master's degree in Educational Leadership and is dedicated to ensuring that every student has access to high-quality educational resources.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:list {"ordered":true,"start":3} -->
+				<ol start="3" class="wp-block-list">
+					<!-- wp:list-item -->
+					<li>Development Director: [Name], Development Director</li>
+					<!-- /wp:list-item -->
+				</ol>
+				<!-- /wp:list -->
+				<!-- wp:paragraph -->
+				<p>As the face of our organization's fundraising efforts, [Name] has raised millions of dollars for various causes. With over a decade of experience in non-profit development, they have built a reputation for their exceptional networking skills and ability to secure major grants from foundations and corporations. [Name] is a graduate of an elite fundraising program and is committed to expanding our organization's reach and impact.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:list {"ordered":true,"start":4} -->
+				<ol start="4" class="wp-block-list">
+					<!-- wp:list-item -->
+					<li>Marketing Manager: [Name], Marketing Manager</li>
+					<!-- /wp:list-item -->
+				</ol>
+				<!-- /wp:list -->
+				<!-- wp:paragraph -->
+				<p>[Name] brings a wealth of experience in digital marketing and communications to their role at [Non-Profit Organization Name]. Prior to joining our team, they worked at several top advertising agencies, where they developed innovative campaigns for major brands. [Name] is passionate about using their skills to raise awareness of social issues and promote the work of our organization.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:list {"ordered":true,"start":5} -->
+				<ol start="5" class="wp-block-list">
+					<!-- wp:list-item -->
+					<li>Community Outreach Coordinator: [Name], Community Outreach Coordinator</li>
+					<!-- /wp:list-item -->
+				</ol>
+				<!-- /wp:list -->
+				<!-- wp:paragraph -->
+				<p>As the face of [Non-Profit Organization Name] in the community, [Name] is responsible for building relationships with local partners and stakeholders. With over three years of experience in non-profit outreach, they have a proven track record of developing successful partnerships that benefit our organization's mission. [Name] holds a degree in Public Policy and is dedicated to advancing the work of our organization through collaborative efforts.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>We are proud to have each of these dedicated professionals on our team and are grateful for their tireless commitment to our mission. Together, we strive to make a positive impact in our community and beyond!</p>
+				<!-- /wp:paragraph -->]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1932</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 16:13:43]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 16:13:43]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 16:13:43]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 16:13:43]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[our-people]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[page]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Support Our Mission - Donate Today!]]>
+			</title>
+			<link>http://iconick.wp.local/?page_id=1934</link>
+			<pubDate>Thu, 14 Aug 2025 16:14:33 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?page_id=1934</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[
+				<!-- wp:paragraph -->
+				<p>We are a [briefly describe the mission and purpose of your organization] dedicated to making a positive impact in our community and beyond. As a non-profit organization, we rely on the generosity of donors like you to continue our important work.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Your Donation Will Help Us:</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:list -->
+				<ul class="wp-block-list">
+					<!-- wp:list-item -->
+					<li>Provide essential services and support to [describe the specific programs or initiatives your organization supports]</li>
+					<!-- /wp:list-item -->
+					<!-- wp:list-item -->
+					<li>Advocate for the rights and well-being of [describe the populations or causes your organization serves]</li>
+					<!-- /wp:list-item -->
+					<!-- wp:list-item -->
+					<li>Build stronger, more resilient communities through our outreach and engagement efforts</li>
+					<!-- /wp:list-item -->
+				</ul>
+				<!-- /wp:list -->
+				<!-- wp:paragraph -->
+				<p>Your donation, no matter how big or small, will help us make a real difference in the lives of those we serve. Every contribution brings us closer to achieving our mission and making a lasting impact in our community.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Ways to Donate:</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:list -->
+				<ul class="wp-block-list">
+					<!-- wp:list-item -->
+					<li>Online Donation: Click the "Donate Now" button below to make a secure online donation using your credit or debit card.</li>
+					<!-- /wp:list-item -->
+					<!-- wp:list-item -->
+					<li>Mail-In Donation: Download and print our donation form, then mail it along with your contribution to the address listed below.</li>
+					<!-- /wp:list-item -->
+					<!-- wp:list-item -->
+					<li>Event Fundraising: Join us at one of our upcoming events to support our mission while having fun! Check out our events page for details on how you can get involved.</li>
+					<!-- /wp:list-item -->
+				</ul>
+				<!-- /wp:list -->
+				<!-- wp:paragraph -->
+				<p>Thank You for Your Support!</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Your donation will enable us to continue providing vital services and resources to those in need. We are grateful for your trust and support, and look forward to working together towards a brighter future for all.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Don't forget to follow us on social media to stay up-to-date on our latest news and events!</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Thank you again for your generosity and commitment to our mission. Together, we can make a real difference in the world.</p>
+				<!-- /wp:paragraph -->]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1934</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 16:14:33]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 16:14:33]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 16:14:33]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 16:14:33]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[closed]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[closed]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[support-our-mission-donate-today]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[page]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Join Us in Celebrating Our Volunteers!]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1937</link>
+			<pubDate>Thu, 14 Aug 2025 16:15:51 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1937</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[
+				<!-- wp:paragraph -->
+				<p>On [Date], we will be hosting our annual Volunteer Appreciation Night at [Location]. This event is a special opportunity for us to thank all of our dedicated volunteers for their tireless efforts throughout the year. We will have food, drinks, and entertainment, as well as a special presentation recognizing the outstanding contributions of our volunteers. Don't miss out on this wonderful celebration! RSVP by [Date].</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p></p>
+				<!-- /wp:paragraph -->]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1937</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 16:15:51]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 16:15:51]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 17:32:36]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 17:32:36]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[open]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[open]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[join-us-in-celebrating-our-volunteers]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[post]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="category" nicename="our-people">
+				<![CDATA[Our People]]>
+			</category>
+			<category domain="post_tag" nicename="staff">
+				<![CDATA[Staff]]>
+			</category>
+			<category domain="category" nicename="volunteers">
+				<![CDATA[Volunteers]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_edit_last]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_thumbnail_id]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1954]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_classifai_process_content]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[no]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Celebrating Our Achievements in [Year]]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1939</link>
+			<pubDate>Thu, 14 Aug 2025 16:16:08 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1939</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[
+				<!-- wp:paragraph -->
+				<p>As we look back on the past year, we are filled with pride and gratitude for all that we have accomplished together. From [Success 1] to [Success 2], our organization has made a tangible impact in the lives of those we serve. We are honored to have such an incredible team and community supporting us every step of the way. Here are just a few highlights from our past year:</p>
+				<!-- /wp:paragraph -->]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1939</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 16:16:08]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 16:16:08]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 17:32:10]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 17:32:10]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[open]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[open]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[celebrating-our-achievements-in-year]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[post]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="category" nicename="giving">
+				<![CDATA[Giving]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_classifai_process_content]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[no]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_edit_last]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1]]>
+				</wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Welcome [Name] to Our Team!]]>
+			</title>
+			<link>http://iconick.wp.local/?p=1941</link>
+			<pubDate>Thu, 14 Aug 2025 16:16:24 +0000</pubDate>
+			<dc:creator>
+				<![CDATA[admin]]>
+			</dc:creator>
+			<guid isPermaLink="false">http://iconick.wp.local/?p=1941</guid>
+			<description></description>
+			<content:encoded>
+				<![CDATA[
+				<!-- wp:paragraph -->
+				<p>We are thrilled to announce that we have welcomed a new member to our team - [Name], our new Program Manager! With extensive experience in [field of expertise], [Name] brings a wealth of knowledge and passion to their work. Get to know them better in this interview:</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph -->
+				<p>Q: What inspired you to pursue a career in non-profit work? A: "I've always been drawn to organizations that prioritize making a positive impact in the community. I'm excited to join [Non-Profit Organization Name] and contribute to its mission."</p>
+				<!-- /wp:paragraph -->]]>
+			</content:encoded>
+			<excerpt:encoded>
+				<![CDATA[]]>
+			</excerpt:encoded>
+			<wp:post_id>1941</wp:post_id>
+			<wp:post_date>
+				<![CDATA[2025-08-14 16:16:24]]>
+			</wp:post_date>
+			<wp:post_date_gmt>
+				<![CDATA[2025-08-14 16:16:24]]>
+			</wp:post_date_gmt>
+			<wp:post_modified>
+				<![CDATA[2025-08-14 17:32:47]]>
+			</wp:post_modified>
+			<wp:post_modified_gmt>
+				<![CDATA[2025-08-14 17:32:47]]>
+			</wp:post_modified_gmt>
+			<wp:comment_status>
+				<![CDATA[open]]>
+			</wp:comment_status>
+			<wp:ping_status>
+				<![CDATA[open]]>
+			</wp:ping_status>
+			<wp:post_name>
+				<![CDATA[welcome-name-to-our-team]]>
+			</wp:post_name>
+			<wp:status>
+				<![CDATA[publish]]>
+			</wp:status>
+			<wp:post_parent>0</wp:post_parent>
+			<wp:menu_order>0</wp:menu_order>
+			<wp:post_type>
+				<![CDATA[post]]>
+			</wp:post_type>
+			<wp:post_password>
+				<![CDATA[]]>
+			</wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="category" nicename="our-people">
+				<![CDATA[Our People]]>
+			</category>
+			<category domain="post_tag" nicename="staff">
+				<![CDATA[Staff]]>
+			</category>
+			<category domain="category" nicename="staff">
+				<![CDATA[Staff]]>
+			</category>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_edit_last]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[1]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key>
+					<![CDATA[_classifai_process_content]]>
+				</wp:meta_key>
+				<wp:meta_value>
+					<![CDATA[no]]>
+				</wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+			</item>
+			<item>
+				<title>
+					<![CDATA[Navigation]]>
+				</title>
+				<link>http://iconick.wp.local/?p=4</link>
+				<pubDate>Tue, 12 Aug 2025 13:25:14 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=4</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[
+					<!-- wp:navigation-link {"label":"Home","url":"/","kind":"custom"} /-->
+					<!-- wp:navigation-link {"label":"About Us","type":"page","id":1928,"url":"http://iconick.wp.local/?page_id=1928","kind":"post-type"} /-->
+					<!-- wp:navigation-link {"label":"Outreach Programs","type":"page","id":1926,"url":"http://iconick.wp.local/?page_id=1926","kind":"post-type"} /-->
+					<!-- wp:navigation-link {"label":"Our People","type":"page","id":1932,"url":"http://iconick.wp.local/?page_id=1932","kind":"post-type"} /-->
+					<!-- wp:navigation-link {"label":"Sample Page","type":"page","id":2,"url":"http://iconick.wp.local/?page_id=2","kind":"post-type"} /-->
+					<!-- wp:navigation-link {"label":"Contact Us","type":"page","id":1930,"url":"http://iconick.wp.local/?page_id=1930","kind":"post-type"} /-->
+					<!-- wp:navigation-link {"label":"Support Our Mission – Donate Today!","type":"page","id":1934,"url":"http://iconick.wp.local/?page_id=1934","kind":"post-type"} /-->]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[]]>
+				</excerpt:encoded>
+				<wp:post_id>4</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-12 13:25:14]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-12 13:25:14]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-14 17:20:58]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-14 17:20:58]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[closed]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[closed]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[navigation]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>0</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[wp_navigation]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+			</item>
+			<item>
+				<title>
+					<![CDATA[Custom Styles]]>
+				</title>
+				<link>http://iconick.wp.local/?p=6</link>
+				<pubDate>Tue, 12 Aug 2025 17:10:27 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=6</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[{"version": 3, "isGlobalStylesUserThemeJSON": true }]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[]]>
+				</excerpt:encoded>
+				<wp:post_id>6</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-12 17:10:27]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-12 17:10:27]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-12 17:10:27]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-12 17:10:27]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[closed]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[closed]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[wp-global-styles-twentytwentyfive]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>0</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[wp_global_styles]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+				<category domain="wp_theme" nicename="twentytwentyfive">
+					<![CDATA[twentytwentyfive]]>
+				</category>
+			</item>
+			<item>
+				<title>
+					<![CDATA[Custom Styles]]>
+				</title>
+				<link>http://iconick.wp.local/?p=7</link>
+				<pubDate>Tue, 12 Aug 2025 17:12:52 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=7</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[{"styles":[],"settings":[],"isGlobalStylesUserThemeJSON":true,"version":3}]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[]]>
+				</excerpt:encoded>
+				<wp:post_id>7</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-12 17:12:52]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-12 17:12:52]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-12 19:26:46]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-12 19:26:46]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[closed]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[closed]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[wp-global-styles-iconick]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>0</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[wp_global_styles]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+				<category domain="wp_theme" nicename="iconick">
+					<![CDATA[iconick]]>
+				</category>
+			</item>
+			<item>
+				<title>
+					<![CDATA[Inter]]>
+				</title>
+				<link>http://iconick.wp.local/?p=8</link>
+				<pubDate>Tue, 12 Aug 2025 17:16:06 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=8</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[{"fontFamily":"Inter, sans-serif","preview":"https:\/\/s.w.org\/images\/fonts\/wp-6.7\/previews\/inter\/inter.svg"}]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[]]>
+				</excerpt:encoded>
+				<wp:post_id>8</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[closed]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[closed]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[inter]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>0</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[wp_font_family]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+			</item>
+			<item>
+				<title>
+					<![CDATA[inter;normal;400;100%;U+0-10FFFF]]>
+				</title>
+				<link>http://iconick.wp.local/?p=9</link>
+				<pubDate>Tue, 12 Aug 2025 17:16:06 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=9</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[{"src":"http:\/\/iconick.wp.local\/wp-content\/uploads\/fonts\/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2","fontWeight":"400","fontStyle":"normal","fontFamily":"Inter","preview":"https:\/\/s.w.org\/images\/fonts\/wp-6.7\/previews\/inter\/inter-400-normal.svg"}]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[]]>
+				</excerpt:encoded>
+				<wp:post_id>9</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[closed]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[closed]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[internormal400100u0-10ffff]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>8</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[wp_font_face]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_wp_font_face_file]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2]]>
+					</wp:meta_value>
+				</wp:postmeta>
+			</item>
+			<item>
+				<title>
+					<![CDATA[inter;normal;700;100%;U+0-10FFFF]]>
+				</title>
+				<link>http://iconick.wp.local/?p=10</link>
+				<pubDate>Tue, 12 Aug 2025 17:16:06 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=10</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[{"src":"http:\/\/iconick.wp.local\/wp-content\/uploads\/fonts\/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZ1rib2Bg-4.woff2","fontWeight":"700","fontStyle":"normal","fontFamily":"Inter","preview":"https:\/\/s.w.org\/images\/fonts\/wp-6.7\/previews\/inter\/inter-700-normal.svg"}]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[]]>
+				</excerpt:encoded>
+				<wp:post_id>10</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[closed]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[closed]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[internormal700100u0-10ffff]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>8</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[wp_font_face]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_wp_font_face_file]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZ1rib2Bg-4.woff2]]>
+					</wp:meta_value>
+				</wp:postmeta>
+			</item>
+			<item>
+				<title>
+					<![CDATA[inter;italic;700;100%;U+0-10FFFF]]>
+				</title>
+				<link>http://iconick.wp.local/?p=11</link>
+				<pubDate>Tue, 12 Aug 2025 17:16:06 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=11</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[{"src":"http:\/\/iconick.wp.local\/wp-content\/uploads\/fonts\/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcPtxhiJ-Ek-7MeA.woff2","fontWeight":"700","fontStyle":"italic","fontFamily":"Inter","preview":"https:\/\/s.w.org\/images\/fonts\/wp-6.7\/previews\/inter\/inter-700-italic.svg"}]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[]]>
+				</excerpt:encoded>
+				<wp:post_id>11</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[closed]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[closed]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[interitalic700100u0-10ffff]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>8</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[wp_font_face]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_wp_font_face_file]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcPtxhiJ-Ek-7MeA.woff2]]>
+					</wp:meta_value>
+				</wp:postmeta>
+			</item>
+			<item>
+				<title>
+					<![CDATA[inter;italic;400;100%;U+0-10FFFF]]>
+				</title>
+				<link>http://iconick.wp.local/?p=12</link>
+				<pubDate>Tue, 12 Aug 2025 17:16:06 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=12</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[{"src":"http:\/\/iconick.wp.local\/wp-content\/uploads\/fonts\/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dthiJ-Ek-7MeA.woff2","fontWeight":"400","fontStyle":"italic","fontFamily":"Inter","preview":"https:\/\/s.w.org\/images\/fonts\/wp-6.7\/previews\/inter\/inter-400-italic.svg"}]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[]]>
+				</excerpt:encoded>
+				<wp:post_id>12</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-12 17:16:06]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[closed]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[closed]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[interitalic400100u0-10ffff]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>8</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[wp_font_face]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_wp_font_face_file]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dthiJ-Ek-7MeA.woff2]]>
+					</wp:meta_value>
+				</wp:postmeta>
+			</item>
+			<item>
+				<title>
+					<![CDATA[Custom Styles]]>
+				</title>
+				<link>http://iconick.wp.local/?p=1832</link>
+				<pubDate>Wed, 13 Aug 2025 15:04:52 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=1832</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[{"styles":[],"settings":[],"isGlobalStylesUserThemeJSON":true,"version":3}]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[]]>
+				</excerpt:encoded>
+				<wp:post_id>1832</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-13 15:04:52]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-13 15:04:52]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-14 17:33:21]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-14 17:33:21]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[closed]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[closed]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[wp-global-styles-twombly]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>0</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[wp_global_styles]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+				<category domain="wp_theme" nicename="twombly">
+					<![CDATA[twombly]]>
+				</category>
+			</item>
+			<item>
+				<title>
+					<![CDATA[Together, We Collected [Number of Items]!]]>
+				</title>
+				<link>http://iconick.wp.local/?p=1943</link>
+				<pubDate>Thu, 14 Aug 2025 16:16:40 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=1943</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[
+					<!-- wp:paragraph -->
+					<p>Last weekend, we hosted our annual Community Food Drive, and the results were amazing! With the help of our volunteers and community partners, we collected [number of items] of food and other essentials for those in need. Thank you to everyone who participated and supported this important cause. Check out some photos from the event:</p>
+					<!-- /wp:paragraph -->
+					<!-- wp:gallery {"linkTo":"none"} -->
+					<figure class="wp-block-gallery has-nested-images columns-default is-cropped">
+						<!-- wp:image {"id":1958,"sizeSlug":"large","linkDestination":"none"} -->
+						<figure class="wp-block-image size-large">
+							<img src="http://iconick.wp.local/wp-content/uploads/2025/08/00005-2860813240-1024x701.jpeg" alt="[img-0] I see a man sitting on a bench with a cup of coffee in his hand. He is wearing jeans and a t-shirt and appears to be enjoying his morning routine. Behind him, there is a green park with trees and flowers and a few people walking around. The image overall has a calm and relaxing feel." class="wp-image-1958"/>
+						</figure>
+						<!-- /wp:image -->
+						<!-- wp:image {"id":1955,"sizeSlug":"large","linkDestination":"none"} -->
+						<figure class="wp-block-image size-large">
+							<img src="http://iconick.wp.local/wp-content/uploads/2025/08/00004-130210292-1024x701.jpeg" alt="[img-0] In this image of a city skyline at dusk, we can see a large skyscraper dominating the foreground. This building is likely to be an office or business tower and appears to have multiple floors, windows and a distinctive architectural style. In the background, there are several other tall buildings with varying shapes and designs. The skyline itself is dotted with lights that create a beautiful contrast against the dark night sky." class="wp-image-1955"/>
+						</figure>
+						<!-- /wp:image -->
+						<!-- wp:image {"id":1956,"sizeSlug":"large","linkDestination":"none"} -->
+						<figure class="wp-block-image size-large">
+							<img src="http://iconick.wp.local/wp-content/uploads/2025/08/00006-640614319-1024x701.jpeg" alt="[img-1] The main item I see in this image is a man standing with his hands on his hips and wearing a baseball cap. He appears to be looking off into the distance." class="wp-image-1956"/>
+						</figure>
+						<!-- /wp:image -->
+						<!-- wp:image {"id":1957,"sizeSlug":"large","linkDestination":"none"} -->
+						<figure class="wp-block-image size-large">
+							<img src="http://iconick.wp.local/wp-content/uploads/2025/08/00007-3462066278-1024x701.jpeg" alt="[img-1] Sure, I can do that! Here's a description of what I see in the image: It's a close-up of an adult female bison grazing on grassy plains. The bison has a brown and white coat with short fur and large black hooves for walking on rough terrain. It is standing upright, with its head tilted to one side and ears perked up. The image captures the majestic creature in its natural habitat, surrounded by expansive landscapes that make it feel at home in the wild." class="wp-image-1957"/>
+						</figure>
+						<!-- /wp:image -->
+					</figure>
+					<!-- /wp:gallery -->]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[Amazing feat! Collected [number of items] during Community Food Drive last weekend, thanks to volunteers & community partners. View event pics.]]>
+				</excerpt:encoded>
+				<wp:post_id>1943</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-14 16:16:40]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-14 16:16:40]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-14 17:32:10]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-14 17:32:10]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[open]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[open]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[together-we-collected-number-of-items]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>0</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[post]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+				<category domain="post_tag" nicename="donations">
+					<![CDATA[Donations]]>
+				</category>
+				<category domain="category" nicename="giving">
+					<![CDATA[Giving]]>
+				</category>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_edit_last]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[1]]>
+					</wp:meta_value>
+				</wp:postmeta>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_classifai_process_content]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[yes]]>
+					</wp:meta_value>
+				</wp:postmeta>
+			</item>
+			<item>
+				<title>
+					<![CDATA[Hear From One of Our Dedicated Volunteers]]>
+				</title>
+				<link>http://iconick.wp.local/?p=1945</link>
+				<pubDate>Thu, 14 Aug 2025 16:17:07 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=1945</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[
+					<!-- wp:paragraph -->
+					<p>Today, we shine the spotlight on [Volunteer's Name], one of our loyal volunteers. [He/She] has been with us for [length of time] and has contributed [number of hours/services] to our organization. Here's what [he/she] had to say about their experience:</p>
+					<!-- /wp:paragraph -->
+					<!-- wp:paragraph -->
+					<p>Q: Why do you enjoy volunteering with us? A: "I love seeing the impact that our work has on people's lives. It's a truly rewarding experience."</p>
+					<!-- /wp:paragraph -->]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[]]>
+				</excerpt:encoded>
+				<wp:post_id>1945</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-14 16:17:07]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-14 16:17:07]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-14 17:32:36]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-14 17:32:36]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[open]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[open]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[hear-from-one-of-our-dedicated-volunteers]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>0</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[post]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+				<category domain="category" nicename="our-people">
+					<![CDATA[Our People]]>
+				</category>
+				<category domain="post_tag" nicename="staff">
+					<![CDATA[Staff]]>
+				</category>
+				<category domain="category" nicename="volunteers">
+					<![CDATA[Volunteers]]>
+				</category>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_edit_last]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[1]]>
+					</wp:meta_value>
+				</wp:postmeta>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_classifai_process_content]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[no]]>
+					</wp:meta_value>
+				</wp:postmeta>
+			</item>
+			<item>
+				<title>
+					<![CDATA[Grateful for Your Support!]]>
+				</title>
+				<link>http://iconick.wp.local/?p=1947</link>
+				<pubDate>Thu, 14 Aug 2025 16:17:26 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=1947</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[
+					<!-- wp:paragraph -->
+					<p>We are so grateful to have donors like [Donor's Name], who have shown incredible generosity towards our organization. Their contributions have helped us [achieve a specific goal or impact]. Thank you for believing in our mission and for being a part of the change we strive to create!</p>
+					<!-- /wp:paragraph -->]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[Grateful for Donor's Support! Thanks to [Donor's Name], their generosity has helped us achieve a significant goal, demonstrating their belief in our mission.]]>
+				</excerpt:encoded>
+				<wp:post_id>1947</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-14 16:17:26]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-14 16:17:26]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-14 17:32:10]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-14 17:32:10]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[open]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[open]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[grateful-for-your-support]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>0</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[post]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+				<category domain="post_tag" nicename="donations">
+					<![CDATA[Donations]]>
+				</category>
+				<category domain="category" nicename="giving">
+					<![CDATA[Giving]]>
+				</category>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_edit_last]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[1]]>
+					</wp:meta_value>
+				</wp:postmeta>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_thumbnail_id]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[1973]]>
+					</wp:meta_value>
+				</wp:postmeta>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_classifai_process_content]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[no]]>
+					</wp:meta_value>
+				</wp:postmeta>
+			</item>
+			<item>
+				<title>
+					<![CDATA[Exciting News! Our New Program Starts Next Month...]]>
+				</title>
+				<link>http://iconick.wp.local/?p=1949</link>
+				<pubDate>Thu, 14 Aug 2025 16:17:46 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=1949</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[
+					<!-- wp:paragraph -->
+					<p>We are thrilled to announce the launch of our new program, "Empowering Youth," which will focus on providing vital support and resources to young people in our community. This program is made possible thanks to the generosity of our donors and the hard work of our team. Stay tuned for more updates and get ready to join us in making a difference in the lives of these incredible individuals!</p>
+					<!-- /wp:paragraph -->]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[]]>
+				</excerpt:encoded>
+				<wp:post_id>1949</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-14 16:17:46]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-14 16:17:46]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-14 17:32:09]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-14 17:32:09]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[open]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[open]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[new-program-launch-empowering-youth-title-exciting-news-our-new-program-starts-next-month]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>0</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[post]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+				<category domain="category" nicename="giving">
+					<![CDATA[Giving]]>
+				</category>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_thumbnail_id]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[1975]]>
+					</wp:meta_value>
+				</wp:postmeta>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_classifai_process_content]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[no]]>
+					</wp:meta_value>
+				</wp:postmeta>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_edit_last]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[1]]>
+					</wp:meta_value>
+				</wp:postmeta>
+			</item>
+			<item>
+				<title>
+					<![CDATA[Footer Navigation One]]>
+				</title>
+				<link>http://iconick.wp.local/?p=1963</link>
+				<pubDate>Thu, 14 Aug 2025 17:21:57 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=1963</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[
+					<!-- wp:navigation-link {"label":"Our People","type":"page","id":1932,"url":"http://iconick.wp.local/?page_id=1932","kind":"post-type"} /-->
+					<!-- wp:navigation-link {"label":"About Us","type":"page","id":1928,"url":"http://iconick.wp.local/?page_id=1928","kind":"post-type"} /-->
+					<!-- wp:navigation-link {"label":"Contact Us","type":"page","id":1930,"url":"http://iconick.wp.local/?page_id=1930","kind":"post-type"} /-->]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[]]>
+				</excerpt:encoded>
+				<wp:post_id>1963</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-14 17:21:57]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-14 17:21:57]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-14 17:22:24]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-14 17:22:24]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[closed]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[closed]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[footer-navigation-one]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>0</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[wp_navigation]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+				<wp:postmeta>
+					<wp:meta_key>
+						<![CDATA[_edit_last]]>
+					</wp:meta_key>
+					<wp:meta_value>
+						<![CDATA[1]]>
+					</wp:meta_value>
+				</wp:postmeta>
+			</item>
+			<item>
+				<title>
+					<![CDATA[Footer Navigation Two]]>
+				</title>
+				<link>http://iconick.wp.local/?p=1966</link>
+				<pubDate>Thu, 14 Aug 2025 17:22:38 +0000</pubDate>
+				<dc:creator>
+					<![CDATA[admin]]>
+				</dc:creator>
+				<guid isPermaLink="false">http://iconick.wp.local/?p=1966</guid>
+				<description></description>
+				<content:encoded>
+					<![CDATA[
+					<!-- wp:navigation-link {"label":"Outreach Programs","type":"page","id":1926,"url":"http://iconick.wp.local/?page_id=1926","kind":"post-type"} /-->
+					<!-- wp:navigation-link {"label":"Support Our Mission – Donate Today!","type":"page","id":1934,"url":"http://iconick.wp.local/?page_id=1934","kind":"post-type"} /-->]]>
+				</content:encoded>
+				<excerpt:encoded>
+					<![CDATA[]]>
+				</excerpt:encoded>
+				<wp:post_id>1966</wp:post_id>
+				<wp:post_date>
+					<![CDATA[2025-08-14 17:22:38]]>
+				</wp:post_date>
+				<wp:post_date_gmt>
+					<![CDATA[2025-08-14 17:22:38]]>
+				</wp:post_date_gmt>
+				<wp:post_modified>
+					<![CDATA[2025-08-14 17:23:16]]>
+				</wp:post_modified>
+				<wp:post_modified_gmt>
+					<![CDATA[2025-08-14 17:23:16]]>
+				</wp:post_modified_gmt>
+				<wp:comment_status>
+					<![CDATA[closed]]>
+				</wp:comment_status>
+				<wp:ping_status>
+					<![CDATA[closed]]>
+				</wp:ping_status>
+				<wp:post_name>
+					<![CDATA[footer-navigation-one-copy]]>
+				</wp:post_name>
+				<wp:status>
+					<![CDATA[publish]]>
+				</wp:status>
+				<wp:post_parent>0</wp:post_parent>
+				<wp:menu_order>0</wp:menu_order>
+				<wp:post_type>
+					<![CDATA[wp_navigation]]>
+				</wp:post_type>
+				<wp:post_password>
+					<![CDATA[]]>
+				</wp:post_password>
+				<wp:is_sticky>0</wp:is_sticky>
+			</item>
+		</channel>
+	</rss>
