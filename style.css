@@ -87,14 +87,7 @@ Requires PHP: 8.2
 
 .wp-block-post .wp-block-post-featured-image {
   border: 1px solid var(--wp--preset--color--border);
-  border-bottom-width: 0;
-  border-radius: var(--card--border-radius) var(--card--border-radius) 0 0;
-  overflow: hidden;
-}
-.wp-block-post .wp-block-post-featured-image + .wp-block-post-content {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  margin-block-start: 0;
+  border-radius: var(--card--border-radius);
 }
 
 .wp-block-template-part.footer > * {
