@@ -148,8 +148,16 @@
 				}
 			},
 			"link": {
+				":hover": {
+					"color": {
+						"text": "#ffffffcc"
+					}
+				},
 				"color": {
 					"text": "var(--wp--preset--color--white)"
+				},
+				"typography": {
+					"textDecoration": "none"
 				}
 			}
 		},
