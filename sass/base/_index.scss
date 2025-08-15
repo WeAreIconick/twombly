@@ -66,16 +66,30 @@ $mobile-breakpoint: 599px;
 	margin-left: auto;
 }
 
-.wp-block-template-part.header {
-	.wp-block-navigation__container {
-		li {
-			padding: 0.5em 1em;
-			border-radius: var(--card--border-radius);
+.header {
+	.wp-block-navigation {
+		position: relative;
+		padding-right: var( 3rem );
+		padding-left: var( 3rem );
 
+		.wp-block-navigation__submenu-container {
+			background-color: var( --wp--preset--color--background );
+			border: 1px solid var( --wp--preset--color--border );
+
+		}
+		li {
+			margin: 0.5rem 0 0.5rem 1rem;
+
+			a,
+			.wp-block-navigation-item__content,
+			> button > svg {
+				color: var(--wp--preset--color--text);
+			}
 			&:hover {
-				background: var(--wp--preset--color--base);
-				a {
-					color: var(--wp--preset--color--white);
+				a,
+				.wp-block-navigation-item__content,
+				> button > svg {
+					color: var( --wp--preset--color--white );
 				}
 			}
 		}

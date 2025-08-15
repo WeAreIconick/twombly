@@ -69,17 +69,29 @@ Requires PHP: 8.2
   margin-left: auto;
 }
 
-.wp-block-template-part.header .wp-block-navigation__container li {
-  padding: 0.5em 1em;
-  border-radius: var(--card--border-radius);
+.header .wp-block-navigation {
+  position: relative;
+  padding-right: var(3rem);
+  padding-left: var(3rem);
 }
-.wp-block-template-part.header .wp-block-navigation__container li:hover {
-  background: var(--wp--preset--color--base);
+.header .wp-block-navigation .wp-block-navigation__submenu-container {
+  background-color: var(--wp--preset--color--background);
+  border: 1px solid var(--wp--preset--color--border);
 }
-.wp-block-template-part.header .wp-block-navigation__container li:hover a {
+.header .wp-block-navigation li {
+  margin: 0.5rem 0 0.5rem 1rem;
+}
+.header .wp-block-navigation li a,
+.header .wp-block-navigation li .wp-block-navigation-item__content,
+.header .wp-block-navigation li > button > svg {
+  color: var(--wp--preset--color--text);
+}
+.header .wp-block-navigation li:hover a,
+.header .wp-block-navigation li:hover .wp-block-navigation-item__content,
+.header .wp-block-navigation li:hover > button > svg {
   color: var(--wp--preset--color--white);
 }
-.wp-block-template-part.header .wp-block-separator {
+.header .wp-block-separator {
   border-top-width: 1px;
   opacity: 0.5;
   margin: var(--wp--style--block-gap) 0;
