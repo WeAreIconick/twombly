@@ -39,6 +39,18 @@ Requires PHP: 8.2
   flex-grow: 0;
   position: sticky;
   top: calc(var(--wp--style--root--padding-top, 0) + var(--wp-admin--admin-bar--height, 0));
+  min-height: calc(100vh - 2 * var(--wp--style--block-gap) - var(--wp-admin--admin-bar--height, 0));
+  display: flex;
+  flex-direction: column;
+}
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card {
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card > footer {
+  width: 100%;
 }
 .wp-site-blocks.wp-site-blocks > .wp-block-template-part.footer {
   margin-top: auto;
