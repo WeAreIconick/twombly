@@ -40,3 +40,16 @@ function enqueue_block_editor_assets() {
 	);
 }
 \add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_block_editor_assets' );
+
+/**
+ * Register our "Portfolio" Block Pattern Category.
+ */
+function register_block_pattern_categories() {
+	\register_block_pattern_category(
+		'portfolio',
+		array(
+			'label' => __( 'Portfolio', 'twombly' ),
+		)
+	);
+}
+add_action( 'init', __NAMESPACE__ . '\register_block_pattern_categories' );
