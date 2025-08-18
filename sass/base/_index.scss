@@ -2,6 +2,7 @@ $mobile-breakpoint: 599px;
 
 :root {
 	--twombly--header-width: 280px;
+	--twombly--hover-scale: scale(1.04);
 	--card--border-radius: 16px;
 }
 
@@ -156,7 +157,7 @@ $mobile-breakpoint: 599px;
 			transition: transform 0.3s ease-in-out;
 
 			&:hover {
-				transform: scale(1.03);
+				transform: var(--twombly--hover-scale);
 			}
 		}
 	}
@@ -198,12 +199,22 @@ $mobile-breakpoint: 599px;
 	}
 }
 
-
-.wp-block-social-links {
-	li {
+.wp-block-buttons {
+	.wp-block-button {
 		transition: transform 0.3s ease-in-out;
 		&:hover {
 			transition: transform 0.1s ease-in-out;
+			transform: var(--twombly--hover-scale);
+		}
+	}
+}
+
+.wp-block-social-links {
+	.wp-block-social-link {
+		transition: transform 0.3s ease-in-out;
+		&:hover {
+			transition: transform 0.1s ease-in-out;
+			transform: var(--twombly--hover-scale);
 		}
 	}
 }

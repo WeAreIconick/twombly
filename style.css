@@ -12,6 +12,7 @@ Requires PHP: 8.2
 */
 :root {
   --twombly--header-width: 280px;
+  --twombly--hover-scale: scale(1.04);
   --card--border-radius: 16px;
 }
 
@@ -144,7 +145,7 @@ Requires PHP: 8.2
 }
 .wp-block-post-featured-image a img:hover,
 .wp-block-post-content .wp-block-image a img:hover {
-  transform: scale(1.03);
+  transform: var(--twombly--hover-scale);
 }
 
 .wp-block-comments-pagination-previous,
@@ -176,11 +177,20 @@ Requires PHP: 8.2
   margin-left: auto;
 }
 
-.wp-block-social-links li {
+.wp-block-buttons .wp-block-button {
   transition: transform 0.3s ease-in-out;
 }
-.wp-block-social-links li:hover {
+.wp-block-buttons .wp-block-button:hover {
   transition: transform 0.1s ease-in-out;
+  transform: var(--twombly--hover-scale);
+}
+
+.wp-block-social-links .wp-block-social-link {
+  transition: transform 0.3s ease-in-out;
+}
+.wp-block-social-links .wp-block-social-link:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: var(--twombly--hover-scale);
 }
 
 /* Fade-in animation keyframes */
