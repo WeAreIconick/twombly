@@ -42,6 +42,7 @@ Requires PHP: 8.2
   min-height: calc(100vh - 2 * var(--wp--style--block-gap) - var(--wp-admin--admin-bar--height, 0));
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card {
   height: 100%;
@@ -64,6 +65,25 @@ Requires PHP: 8.2
   }
   .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header {
     width: 100%;
+    min-height: auto;
+  }
+  .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card {
+    background-color: transparent;
+    border: none;
+    padding: 0 !important;
+  }
+  .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card > .wp-block-group:first-child {
+    flex-direction: row;
+  }
+  .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card > .wp-block-group:first-child .wp-block-navigation.is-responsive.is-layout-flex {
+    flex-grow: 1;
+    align-items: flex-end;
+  }
+  .wp-site-blocks.wp-site-blocks .wp-block-navigation__responsive-container.has-modal-open.is-menu-open {
+    background-color: var(--wp--preset--color--background);
+  }
+  .wp-site-blocks.wp-site-blocks .wp-block-navigation__responsive-container.has-modal-open.is-menu-open .wp-block-navigation__responsive-container-close svg {
+    color: var(--wp--preset--color--text);
   }
 }
 
@@ -82,7 +102,6 @@ Requires PHP: 8.2
 }
 
 .header .wp-block-navigation {
-  position: relative;
   padding-right: var(3rem);
   padding-left: var(3rem);
 }
@@ -98,8 +117,8 @@ Requires PHP: 8.2
 .header .wp-block-navigation li > button > svg {
   color: var(--wp--preset--color--text);
 }
-.header .wp-block-navigation li:hover a,
-.header .wp-block-navigation li:hover .wp-block-navigation-item__content,
+.header .wp-block-navigation li:hover > a,
+.header .wp-block-navigation li:hover > .wp-block-navigation-item__content,
 .header .wp-block-navigation li:hover > button > svg {
   color: var(--wp--preset--color--white);
 }
@@ -166,26 +185,26 @@ Requires PHP: 8.2
   }
 }
 /* Apply to content blocks */
-.wp-block-group,
-.wp-block-columns,
-.wp-block-media-text {
+main {
+  /* Stagger animations for multiple elements */
+  /* Text animations */
+}
+main .wp-block-group,
+main .wp-block-columns,
+main .wp-block-media-text {
   opacity: 0;
   animation: fadeInUp 0.6s ease forwards;
 }
-
-/* Stagger animations for multiple elements */
-.wp-block-columns .wp-block-column:nth-child(4n-3) {
+main .wp-block-columns .wp-block-column:nth-child(4n-3) {
   animation-delay: 0.1s;
 }
-.wp-block-columns .wp-block-column:nth-child(4n-2) {
+main .wp-block-columns .wp-block-column:nth-child(4n-2) {
   animation-delay: 0.2s;
 }
-.wp-block-columns .wp-block-column:nth-child(4n-1) {
+main .wp-block-columns .wp-block-column:nth-child(4n-1) {
   animation-delay: 0.3s;
 }
-
-/* Text animations */
-.wp-block-heading {
+main .wp-block-heading {
   opacity: 0;
   animation: fadeInUp 0.8s ease 0.2s forwards;
 }

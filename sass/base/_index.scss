@@ -37,6 +37,7 @@ $mobile-breakpoint: 599px;
 		min-height: calc( 100vh - 2 * var( --wp--style--block-gap ) - var( --wp-admin--admin-bar--height, 0 ) );
 		display: flex;
 		flex-direction: column;
+		z-index: 1;
 
 		> .is-style-twombly-card {
 			height: 100%;
@@ -63,6 +64,30 @@ $mobile-breakpoint: 599px;
 		}
 		> .wp-block-template-part.header {
 			width: 100%;
+			min-height: auto;
+
+			> .is-style-twombly-card {
+				background-color: transparent;
+				border: none;
+				padding: 0 !important;
+
+				> .wp-block-group:first-child {
+					flex-direction: row;
+
+					.wp-block-navigation.is-responsive.is-layout-flex {
+						flex-grow: 1;
+						align-items: flex-end;
+					}
+				}
+			}
+		}
+
+		.wp-block-navigation__responsive-container.has-modal-open.is-menu-open {
+			background-color: var(--wp--preset--color--background);
+
+			.wp-block-navigation__responsive-container-close svg {
+				color: var(--wp--preset--color--text);
+			}
 		}
 	}
 }
@@ -83,7 +108,6 @@ $mobile-breakpoint: 599px;
 
 .header {
 	.wp-block-navigation {
-		position: relative;
 		padding-right: var( 3rem );
 		padding-left: var( 3rem );
 
@@ -101,8 +125,8 @@ $mobile-breakpoint: 599px;
 				color: var(--wp--preset--color--text);
 			}
 			&:hover {
-				a,
-				.wp-block-navigation-item__content,
+				> a,
+				> .wp-block-navigation-item__content,
 				> button > svg {
 					color: var( --wp--preset--color--white );
 				}

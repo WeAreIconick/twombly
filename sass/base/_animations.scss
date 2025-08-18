@@ -12,30 +12,33 @@
 }
 
 /* Apply to content blocks */
-.wp-block-group,
-.wp-block-columns,
-.wp-block-media-text {
-	opacity: 0;
-	animation: fadeInUp 0.6s ease forwards;
+main {
+	.wp-block-group,
+	.wp-block-columns,
+	.wp-block-media-text {
+		opacity: 0;
+		animation: fadeInUp 0.6s ease forwards;
+	}
+
+	/* Stagger animations for multiple elements */
+	.wp-block-columns {
+		.wp-block-column {
+			&:nth-child(4n-3) {
+				animation-delay: 0.1s;
+			}
+			&:nth-child(4n-2) {
+				animation-delay: 0.2s;
+			}
+			&:nth-child(4n-1) {
+				animation-delay: 0.3s;
+			}
+		}
+	}
+
+	/* Text animations */
+	.wp-block-heading {
+		opacity: 0;
+		animation: fadeInUp 0.8s ease 0.2s forwards;
+	}
 }
 
-/* Stagger animations for multiple elements */
-.wp-block-columns {
-	.wp-block-column {
-        &:nth-child(4n-3) {
-            animation-delay: 0.1s;
-        }
-	    &:nth-child(4n-2) {
-            animation-delay: 0.2s;
-        }
-	    &:nth-child(4n-1) {
-            animation-delay: 0.3s;
-        }
-    }
-}
-
-/* Text animations */
-.wp-block-heading {
-	opacity: 0;
-	animation: fadeInUp 0.8s ease 0.2s forwards;
-}
