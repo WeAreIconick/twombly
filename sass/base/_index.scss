@@ -122,6 +122,14 @@ $mobile-breakpoint: 599px;
 	border: 1px solid var(--wp--preset--color--border);
 	border-radius: var(--card--border-radius);
 	overflow: hidden;
+
+	a img {
+		display: inline-block;
+		transition: transform 0.3s ease-in-out;
+	}
+	a:hover img {
+		transform: scale(1.03);
+	}
 }
 
 .wp-block-comments-pagination-previous,
