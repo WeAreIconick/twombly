@@ -79,6 +79,9 @@ Requires PHP: 8.2
     flex-grow: 1;
     align-items: flex-end;
   }
+  .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card footer {
+    display: none;
+  }
   .wp-site-blocks.wp-site-blocks .wp-block-navigation__responsive-container.has-modal-open.is-menu-open {
     background-color: var(--wp--preset--color--background);
   }
