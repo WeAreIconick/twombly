@@ -42,3 +42,24 @@ main {
 	}
 }
 
+/* Link styling */
+a {
+	text-decoration: none;
+	position: relative;
+
+	&::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: -2px;
+		width: 100%;
+		height: 2px;
+		background: var(--wp--preset--color--primary);
+		transform: scaleX(0);
+		transform-origin: left;
+		transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+	&:hover::after {
+		transform: scaleX(1);
+	}
+}
