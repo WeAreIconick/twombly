@@ -64,6 +64,7 @@
 			]
 		},
 		"typography": {
+			"fluid": true,
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -105,88 +106,87 @@
 					"slug": "inter"
 				}
 			],
-			"fluid": true,
 			"fontSizes": [
 				{
-					"size": "0.7rem + 0.25vw",
 					"fluid": {
-						"min": "0.75rem",
-						"max": "0.875rem"
+						"max": "0.875rem",
+						"min": "0.75rem"
 					},
-					"slug": "xs",
-					"name": "Extra Small"
+					"name": "Extra Small",
+					"size": "calc( 0.7rem + 0.25vw )",
+					"slug": "xs"
 				},
 				{
+					"fluid": {
+						"max": "1rem",
+						"min": "0.875rem"
+					},
+					"name": "Small",
 					"size": "0.8rem + 0.375vw",
-					"fluid": {
-						"min": "0.875rem",
-						"max": "1rem"
-					},
-					"slug": "sm",
-					"name": "Small"
+					"slug": "sm"
 				},
 				{
+					"fluid": {
+						"max": "1rem",
+						"min": "0.875rem"
+					},
+					"name": "Base",
 					"size": "0.8rem + 0.375vw",
-					"fluid": {
-						"min": "0.875rem",
-						"max": "1rem"
-					},
-					"slug": "base",
-					"name": "Base"
+					"slug": "base"
 				},
 				{
+					"fluid": {
+						"max": "1.25rem",
+						"min": "1.125rem"
+					},
+					"name": "Large",
 					"size": "1rem + 0.625vw",
-					"fluid": {
-						"min": "1.125rem",
-						"max": "1.25rem"
-					},
-					"slug": "lg",
-					"name": "Large"
+					"slug": "lg"
 				},
 				{
+					"fluid": {
+						"max": "1.5rem",
+						"min": "1.25rem"
+					},
+					"name": "Extra Large",
 					"size": "1.1rem + 0.75vw",
-					"fluid": {
-						"min": "1.25rem",
-						"max": "1.5rem"
-					},
-					"slug": "xl",
-					"name": "Extra Large"
+					"slug": "xl"
 				},
 				{
+					"fluid": {
+						"max": "2rem",
+						"min": "1.5rem"
+					},
+					"name": "2XL",
 					"size": "1.3rem + 1vw",
-					"fluid": {
-						"min": "1.5rem",
-						"max": "2rem"
-					},
-					"slug": "2-xl",
-					"name": "2XL"
+					"slug": "2-xl"
 				},
 				{
+					"fluid": {
+						"max": "2.5rem",
+						"min": "1.875rem"
+					},
+					"name": "3XL",
 					"size": "1.6rem + 1.375vw",
-					"fluid": {
-						"min": "1.875rem",
-						"max": "2.5rem"
-					},
-					"slug": "3-xl",
-					"name": "3XL"
+					"slug": "3-xl"
 				},
 				{
+					"fluid": {
+						"max": "3.5rem",
+						"min": "2.25rem"
+					},
+					"name": "4XL",
 					"size": "1.9rem + 1.75vw",
-					"fluid": {
-						"min": "2.25rem",
-						"max": "3.5rem"
-					},
-					"slug": "4-xl",
-					"name": "4XL"
+					"slug": "4-xl"
 				},
 				{
-					"size": "2.5rem + 2.5vw",
 					"fluid": {
-						"min": "3rem",
-						"max": "4.5rem"
+						"max": "4.5rem",
+						"min": "3rem"
 					},
-					"slug": "5-xl",
-					"name": "5XL"
+					"name": "5XL",
+					"size": "2.5rem + 2.5vw",
+					"slug": "5-xl"
 				}
 			]
 		},
@@ -263,7 +263,7 @@
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--inter)",
-			"fontSize": "14px",
+			"fontSize": "var(--wp--preset--font-size--base)",
 			"lineHeight": "1.65"
 		}
 	},
