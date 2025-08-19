@@ -29,7 +29,7 @@
 			"step": "installTheme",
 			"themeData": {
 				"resource": "url",
-				"url": "https://github-proxy.com/proxy/?repo=georgestephanis/twombly"
+				"url": "https://github-proxy.com/proxy/?repo=IconickThemes/twombly"
 			},
 			"options": {
 				"activate": true
@@ -43,7 +43,7 @@
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/georgestephanis/twombly/refs/heads/main/_playground/Iconick-Starter-Data.xml"
+				"url": "https://raw.githubusercontent.com/IconickThemes/twombly/refs/heads/main/_playground/Iconick-Starter-Data.xml"
 			}
 		},
 		{

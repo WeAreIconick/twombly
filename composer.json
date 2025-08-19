@@ -1,8 +1,8 @@
 {
-	"name": "georgestephanis/twombly",
+	"name": "iconickthemes/twombly",
 	"type": "wordpress-theme",
 	"description": "A block-based buildout of the Mirak template.",
-	"homepage": "https://github.com/georgestephanis/twombly",
+	"homepage": "https://github.com/IconickThemes/twombly",
 	"license": "GPL-2.0-or-later",
 	"repositories": [
 		{

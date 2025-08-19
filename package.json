@@ -11,9 +11,9 @@
         "wordpress",
         "theme"
     ],
-    "homepage": "https://github.com/georgestephanis/twombly",
-    "repository": "https://github.com/georgestephanis/twombly",
-    "bugs": "https://github.com/georgestephanis/twombly/issues",
+    "homepage": "https://github.com/IconickThemes/twombly",
+    "repository": "https://github.com/IconickThemes/twombly",
+    "bugs": "https://github.com/IconickThemes/twombly/issues",
     "private": false,
     "engines": {
         "node": ">=20.0",
