@@ -194,8 +194,22 @@ $medium-breakpoint: 950px;
 					border-bottom-left-radius: 0;
 					border-bottom-right-radius: 0;
 				}
+				.wp-block-read-more {
+					color: var(--wp--preset--color--text);
+					border: 1px solid var(--wp--preset--color--border);
+					border-radius: 20px;
+					transition: all 0.3s ease-in-out;
+
+					&:hover {
+						color: var(--wp--preset--color--white);
+						border-color: var(--wp--preset--color--white);
+						transition: all 0.1s ease-in-out;
+					}
+				}
 				.wp-block-post-title {
-					display: inline-block;
+					a {
+						display: inline;
+					}
 				}
 			}
 		}

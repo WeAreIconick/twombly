@@ -170,8 +170,19 @@ Requires PHP: 8.2
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card .wp-block-post-title {
-  display: inline-block;
+.wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card .wp-block-read-more {
+  color: var(--wp--preset--color--text);
+  border: 1px solid var(--wp--preset--color--border);
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card .wp-block-read-more:hover {
+  color: var(--wp--preset--color--white);
+  border-color: var(--wp--preset--color--white);
+  transition: all 0.1s ease-in-out;
+}
+.wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card .wp-block-post-title a {
+  display: inline;
 }
 @media (max-width: 950px) {
   .wp-block-post-template.is-layout-grid {
@@ -255,11 +266,11 @@ main .wp-block-heading {
 }
 
 /* Link styling */
-.wp-site-blocks a:not(.has-border-color, .wp-block-button__link, .wp-block-social-link-anchor, .custom-logo-link) {
+.wp-site-blocks a:not(.has-border-color, .wp-block-read-more, .wp-block-button__link, .wp-block-social-link-anchor, .custom-logo-link) {
   text-decoration: none;
   position: relative;
 }
-.wp-site-blocks a:not(.has-border-color, .wp-block-button__link, .wp-block-social-link-anchor, .custom-logo-link)::after {
+.wp-site-blocks a:not(.has-border-color, .wp-block-read-more, .wp-block-button__link, .wp-block-social-link-anchor, .custom-logo-link)::after {
   content: "";
   position: absolute;
   left: 0;
@@ -271,7 +282,7 @@ main .wp-block-heading {
   transform-origin: left;
   transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.wp-site-blocks a:not(.has-border-color, .wp-block-button__link, .wp-block-social-link-anchor, .custom-logo-link):hover::after {
+.wp-site-blocks a:not(.has-border-color, .wp-block-read-more, .wp-block-button__link, .wp-block-social-link-anchor, .custom-logo-link):hover::after {
   transform: scaleX(1);
 }
 
