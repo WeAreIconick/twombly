@@ -3,7 +3,8 @@ $mobile-breakpoint: 599px;
 :root {
 	--twombly--header-width: 280px;
 	--twombly--hover-scale: scale(1.04);
-	--card--border-radius: 16px;
+	--twombly-card--border-radius: 16px;
+	--twombly-card--padding: 20px;
 }
 
 // Layout Settings:
@@ -100,8 +101,8 @@ $mobile-breakpoint: 599px;
 	box-sizing: border-box;
 	background-color: var(--wp--preset--color--background);
 	border: 1px solid var(--wp--preset--color--border);
-	border-radius: var(--card--border-radius);
-	padding: 20px !important;
+	border-radius: var(--twombly-card--border-radius);
+	padding: var(--twombly-card--padding);
 }
 
 .wp-site-blocks > main > * {
@@ -148,7 +149,7 @@ $mobile-breakpoint: 599px;
 .wp-block-post-featured-image,
 .wp-block-post-content .wp-block-image {
 	border: 1px solid var(--wp--preset--color--border);
-	border-radius: var(--card--border-radius);
+	border-radius: var(--twombly-card--border-radius);
 	overflow: hidden;
 
 	a {
@@ -158,6 +159,27 @@ $mobile-breakpoint: 599px;
 
 			&:hover {
 				transform: var(--twombly--hover-scale);
+			}
+		}
+	}
+}
+
+.wp-block-post-template {
+	&.is-layout-grid {
+		.wp-block-post {
+			> .is-style-twombly-card {
+				height: 100%;
+
+				.wp-block-post-featured-image {
+					margin-top: calc( -1 * var(--twombly-card--padding) );
+					margin-right: calc( -1 * var(--twombly-card--padding) );
+					margin-left: calc( -1 * var(--twombly-card--padding) );
+					border-bottom-left-radius: 0;
+					border-bottom-right-radius: 0;
+				}
+				.wp-block-post-title {
+					display: inline-block;
+				}
 			}
 		}
 	}

@@ -13,7 +13,8 @@ Requires PHP: 8.2
 :root {
   --twombly--header-width: 280px;
   --twombly--hover-scale: scale(1.04);
-  --card--border-radius: 16px;
+  --twombly-card--border-radius: 16px;
+  --twombly-card--padding: 20px;
 }
 
 .wp-site-blocks.wp-site-blocks {
@@ -95,8 +96,8 @@ Requires PHP: 8.2
   box-sizing: border-box;
   background-color: var(--wp--preset--color--background);
   border: 1px solid var(--wp--preset--color--border);
-  border-radius: var(--card--border-radius);
-  padding: 20px !important;
+  border-radius: var(--twombly-card--border-radius);
+  padding: var(--twombly-card--padding);
 }
 
 .wp-site-blocks > main > * {
@@ -135,7 +136,7 @@ Requires PHP: 8.2
 .wp-block-post-featured-image,
 .wp-block-post-content .wp-block-image {
   border: 1px solid var(--wp--preset--color--border);
-  border-radius: var(--card--border-radius);
+  border-radius: var(--twombly-card--border-radius);
   overflow: hidden;
 }
 .wp-block-post-featured-image a img,
@@ -146,6 +147,20 @@ Requires PHP: 8.2
 .wp-block-post-featured-image a img:hover,
 .wp-block-post-content .wp-block-image a img:hover {
   transform: var(--twombly--hover-scale);
+}
+
+.wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card {
+  height: 100%;
+}
+.wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card .wp-block-post-featured-image {
+  margin-top: calc(-1 * var(--twombly-card--padding));
+  margin-right: calc(-1 * var(--twombly-card--padding));
+  margin-left: calc(-1 * var(--twombly-card--padding));
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card .wp-block-post-title {
+  display: inline-block;
 }
 
 .wp-block-comments-pagination-previous,
@@ -230,11 +245,11 @@ main .wp-block-heading {
 }
 
 /* Link styling */
-.wp-site-blocks a {
+.wp-site-blocks a:not(.has-border-color, .wp-block-button__link) {
   text-decoration: none;
   position: relative;
 }
-.wp-site-blocks a::after {
+.wp-site-blocks a:not(.has-border-color, .wp-block-button__link)::after {
   content: "";
   position: absolute;
   left: 0;
@@ -246,7 +261,7 @@ main .wp-block-heading {
   transform-origin: left;
   transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.wp-site-blocks a:hover::after {
+.wp-site-blocks a:not(.has-border-color, .wp-block-button__link):hover::after {
   transform: scaleX(1);
 }
 

@@ -43,7 +43,7 @@ main {
 }
 
 /* Link styling */
-.wp-site-blocks a {
+.wp-site-blocks a:not(.has-border-color, .wp-block-button__link) {
 	text-decoration: none;
 	position: relative;
 
