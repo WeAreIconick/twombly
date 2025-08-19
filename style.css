@@ -11,7 +11,7 @@ Domain Path:  /languages
 Requires PHP: 8.2
 */
 :root {
-  --twombly--header-width: 280px;
+  --twombly--header-width: 300px;
   --twombly--hover-scale: scale(1.04);
   --twombly-card--border-radius: 16px;
   --twombly-card--padding: 20px;
@@ -82,6 +82,7 @@ Requires PHP: 8.2
   .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header {
     width: 100%;
     min-height: auto;
+    position: static;
   }
   .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card {
     background-color: transparent;

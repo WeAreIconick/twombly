@@ -10,7 +10,7 @@ $medium-breakpoint: 950px;
 }
 
 :root {
-	--twombly--header-width: 280px;
+	--twombly--header-width: 300px;
 	--twombly--hover-scale: scale(1.04);
 	--twombly-card--border-radius: 16px;
 	--twombly-card--padding: 20px;
@@ -95,6 +95,7 @@ $medium-breakpoint: 950px;
 		> .wp-block-template-part.header {
 			width: 100%;
 			min-height: auto;
+			position: static;
 
 			> .is-style-twombly-card {
 				background-color: transparent;
