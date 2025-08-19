@@ -140,7 +140,7 @@
 						"min": "1.125rem"
 					},
 					"name": "Large",
-					"size": "1rem + 0.625vw",
+					"size": "1.125rem",
 					"slug": "lg"
 				},
 				{
