@@ -1,4 +1,5 @@
 $mobile-breakpoint: 599px;
+$medium-breakpoint: 950px;
 
 :root {
 	--twombly--header-width: 280px;
@@ -54,8 +55,18 @@ $mobile-breakpoint: 599px;
 		}
 	}
 
-	> .wp-block-template-part.footer {
+	.wp-block-template-part.footer {
+		box-sizing: border-box;
 		margin-top: auto;
+		padding-right: var(--wp--style--root--padding-right);
+   		padding-left: var(--wp--style--root--padding-left);
+
+		> * {
+			// --wp--style--global--content-size or --wp--style--global--wide-size
+			max-width: var(--wp--style--global--wide-size);
+			margin-right: auto;
+			margin-left: auto;
+		}
 	}
 
 	@media ( max-width: $mobile-breakpoint ) {
@@ -102,13 +113,15 @@ $mobile-breakpoint: 599px;
 	background-color: var(--wp--preset--color--background);
 	border: 1px solid var(--wp--preset--color--border);
 	border-radius: var(--twombly-card--border-radius);
-	padding: var(--twombly-card--padding);
+	padding: var(--twombly-card--padding) !important;
 }
 
-.wp-site-blocks > main > * {
-	max-width: var(--wp--style--global--wide-size);
-	margin-right: auto;
-	margin-left: auto;
+.wp-site-blocks > main {
+	> * {
+		max-width: var(--wp--style--global--wide-size);
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
 
 .header {
@@ -182,6 +195,10 @@ $mobile-breakpoint: 599px;
 				}
 			}
 		}
+
+		@media ( max-width: $medium-breakpoint ) {
+			grid-template-columns: auto;
+		}
 	}
 }
 
@@ -208,16 +225,6 @@ $mobile-breakpoint: 599px;
 			background-color: var(--wp--preset--color--primary);
 			color: var(--wp--preset--color--white);
 		}
-	}
-}
-
-
-.wp-block-template-part.footer {
-	> * {
-		// --wp--style--global--content-size or --wp--style--global--wide-size
-		max-width: var(--wp--style--global--content-size);
-		margin-right: auto;
-		margin-left: auto;
 	}
 }
 

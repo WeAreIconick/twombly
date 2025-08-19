@@ -55,8 +55,16 @@ Requires PHP: 8.2
 .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card > footer {
   width: 100%;
 }
-.wp-site-blocks.wp-site-blocks > .wp-block-template-part.footer {
+.wp-site-blocks.wp-site-blocks .wp-block-template-part.footer {
+  box-sizing: border-box;
   margin-top: auto;
+  padding-right: var(--wp--style--root--padding-right);
+  padding-left: var(--wp--style--root--padding-left);
+}
+.wp-site-blocks.wp-site-blocks .wp-block-template-part.footer > * {
+  max-width: var(--wp--style--global--wide-size);
+  margin-right: auto;
+  margin-left: auto;
 }
 @media (max-width: 599px) {
   .wp-site-blocks.wp-site-blocks {
@@ -97,7 +105,7 @@ Requires PHP: 8.2
   background-color: var(--wp--preset--color--background);
   border: 1px solid var(--wp--preset--color--border);
   border-radius: var(--twombly-card--border-radius);
-  padding: var(--twombly-card--padding);
+  padding: var(--twombly-card--padding) !important;
 }
 
 .wp-site-blocks > main > * {
@@ -162,6 +170,11 @@ Requires PHP: 8.2
 .wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card .wp-block-post-title {
   display: inline-block;
 }
+@media (max-width: 950px) {
+  .wp-block-post-template.is-layout-grid {
+    grid-template-columns: auto;
+  }
+}
 
 .wp-block-comments-pagination-previous,
 .wp-block-comments-pagination-next {
@@ -184,12 +197,6 @@ Requires PHP: 8.2
 .wp-block-comments-pagination-numbers .page-numbers.current {
   background-color: var(--wp--preset--color--primary);
   color: var(--wp--preset--color--white);
-}
-
-.wp-block-template-part.footer > * {
-  max-width: var(--wp--style--global--content-size);
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .wp-block-buttons .wp-block-button {
