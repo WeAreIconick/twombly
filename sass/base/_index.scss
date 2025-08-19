@@ -6,6 +6,10 @@ $medium-breakpoint: 950px;
 	--twombly--hover-scale: scale(1.04);
 	--twombly-card--border-radius: 16px;
 	--twombly-card--padding: 20px;
+
+	body:not(.admin-bar) {
+		--wp-admin--admin-bar--height: 0px;
+	}
 }
 
 // Layout Settings:
