@@ -1,6 +1,14 @@
 $mobile-breakpoint: 599px;
 $medium-breakpoint: 950px;
 
+@mixin hover-scale {
+	transition: transform 0.3s ease-in-out;
+	&:hover {
+		transition: transform 0.1s ease-in-out;
+		transform: var(--twombly--hover-scale);
+	}
+}
+
 :root {
 	--twombly--header-width: 280px;
 	--twombly--hover-scale: scale(1.04);
@@ -172,11 +180,7 @@ $medium-breakpoint: 950px;
 	a {
 		img {
 			display: inline-block;
-			transition: transform 0.3s ease-in-out;
-
-			&:hover {
-				transform: var(--twombly--hover-scale);
-			}
+			@include hover-scale;
 		}
 	}
 }
@@ -248,20 +252,12 @@ $medium-breakpoint: 950px;
 
 .wp-block-buttons {
 	.wp-block-button {
-		transition: transform 0.3s ease-in-out;
-		&:hover {
-			transition: transform 0.1s ease-in-out;
-			transform: var(--twombly--hover-scale);
-		}
+		@include hover-scale;
 	}
 }
 
 .wp-block-social-links {
 	.wp-block-social-link {
-		transition: transform 0.3s ease-in-out;
-		&:hover {
-			transition: transform 0.1s ease-in-out;
-			transform: var(--twombly--hover-scale);
-		}
+		@include hover-scale;
 	}
 }

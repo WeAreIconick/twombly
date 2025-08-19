@@ -157,6 +157,7 @@ Requires PHP: 8.2
 }
 .wp-block-post-featured-image a img:hover,
 .wp-block-post-content .wp-block-image a img:hover {
+  transition: transform 0.1s ease-in-out;
   transform: var(--twombly--hover-scale);
 }
 
