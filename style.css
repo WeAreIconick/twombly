@@ -65,7 +65,7 @@ Requires PHP: 8.2
   padding-left: var(--wp--style--root--padding-left);
 }
 .wp-site-blocks.wp-site-blocks .wp-block-template-part.footer > * {
-  max-width: var(--wp--style--global--wide-size);
+  max-width: var(--wp--style--global--content-size);
   margin-right: auto;
   margin-left: auto;
 }

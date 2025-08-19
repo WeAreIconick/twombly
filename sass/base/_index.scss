@@ -75,7 +75,7 @@ $medium-breakpoint: 950px;
 
 		> * {
 			// --wp--style--global--content-size or --wp--style--global--wide-size
-			max-width: var(--wp--style--global--wide-size);
+			max-width: var(--wp--style--global--content-size);
 			margin-right: auto;
 			margin-left: auto;
 		}
