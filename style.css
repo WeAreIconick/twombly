@@ -230,11 +230,11 @@ main .wp-block-heading {
 }
 
 /* Link styling */
-a {
+.wp-site-blocks a {
   text-decoration: none;
   position: relative;
 }
-a::after {
+.wp-site-blocks a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -246,7 +246,7 @@ a::after {
   transform-origin: left;
   transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-a:hover::after {
+.wp-site-blocks a:hover::after {
   transform: scaleX(1);
 }
 
