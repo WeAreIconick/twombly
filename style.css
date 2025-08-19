@@ -69,6 +69,9 @@ Requires PHP: 8.2
   margin-right: auto;
   margin-left: auto;
 }
+.wp-site-blocks.wp-site-blocks .wp-block-template-part.footer .wp-block-navigation .wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--white);
+}
 @media (max-width: 599px) {
   .wp-site-blocks.wp-site-blocks {
     flex-direction: column;
@@ -238,6 +241,14 @@ Requires PHP: 8.2
   transform: var(--twombly--hover-scale);
 }
 
+/* Link styling -- minimize specificity so can be overridden. */
+:where(a) {
+  transition: color 0.3s ease;
+}
+:where(a):hover {
+  transition: color 0.1s ease;
+}
+
 /* Fade-in animation keyframes */
 @keyframes fadeInUp {
   from {
@@ -272,27 +283,6 @@ main .wp-block-columns .wp-block-column:nth-child(4n-1) {
 main .wp-block-heading {
   opacity: 0;
   animation: fadeInUp 0.8s ease 0.2s forwards;
-}
-
-/* Link styling */
-.wp-site-blocks a:not(.has-border-color, .wp-block-read-more, .wp-block-button__link, .wp-block-social-link-anchor, .custom-logo-link) {
-  text-decoration: none;
-  position: relative;
-}
-.wp-site-blocks a:not(.has-border-color, .wp-block-read-more, .wp-block-button__link, .wp-block-social-link-anchor, .custom-logo-link)::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 2px;
-  background: var(--wp--preset--color--primary);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-.wp-site-blocks a:not(.has-border-color, .wp-block-read-more, .wp-block-button__link, .wp-block-social-link-anchor, .custom-logo-link):hover::after {
-  transform: scaleX(1);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -79,6 +79,11 @@ $medium-breakpoint: 950px;
 			margin-right: auto;
 			margin-left: auto;
 		}
+		.wp-block-navigation .wp-block-navigation-item__content {
+			&:hover {
+				color: var(--wp--preset--color--white);
+			}
+		}
 	}
 
 	@media ( max-width: $mobile-breakpoint ) {
@@ -273,5 +278,13 @@ $medium-breakpoint: 950px;
 .wp-block-social-links {
 	.wp-block-social-link {
 		@include hover-scale;
+	}
+}
+
+/* Link styling -- minimize specificity so can be overridden. */
+:where(a) {
+	transition: color 0.3s ease;
+	&:hover {
+		transition: color 0.1s ease;
 	}
 }
