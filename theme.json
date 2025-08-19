@@ -113,7 +113,7 @@
 						"min": "0.75rem"
 					},
 					"name": "Extra Small",
-					"size": "calc( 0.7rem + 0.25vw )",
+					"size": "0.75rem",
 					"slug": "xs"
 				},
 				{
@@ -122,7 +122,7 @@
 						"min": "0.875rem"
 					},
 					"name": "Small",
-					"size": "0.8rem + 0.375vw",
+					"size": "0.875rem",
 					"slug": "sm"
 				},
 				{
@@ -131,7 +131,7 @@
 						"min": "0.875rem"
 					},
 					"name": "Base",
-					"size": "0.8rem + 0.375vw",
+					"size": "0.875rem",
 					"slug": "base"
 				},
 				{
@@ -149,7 +149,7 @@
 						"min": "1.25rem"
 					},
 					"name": "Extra Large",
-					"size": "1.1rem + 0.75vw",
+					"size": "1.25rem",
 					"slug": "xl"
 				},
 				{
@@ -158,7 +158,7 @@
 						"min": "1.5rem"
 					},
 					"name": "2XL",
-					"size": "1.3rem + 1vw",
+					"size": "1.5rem",
 					"slug": "2-xl"
 				},
 				{
@@ -167,7 +167,7 @@
 						"min": "1.875rem"
 					},
 					"name": "3XL",
-					"size": "1.6rem + 1.375vw",
+					"size": "1.875rem",
 					"slug": "3-xl"
 				},
 				{
@@ -176,7 +176,7 @@
 						"min": "2.25rem"
 					},
 					"name": "4XL",
-					"size": "1.9rem + 1.75vw",
+					"size": "2.25rem",
 					"slug": "4-xl"
 				},
 				{
@@ -185,7 +185,7 @@
 						"min": "3rem"
 					},
 					"name": "5XL",
-					"size": "2.5rem + 2.5vw",
+					"size": "3rem",
 					"slug": "5-xl"
 				}
 			]
