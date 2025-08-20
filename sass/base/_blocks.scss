@@ -37,8 +37,8 @@
 					transition: all 0.3s ease-in-out;
 
 					&:hover {
-						color: var(--wp--preset--color--white);
-						border-color: var(--wp--preset--color--white);
+						color: var(--wp--preset--color--primary);
+						border-color: var(--wp--preset--color--primary);
 						transition: all 0.1s ease-in-out;
 					}
 				}
@@ -92,7 +92,7 @@
 		color: var(--wp--preset--color--text);
 
 		&:hover {
-			color: var(--wp--preset--color--white);
+			color: var(--wp--preset--color--primary);
 		}
 
 		&.current {

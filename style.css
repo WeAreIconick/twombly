@@ -101,7 +101,7 @@ Requires PHP: 8.2
 .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation li:hover > a,
 .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation li:hover > .wp-block-navigation-item__content,
 .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation li:hover > button > svg {
-  color: var(--wp--preset--color--white);
+  color: var(--wp--preset--color--primary);
 }
 .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-separator {
   border-top-width: 1px;
@@ -120,7 +120,7 @@ Requires PHP: 8.2
   margin-left: auto;
 }
 .wp-site-blocks.wp-site-blocks .wp-block-template-part.footer .wp-block-navigation .wp-block-navigation-item__content:hover {
-  color: var(--wp--preset--color--white);
+  color: var(--wp--preset--color--primary);
 }
 @media (max-width: 599px) {
   .wp-site-blocks.wp-site-blocks {
@@ -200,8 +200,8 @@ Requires PHP: 8.2
   transition: all 0.3s ease-in-out;
 }
 .wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card .wp-block-read-more:hover {
-  color: var(--wp--preset--color--white);
-  border-color: var(--wp--preset--color--white);
+  color: var(--wp--preset--color--primary);
+  border-color: var(--wp--preset--color--primary);
   transition: all 0.1s ease-in-out;
 }
 .wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card .wp-block-post-title a {
@@ -241,7 +241,7 @@ Requires PHP: 8.2
   color: var(--wp--preset--color--text);
 }
 .wp-block-comments-pagination-numbers .page-numbers:hover {
-  color: var(--wp--preset--color--white);
+  color: var(--wp--preset--color--primary);
 }
 .wp-block-comments-pagination-numbers .page-numbers.current {
   background-color: var(--wp--preset--color--primary);

@@ -110,7 +110,7 @@
 						> a,
 						> .wp-block-navigation-item__content,
 						> button > svg {
-							color: var(--wp--preset--color--white);
+							color: var(--wp--preset--color--primary);
 						}
 					}
 				}
@@ -137,7 +137,7 @@
 			}
 
 			.wp-block-navigation .wp-block-navigation-item__content:hover {
-				color: var(--wp--preset--color--white);
+				color: var(--wp--preset--color--primary);
 			}
 		}
 

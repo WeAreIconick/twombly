@@ -248,7 +248,7 @@
 			"link": {
 				":hover": {
 					"color": {
-						"text": "#ffffffcc"
+						"text": "var(--wp--preset--color--primary)"
 					}
 				},
 				"color": {
