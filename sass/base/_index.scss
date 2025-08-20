@@ -70,9 +70,16 @@
 			position: sticky;
 			top: calc(var(--wp--style--root--padding-top, 0) + var(--wp-admin--admin-bar--height, 0));
 			min-height: calc(100vh - 2 * var(--wp--style--block-gap) - var(--wp-admin--admin-bar--height, 0));
+			min-height: calc(100dvh - 2 * var(--wp--style--block-gap) - var(--wp-admin--admin-bar--height, 0));
 			display: flex;
 			flex-direction: column;
 			z-index: 1;
+
+			@at-root body:not(.admin-bar) #{&} {
+				top: calc(var(--wp--style--root--padding-top, 0));
+				min-height: calc(100vh - 2 * var(--wp--style--block-gap));
+				min-height: calc(100dvh - 2 * var(--wp--style--block-gap));
+			}
 
 			> .is-style-twombly-card {
 				height: 100%;
