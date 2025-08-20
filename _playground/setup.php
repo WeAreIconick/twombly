@@ -5,22 +5,6 @@
  * @package Iconick/Twombly
  */
 
-/**
- * Clear the database for the subsequent WXR import.
- */
-$twombly_posts = \get_posts(
-	array(
-		'numberposts' => -1,
-		'post_status' => 'any',
-		'post_type'   => array(
-			'post',
-			'page',
-		),
-	)
-);
-foreach ( $twombly_posts as $twombly_post ) {
-	\wp_delete_post( $twombly_post->ID, true );
-}
 
 /**
  * Load in a Site Icon.
