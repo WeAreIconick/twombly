@@ -5,6 +5,7 @@
  * @package Iconick/Twombly
  */
 
+namespace Twombly\Setup;
 
 /**
  * Load in a Site Icon.
