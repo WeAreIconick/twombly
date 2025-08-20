@@ -61,4 +61,4 @@ function register_block_pattern_categories() {
 		)
 	);
 }
-add_action( 'init', __NAMESPACE__ . '\register_block_pattern_categories' );
+\add_action( 'init', __NAMESPACE__ . '\register_block_pattern_categories' );
