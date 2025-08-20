@@ -4,10 +4,19 @@
  *
  * @link    https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Twombly_Theme
+ * @package Iconick/Twombly
  */
 
 namespace Twombly\Theme;
+
+/**
+ * Set up any theme supports we may need, and starter content.
+ */
+function on_after_setup_theme() {
+	require get_template_directory() . '/inc/starter-content.php';
+	\add_theme_support( 'starter-content', \Twombly\StarterContent\get_starter_content() );
+}
+\add_action( 'after_setup_theme', __NAMESPACE__ . '\on_after_setup_theme' );
 
 /**
  * Handle addition of any enqueues for the front-end.
@@ -52,4 +61,4 @@ function register_block_pattern_categories() {
 		)
 	);
 }
-add_action( 'init', __NAMESPACE__ . '\register_block_pattern_categories' );
+\add_action( 'init', __NAMESPACE__ . '\register_block_pattern_categories' );

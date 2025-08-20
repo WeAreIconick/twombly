@@ -36,8 +36,14 @@
 			}
 		},
 		{
+			"step": "resetData"
+		},
+		{
 			"step": "runPHP",
 			"code": "<?php require '/wordpress/wp-load.php';include_once get_theme_file_path('_playground/setup.php');"
+		},
+		{
+			"step": "importThemeStarterContent"
 		},
 		{
 			"step": "importWxr",
