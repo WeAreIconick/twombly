@@ -165,6 +165,14 @@ Requires PHP: 8.2
   transition: color 0.1s ease;
 }
 
+.wp-block-search .wp-block-search__button {
+  transition: transform 0.3s ease-in-out;
+}
+.wp-block-search .wp-block-search__button:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: var(--twombly--hover-scale);
+}
+
 .wp-block-post-featured-image,
 .wp-block-post-content .wp-block-image {
   border: 1px solid var(--wp--preset--color--border);
@@ -207,6 +215,14 @@ Requires PHP: 8.2
 
 .wp-block-columns .wp-block-column .is-style-twombly-card:only-child {
   height: 100%;
+}
+
+.wp-block-post-comments-form input[type=submit] {
+  transition: transform 0.3s ease-in-out;
+}
+.wp-block-post-comments-form input[type=submit]:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: var(--twombly--hover-scale);
 }
 
 .wp-block-comments-pagination-previous,

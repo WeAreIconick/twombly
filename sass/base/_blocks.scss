@@ -1,5 +1,10 @@
 @use "mixins" as *;
 
+.wp-block-search .wp-block-search__button {
+
+    @include hover-scale;
+}
+
 .wp-block-post-featured-image,
 .wp-block-post-content .wp-block-image {
 	border: 1px solid var(--wp--preset--color--border);
@@ -61,6 +66,12 @@
 			height: 100%;
 		}
 	}
+}
+
+
+.wp-block-post-comments-form input[type=submit] {
+
+    @include hover-scale;
 }
 
 .wp-block-comments-pagination-previous,
