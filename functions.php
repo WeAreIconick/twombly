@@ -10,15 +10,6 @@
 namespace Twombly\Theme;
 
 /**
- * Set up any theme supports we may need, and starter content.
- */
-function on_after_setup_theme() {
-	require get_template_directory() . '/inc/starter-content.php';
-	\add_theme_support( 'starter-content', \Twombly\StarterContent\get_starter_content() );
-}
-\add_action( 'after_setup_theme', __NAMESPACE__ . '\on_after_setup_theme' );
-
-/**
  * Handle addition of any enqueues for the front-end.
  *
  * @return void
@@ -49,16 +40,3 @@ function enqueue_block_editor_assets() {
 	);
 }
 \add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_block_editor_assets' );
-
-/**
- * Register our "Portfolio" Block Pattern Category.
- */
-function register_block_pattern_categories() {
-	\register_block_pattern_category(
-		'portfolio',
-		array(
-			'label' => __( 'Portfolio', 'twombly' ),
-		)
-	);
-}
-\add_action( 'init', __NAMESPACE__ . '\register_block_pattern_categories' );
