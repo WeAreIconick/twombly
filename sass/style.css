@@ -1,0 +1,281 @@
+/*!
+Theme Name:   Twombly
+Theme URI:    https://demo.iconick.io/twombly/
+Author:       Nick Hamze
+Author URI:   https://iconick.io
+Description:  Showcase your creative work with the sophisticated simplicity of Twombly, a premium portfolio WordPress theme designed for artists, photographers, designers, and creative professionals. Named after the renowned abstract expressionist, Twombly embodies the perfect balance of artistic flair and functional elegance.
+Version:      1.0
+License:      GPL-2.0-or-later
+Text Domain:  twombly
+Domain Path:  /languages
+Requires PHP: 8.2
+*/
+:root {
+  --twombly--header-width: 300px;
+  --twombly--hover-scale: scale(1.04);
+  --twombly-card--border-radius: 16px;
+  --twombly-card--padding: 20px;
+}
+:root body:not(.admin-bar) {
+  --wp-admin--admin-bar--height: 0;
+}
+
+.is-style-twombly-card {
+  box-sizing: border-box;
+  background-color: var(--wp--preset--color--background);
+  border: 1px solid var(--wp--preset--color--border);
+  border-radius: var(--twombly-card--border-radius);
+  padding: var(--twombly-card--padding) !important;
+}
+.is-style-twombly-card > .wp-block-cover.alignfull:first-child,
+.is-style-twombly-card > .wp-block-post-featured-image:first-child {
+  border: 1px solid var(--wp--preset--color--border);
+  border-radius: var(--twombly-card--border-radius);
+  overflow: hidden;
+  margin-top: calc(-1 * var(--twombly-card--padding));
+  margin-right: calc(-1 * var(--twombly-card--padding));
+  margin-left: calc(-1 * var(--twombly-card--padding));
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.wp-site-blocks.wp-site-blocks {
+  min-height: calc(100vh - var(--wp-admin--admin-bar--height, 0));
+  box-sizing: border-box;
+  max-width: calc(1.5 * var(--wp--style--global--wide-size));
+  margin: 0 auto;
+  padding-left: var(--wp--style--root--padding-left, 0);
+  padding-right: var(--wp--style--root--padding-right, 0);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--wp--style--block-gap);
+}
+.wp-site-blocks.wp-site-blocks > * {
+  width: calc(100% - var(--twombly--header-width) - var(--wp--style--block-gap));
+  margin-left: auto;
+}
+.wp-site-blocks.wp-site-blocks > main > * {
+  max-width: var(--wp--style--global--wide-size);
+  margin-right: auto;
+  margin-left: auto;
+}
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header {
+  align-self: start;
+  box-sizing: border-box;
+  width: var(--twombly--header-width);
+  flex-grow: 0;
+  position: sticky;
+  top: calc(var(--wp--style--root--padding-top, 0) + var(--wp-admin--admin-bar--height, 0));
+  min-height: calc(100vh - 2 * var(--wp--style--block-gap) - var(--wp-admin--admin-bar--height, 0));
+  min-height: calc(100dvh - 2 * var(--wp--style--block-gap) - var(--wp-admin--admin-bar--height, 0));
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+body:not(.admin-bar) .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header {
+  top: calc(var(--wp--style--root--padding-top, 0));
+  min-height: calc(100vh - 2 * var(--wp--style--block-gap));
+  min-height: calc(100dvh - 2 * var(--wp--style--block-gap));
+}
+
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card {
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card > footer {
+  width: 100%;
+}
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation {
+  padding-right: var(3rem);
+  padding-left: var(3rem);
+}
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation .wp-block-navigation__submenu-container {
+  background-color: var(--wp--preset--color--background);
+  border: 1px solid var(--wp--preset--color--border);
+}
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation li a,
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation li .wp-block-navigation-item__content,
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation li > button > svg {
+  color: var(--wp--preset--color--text);
+}
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation li:hover > a,
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation li:hover > .wp-block-navigation-item__content,
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation li:hover > button > svg {
+  color: var(--wp--preset--color--primary);
+}
+.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-separator {
+  border-top-width: 1px;
+  opacity: 0.5;
+  margin: var(--wp--style--block-gap) 0;
+}
+.wp-site-blocks.wp-site-blocks .wp-block-template-part.footer {
+  box-sizing: border-box;
+  margin-top: auto;
+  padding-right: var(--wp--style--root--padding-right);
+  padding-left: var(--wp--style--root--padding-left);
+}
+.wp-site-blocks.wp-site-blocks .wp-block-template-part.footer > * {
+  max-width: var(--wp--style--global--content-size);
+  margin-right: auto;
+  margin-left: auto;
+}
+.wp-site-blocks.wp-site-blocks .wp-block-template-part.footer .wp-block-navigation .wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--primary);
+}
+@media (max-width: 599px) {
+  .wp-site-blocks.wp-site-blocks {
+    flex-direction: column;
+  }
+  .wp-site-blocks.wp-site-blocks > * {
+    width: 100%;
+  }
+  .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header {
+    width: 100%;
+    min-height: auto;
+    position: static;
+  }
+  .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card {
+    background-color: transparent;
+    border: none;
+    padding: 0 !important;
+  }
+  .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card > .wp-block-group:first-child {
+    flex-direction: row;
+  }
+  .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card > .wp-block-group:first-child .wp-block-navigation.is-responsive.is-layout-flex {
+    flex-grow: 1;
+    align-items: flex-end;
+  }
+  .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header > .is-style-twombly-card footer {
+    display: none;
+  }
+  .wp-site-blocks.wp-site-blocks .wp-block-navigation__responsive-container.has-modal-open.is-menu-open {
+    background-color: var(--wp--preset--color--background);
+  }
+  .wp-site-blocks.wp-site-blocks .wp-block-navigation__responsive-container.has-modal-open.is-menu-open .wp-block-navigation__responsive-container-close svg {
+    color: var(--wp--preset--color--text);
+  }
+}
+
+/* Link styling -- minimize specificity so can be overridden. */
+:where(a) {
+  transition: color 0.3s ease;
+}
+:where(a):hover {
+  transition: color 0.1s ease;
+}
+
+.wp-block-search .wp-block-search__button {
+  transition: transform 0.3s ease-in-out;
+}
+.wp-block-search .wp-block-search__button:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: var(--twombly--hover-scale);
+}
+
+.wp-block-post-featured-image,
+.wp-block-post-content .wp-block-image {
+  border: 1px solid var(--wp--preset--color--border);
+  border-radius: var(--twombly-card--border-radius);
+  overflow: hidden;
+}
+.wp-block-post-featured-image a img,
+.wp-block-post-content .wp-block-image a img {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+.wp-block-post-featured-image a img:hover,
+.wp-block-post-content .wp-block-image a img:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: var(--twombly--hover-scale);
+}
+
+.wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card {
+  height: 100%;
+}
+.wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card .wp-block-read-more {
+  color: var(--wp--preset--color--text);
+  border: 1px solid var(--wp--preset--color--border);
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card .wp-block-read-more:hover {
+  color: var(--wp--preset--color--primary);
+  border-color: var(--wp--preset--color--primary);
+  transition: all 0.1s ease-in-out;
+}
+.wp-block-post-template.is-layout-grid .wp-block-post > .is-style-twombly-card .wp-block-post-title a {
+  display: inline;
+}
+@media (max-width: 950px) {
+  .wp-block-post-template.is-layout-grid {
+    grid-template-columns: auto;
+  }
+}
+
+.wp-block-columns .wp-block-column .is-style-twombly-card:only-child {
+  height: 100%;
+}
+
+.wp-block-post-comments-form input[type=submit] {
+  transition: transform 0.3s ease-in-out;
+}
+.wp-block-post-comments-form input[type=submit]:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: var(--twombly--hover-scale);
+}
+
+.wp-block-comments-pagination-previous,
+.wp-block-comments-pagination-next {
+  text-decoration: none;
+}
+
+.wp-block-comments-pagination-numbers .page-numbers {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 0.75rem;
+  color: var(--wp--preset--color--text);
+}
+.wp-block-comments-pagination-numbers .page-numbers:hover {
+  color: var(--wp--preset--color--primary);
+}
+.wp-block-comments-pagination-numbers .page-numbers.current {
+  background-color: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--white);
+}
+
+.wp-block-buttons .wp-block-button {
+  transition: transform 0.3s ease-in-out;
+}
+.wp-block-buttons .wp-block-button:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: var(--twombly--hover-scale);
+}
+
+.wp-block-social-links .wp-block-social-link {
+  transition: transform 0.3s ease-in-out;
+}
+.wp-block-social-links .wp-block-social-link:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: var(--twombly--hover-scale);
+}
+
+@view-transition {
+  navigation: auto;
+}
+/* Respect user motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
