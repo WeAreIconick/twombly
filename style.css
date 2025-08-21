@@ -97,9 +97,6 @@ body:not(.admin-bar) .wp-site-blocks.wp-site-blocks > .wp-block-template-part.he
   background-color: var(--wp--preset--color--background);
   border: 1px solid var(--wp--preset--color--border);
 }
-.wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation li {
-  margin: 0.5rem 0 0.5rem 1rem;
-}
 .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation li a,
 .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation li .wp-block-navigation-item__content,
 .wp-site-blocks.wp-site-blocks > .wp-block-template-part.header .wp-block-navigation li > button > svg {
