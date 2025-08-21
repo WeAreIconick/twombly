@@ -94,8 +94,8 @@
 			}
 
 			.wp-block-navigation {
-				padding-right: var(3rem);
-				padding-left: var(3rem);
+				padding-right: 3rem;
+				padding-left: 3rem;
 
 				.wp-block-navigation__submenu-container {
 					background-color: var(--wp--preset--color--background);
@@ -181,6 +181,7 @@
 
 			.wp-block-navigation__responsive-container.has-modal-open.is-menu-open {
 				background-color: var(--wp--preset--color--background);
+				margin: auto;
 
 				.wp-block-navigation__responsive-container-close svg {
 					color: var(--wp--preset--color--text);
