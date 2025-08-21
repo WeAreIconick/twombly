@@ -268,40 +268,14 @@ body:not(.admin-bar) .wp-site-blocks.wp-site-blocks > .wp-block-template-part.he
   transform: var(--twombly--hover-scale);
 }
 
-/* Fade-in animation keyframes */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
+@view-transition {
+  navigation: auto;
+}
+/* Respect user motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-/* Apply to content blocks */
-main {
-  /* Stagger animations for multiple elements */
-  /* Text animations */
-}
-main .wp-block-group,
-main .wp-block-columns,
-main .wp-block-media-text {
-  opacity: 0;
-  animation: fadeInUp 0.6s ease forwards;
-}
-main .wp-block-columns .wp-block-column:nth-child(4n-3) {
-  animation-delay: 0.1s;
-}
-main .wp-block-columns .wp-block-column:nth-child(4n-2) {
-  animation-delay: 0.2s;
-}
-main .wp-block-columns .wp-block-column:nth-child(4n-1) {
-  animation-delay: 0.3s;
-}
-main .wp-block-heading {
-  opacity: 0;
-  animation: fadeInUp 0.8s ease 0.2s forwards;
 }
 
 /*# sourceMappingURL=style.css.map */
