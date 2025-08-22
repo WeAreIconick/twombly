@@ -1,80 +1,155 @@
-// View Transitions for WordPress - SCSS Version
-// Based on iconick.io implementation
+// WordPress Smooth Transitions & Animations - SCSS
+// Simple view transitions + clean page load animations
 
 // Variables
-$transition-duration: 0.4s;
+$view-transition-duration: 0.4s;
+$animation-duration: 0.4s;
+$animation-duration-slow: 0.6s;
+$animation-easing: ease-out;
+$animation-delay-base: 0.1s;
+$animation-delay-step: 0.2s;
 
-// Enable view transitions - exact same as iconick.io
+// =============================================================================
+// VIEW TRANSITIONS (Page-to-page navigation)
+// =============================================================================
+
+// Enable view transitions - smooth page navigation
 @view-transition {
   navigation: auto;
 }
 
-// Refined timing - matches iconick.io exactly
+// Simple, clean timing for page transitions
 @media (prefers-reduced-motion: no-preference) {
   ::view-transition-group(*) {
-    animation-duration: $transition-duration;
+    animation-duration: $view-transition-duration;
   }
 }
 
-// Performance optimization
-html {
-  will-change: contents;
-}
-
-// Respect user preferences
-@media (prefers-reduced-motion: reduce) {
-  @view-transition {
-    navigation: none;
-  }
-  
-  * {
-    will-change: auto !important;
-  }
-}
-
-// Shared element transitions - matches iconick.io structure
-// Using their exact CSS classes and structure
-
-// Main site container
+// Shared element transitions for smooth morphing
 .wp-site-blocks {
   view-transition-name: main;
 }
 
-// Header
 header {
   &.wp-block-template-part {
     view-transition-name: header;
   }
 }
 
-// Main content area
 main {
   &.wp-block-group {
     view-transition-name: content;
   }
 }
 
-// WordPress blocks with view transitions
 .wp-block {
-  // Post titles
   &-post-title {
     view-transition-name: post-title;
   }
-
-  // Site title
+  
   &-site-title {
     view-transition-name: site-title;
   }
-
-  // Navigation
+  
   &-navigation {
     view-transition-name: navigation;
   }
 }
 
-// Footer
 footer {
   &.wp-block-template-part {
     view-transition-name: footer;
+  }
+}
+
+// =============================================================================
+// PAGE LOAD ANIMATIONS (When page first loads)
+// =============================================================================
+
+// Mixins
+@mixin pageLoadAnimation($animation-name, $duration: $animation-duration, $delay: 0s, $easing: $animation-easing) {
+  opacity: 0;
+  animation: $animation-name $duration $easing forwards;
+  animation-delay: $delay;
+}
+
+// Simple fade animations
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Clean page load animations
+@media (prefers-reduced-motion: no-preference) {
+  
+  // Whole container subtle fade
+  .wp-site-blocks {
+    @include pageLoadAnimation(fadeIn, $animation-duration-slow, 0s);
+  }
+
+  // Header appears first
+  header {
+    &.wp-block-template-part {
+      @include pageLoadAnimation(fadeIn, $animation-duration, $animation-delay-base);
+    }
+  }
+
+  // Main content fades up gently
+  main {
+    &.wp-block-group {
+      @include pageLoadAnimation(fadeInUp, $animation-duration, $animation-delay-base + $animation-delay-step);
+    }
+  }
+
+  // Footer appears last
+  footer {
+    &.wp-block-template-part {
+      @include pageLoadAnimation(fadeIn, $animation-duration, $animation-delay-base + ($animation-delay-step * 2));
+    }
+  }
+
+  // Simple hover effects
+  .wp-block-post-title {
+    a {
+      transition: color 0.2s ease;
+      
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+// =============================================================================
+// ACCESSIBILITY & PERFORMANCE
+// =============================================================================
+
+// Performance optimization
+html {
+  will-change: contents;
+}
+
+// Respect reduced motion preferences
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
+  }
+  
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    will-change: auto !important;
   }
 }
