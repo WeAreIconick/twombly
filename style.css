@@ -269,38 +269,65 @@ body:not(.admin-bar) .wp-site-blocks.wp-site-blocks > .wp-block-template-part.he
   transform: var(--twombly--hover-scale);
 }
 
+/* Enable view transitions - exact same as iconick.io */
 @view-transition {
   navigation: auto;
 }
+/* Refined timing - matches iconick.io exactly */
 @media (prefers-reduced-motion: no-preference) {
   ::view-transition-group(*) {
     animation-duration: 0.4s;
-    animation-timing-function: ease-out;
   }
 }
-/* Theme-specific transition names */
-.site-header {
-  view-transition-name: header;
+/* Performance optimization */
+html {
+  will-change: contents;
 }
 
-.site-main {
+/* Respect user preferences */
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
+  }
+  * {
+    will-change: auto !important;
+  }
+}
+/* Shared element transitions - matches iconick.io structure */
+/* Using their exact CSS classes and structure */
+/* Main site container */
+.wp-site-blocks {
   view-transition-name: main;
 }
 
-.entry-title,
-.post-title,
-h1.entry-title {
+/* Header */
+header.wp-block-template-part {
+  view-transition-name: header;
+}
+
+/* Main content area */
+main.wp-block-group {
+  view-transition-name: content;
+}
+
+/* Post titles */
+.wp-block-post-title {
   view-transition-name: post-title;
 }
 
-.post-thumbnail img,
-.wp-post-image {
-  view-transition-name: post-image;
+/* Site title */
+.wp-block-site-title {
+  view-transition-name: site-title;
 }
 
-.entry-content,
-.post-content {
-  view-transition-name: post-content;
+/* Navigation */
+.wp-block-navigation {
+  view-transition-name: navigation;
+}
+
+/* Footer */
+footer.wp-block-template-part {
+  view-transition-name: footer;
 }
 
 /*# sourceMappingURL=style.css.map */
