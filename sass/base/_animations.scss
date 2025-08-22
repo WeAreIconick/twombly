@@ -1,21 +1,27 @@
-/* Enable view transitions - exact same as iconick.io */
+// View Transitions for WordPress - SCSS Version
+// Based on iconick.io implementation
+
+// Variables
+$transition-duration: 0.4s;
+
+// Enable view transitions - exact same as iconick.io
 @view-transition {
   navigation: auto;
 }
 
-/* Refined timing - matches iconick.io exactly */
+// Refined timing - matches iconick.io exactly
 @media (prefers-reduced-motion: no-preference) {
   ::view-transition-group(*) {
-    animation-duration: 0.4s;
+    animation-duration: $transition-duration;
   }
 }
 
-/* Performance optimization */
+// Performance optimization
 html {
   will-change: contents;
 }
 
-/* Respect user preferences */
+// Respect user preferences
 @media (prefers-reduced-motion: reduce) {
   @view-transition {
     navigation: none;
@@ -26,40 +32,49 @@ html {
   }
 }
 
-/* Shared element transitions - matches iconick.io structure */
-/* Using their exact CSS classes and structure */
+// Shared element transitions - matches iconick.io structure
+// Using their exact CSS classes and structure
 
-/* Main site container */
+// Main site container
 .wp-site-blocks {
   view-transition-name: main;
 }
 
-/* Header */
-header.wp-block-template-part {
-  view-transition-name: header;
+// Header
+header {
+  &.wp-block-template-part {
+    view-transition-name: header;
+  }
 }
 
-/* Main content area */
-main.wp-block-group {
-  view-transition-name: content;
+// Main content area
+main {
+  &.wp-block-group {
+    view-transition-name: content;
+  }
 }
 
-/* Post titles */
-.wp-block-post-title {
-  view-transition-name: post-title;
+// WordPress blocks with view transitions
+.wp-block {
+  // Post titles
+  &-post-title {
+    view-transition-name: post-title;
+  }
+
+  // Site title
+  &-site-title {
+    view-transition-name: site-title;
+  }
+
+  // Navigation
+  &-navigation {
+    view-transition-name: navigation;
+  }
 }
 
-/* Site title */
-.wp-block-site-title {
-  view-transition-name: site-title;
-}
-
-/* Navigation */
-.wp-block-navigation {
-  view-transition-name: navigation;
-}
-
-/* Footer */
-footer.wp-block-template-part {
-  view-transition-name: footer;
+// Footer
+footer {
+  &.wp-block-template-part {
+    view-transition-name: footer;
+  }
 }
