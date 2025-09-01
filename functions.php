@@ -486,32 +486,88 @@ function add_view_transition_name( $content, $transition_name ) {
 
 /**
  * =============================================================================
+ * THEME COLOR UTILITIES
+ * =============================================================================
+ */
+
+/**
+ * Get the primary theme color
+ * 
+ * @return string Primary color hex value with fallback
+ */
+function get_theme_primary_color() {
+	// Try to get from Global Styles first (WordPress 5.9+)
+	if ( class_exists( 'WP_Theme_JSON_Resolver' ) ) {
+		$theme_json = \WP_Theme_JSON_Resolver::get_merged_data();
+		$colors = $theme_json->get_settings()['color']['palette']['theme'] ?? array();
+		
+		// Look for primary color in theme palette
+		foreach ( $colors as $color ) {
+			if ( isset( $color['slug'] ) && in_array( $color['slug'], array( 'primary', 'accent', 'main' ), true ) ) {
+				return $color['color'];
+			}
+		}
+		
+		// Fallback to first color if no primary found
+		if ( ! empty( $colors ) && isset( $colors[0]['color'] ) ) {
+			return $colors[0]['color'];
+		}
+	}
+	
+	// Try customizer option (legacy themes)
+	$primary_color = \get_theme_mod( 'primary_color' );
+	if ( $primary_color ) {
+		return $primary_color;
+	}
+	
+	// Try CSS custom property detection (modern themes)
+	$custom_css = \wp_get_custom_css();
+	if ( preg_match( '/--wp--preset--color--primary:\s*([^;]+);/', $custom_css, $matches ) ) {
+		return trim( $matches[1] );
+	}
+	
+	// Ultimate fallback
+	return \apply_filters( 'twombly_primary_color_fallback', '#54e27e' );
+}
+
+/**
+ * =============================================================================
  * CUSTOM CURSOR IMPLEMENTATION
  * =============================================================================
  */
 
 /**
- * Add custom cursor with trailing green dot
- * Mirak-style cursor implementation
+ * Add custom cursor with trailing dot using theme primary color
+ * Improved implementation with better performance and accessibility
  */
 \add_action( 'wp_footer', function() {
 	// Skip on admin pages and mobile devices
 	if ( \is_admin() || \wp_is_mobile() ) {
 		return;
 	}
+	
+	// Get theme primary color
+	$primary_color = get_theme_primary_color();
 	?>
-	<style>
+	<style id="twombly-custom-cursor">
 		/* Custom cursor styles */
 		.cursor-follower {
 			width: 10px;
 			height: 10px;
-			background-color: #54e27e;
+			background-color: <?php echo \esc_attr( $primary_color ); ?>;
 			border-radius: 50%;
 			position: fixed;
 			pointer-events: none;
 			z-index: 9999;
 			transform: translate(-50%, -50%);
-			transition: width 0.3s ease, height 0.3s ease, opacity 0.3s ease;
+			transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+			           height 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+			           opacity 0.3s ease;
+			opacity: 0;
+			will-change: transform, opacity;
+		}
+		
+		.cursor-follower.active {
 			opacity: 0.8;
 		}
 		
@@ -527,92 +583,160 @@ function add_view_transition_name( $content, $transition_name ) {
 			opacity: 1;
 		}
 		
-		@media (hover: none) {
+		/* Hide on touch devices and when user prefers reduced motion */
+		@media (hover: none), (prefers-reduced-motion: reduce) {
 			.cursor-follower { 
 				display: none !important; 
 			}
 		}
+		
+		/* Ensure body doesn't interfere */
+		body {
+			cursor: auto;
+		}
 	</style>
 	
-	<script>
+	<script id="twombly-cursor-script">
 	(function() {
-		// Exit if touch device
-		if ('ontouchstart' in window) return;
+		'use strict';
+		
+		// Exit early for touch devices or reduced motion preference
+		if ('ontouchstart' in window || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+			return;
+		}
 		
 		// Create cursor follower element
 		var follower = document.createElement('div');
 		follower.className = 'cursor-follower';
+		follower.setAttribute('aria-hidden', 'true');
 		document.body.appendChild(follower);
 		
 		// Initialize positions
 		var mouse = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
 		var followerPos = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+		var isActive = false;
+		var animationId;
 		
 		// Configuration
-		var speed = 0.15;          // Smooth following speed
-		var offsetDistance = 30;   // Distance from cursor in pixels  
-		var offsetAngle = 50;      // Angle in degrees
+		var config = {
+			speed: 0.15,          // Smooth following speed
+			offsetDistance: 30,   // Distance from cursor in pixels  
+			offsetAngle: 50       // Angle in degrees
+		};
 		
 		// Calculate offset
-		var angleInRadians = offsetAngle * (Math.PI / 180);
-		var offsetX = Math.cos(angleInRadians) * offsetDistance;
-		var offsetY = Math.sin(angleInRadians) * offsetDistance;
+		var angleInRadians = config.offsetAngle * (Math.PI / 180);
+		var offsetX = Math.cos(angleInRadians) * config.offsetDistance;
+		var offsetY = Math.sin(angleInRadians) * config.offsetDistance;
 		
-		// Update mouse position on move
-		document.addEventListener('mousemove', function(e) {
-			mouse.x = e.clientX;
-			mouse.y = e.clientY;
-		});
-		
-		// Animation loop
+		// Optimized animation loop with requestAnimationFrame
 		function animate() {
+			if (!isActive) return;
+			
 			var targetX = mouse.x + offsetX;
 			var targetY = mouse.y + offsetY;
 			
-			followerPos.x += (targetX - followerPos.x) * speed;
-			followerPos.y += (targetY - followerPos.y) * speed;
+			// Smooth interpolation
+			followerPos.x += (targetX - followerPos.x) * config.speed;
+			followerPos.y += (targetY - followerPos.y) * config.speed;
 			
-			follower.style.left = followerPos.x + 'px';
-			follower.style.top = followerPos.y + 'px';
+			// Apply transform with GPU acceleration
+			follower.style.transform = 'translate3d(' + 
+				(followerPos.x - follower.offsetWidth / 2) + 'px, ' + 
+				(followerPos.y - follower.offsetHeight / 2) + 'px, 0)';
 			
-			requestAnimationFrame(animate);
+			animationId = requestAnimationFrame(animate);
 		}
-		animate();
+		
+		// Start animation when mouse moves
+		function startAnimation() {
+			if (!isActive) {
+				isActive = true;
+				follower.classList.add('active');
+				animate();
+			}
+		}
+		
+		// Stop animation to save resources
+		function stopAnimation() {
+			if (isActive) {
+				isActive = false;
+				follower.classList.remove('active');
+				if (animationId) {
+					cancelAnimationFrame(animationId);
+				}
+			}
+		}
+		
+		// Throttled mouse move handler
+		var mouseTimeout;
+		function handleMouseMove(e) {
+			mouse.x = e.clientX;
+			mouse.y = e.clientY;
+			startAnimation();
+			
+			// Stop animation after period of inactivity
+			clearTimeout(mouseTimeout);
+			mouseTimeout = setTimeout(stopAnimation, 100);
+		}
+		
+		// Event listeners
+		document.addEventListener('mousemove', handleMouseMove, { passive: true });
 		
 		// Interactive elements selector
-		var hoverElements = 'a, button, input[type="submit"], input[type="button"], .clickable, [onclick]';
+		var hoverSelector = 'a, button, input[type="submit"], input[type="button"], .clickable, [role="button"], [onclick], .wp-block-button__link';
 		
-		// Hover effects
+		// Hover effects with event delegation
 		document.addEventListener('mouseover', function(e) {
-			if (e.target.matches(hoverElements)) {
+			if (e.target.matches(hoverSelector) || e.target.closest(hoverSelector)) {
 				follower.classList.add('hover');
 			}
-		});
+		}, { passive: true });
 		
 		document.addEventListener('mouseout', function(e) {
-			if (e.target.matches(hoverElements)) {
+			if (e.target.matches(hoverSelector) || e.target.closest(hoverSelector)) {
 				follower.classList.remove('hover');
 			}
-		});
+		}, { passive: true });
 		
 		// Click effects
 		document.addEventListener('mousedown', function() {
 			follower.classList.add('click');
-		});
+		}, { passive: true });
 		
 		document.addEventListener('mouseup', function() {
 			follower.classList.remove('click');
+		}, { passive: true });
+		
+		// Window visibility changes
+		document.addEventListener('visibilitychange', function() {
+			if (document.hidden) {
+				stopAnimation();
+			}
 		});
 		
-		// Window leave/enter
-		document.addEventListener('mouseleave', function() {
-			follower.style.opacity = '0';
+		// Handle window resize
+		var resizeTimeout;
+		window.addEventListener('resize', function() {
+			clearTimeout(resizeTimeout);
+			resizeTimeout = setTimeout(function() {
+				// Reset position on resize
+				mouse.x = window.innerWidth / 2;
+				mouse.y = window.innerHeight / 2;
+				followerPos.x = mouse.x;
+				followerPos.y = mouse.y;
+			}, 150);
+		}, { passive: true });
+		
+		// Cleanup on page unload
+		window.addEventListener('beforeunload', function() {
+			stopAnimation();
+			if (follower.parentNode) {
+				follower.parentNode.removeChild(follower);
+			}
 		});
 		
-		document.addEventListener('mouseenter', function() {
-			follower.style.opacity = '0.8';
-		});
 	})();
 	</script>
 	<?php
-});
+}, 20); // Lower priority to ensure theme colors are available
