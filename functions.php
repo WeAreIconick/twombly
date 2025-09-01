@@ -563,12 +563,8 @@ function get_theme_primary_color() {
 			transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
 			           height 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
 			           opacity 0.3s ease;
-			opacity: 0;
-			will-change: transform, opacity;
-		}
-		
-		.cursor-follower.active {
 			opacity: 0.8;
+			will-change: transform, opacity;
 		}
 		
 		.cursor-follower.hover {
@@ -614,7 +610,6 @@ function get_theme_primary_color() {
 		// Initialize positions
 		var mouse = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
 		var followerPos = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
-		var isActive = false;
 		var animationId;
 		
 		// Configuration
@@ -629,10 +624,11 @@ function get_theme_primary_color() {
 		var offsetX = Math.cos(angleInRadians) * config.offsetDistance;
 		var offsetY = Math.sin(angleInRadians) * config.offsetDistance;
 		
+		// Start animation immediately
+		animate();
+		
 		// Optimized animation loop with requestAnimationFrame
 		function animate() {
-			if (!isActive) return;
-			
 			var targetX = mouse.x + offsetX;
 			var targetY = mouse.y + offsetY;
 			
@@ -640,48 +636,18 @@ function get_theme_primary_color() {
 			followerPos.x += (targetX - followerPos.x) * config.speed;
 			followerPos.y += (targetY - followerPos.y) * config.speed;
 			
-			// Apply transform with GPU acceleration
-			follower.style.transform = 'translate3d(' + 
-				(followerPos.x - follower.offsetWidth / 2) + 'px, ' + 
-				(followerPos.y - follower.offsetHeight / 2) + 'px, 0)';
+			// Apply position (CSS already handles centering with translate(-50%, -50%))
+			follower.style.left = followerPos.x + 'px';
+			follower.style.top = followerPos.y + 'px';
 			
 			animationId = requestAnimationFrame(animate);
 		}
 		
-		// Start animation when mouse moves
-		function startAnimation() {
-			if (!isActive) {
-				isActive = true;
-				follower.classList.add('active');
-				animate();
-			}
-		}
-		
-		// Stop animation to save resources
-		function stopAnimation() {
-			if (isActive) {
-				isActive = false;
-				follower.classList.remove('active');
-				if (animationId) {
-					cancelAnimationFrame(animationId);
-				}
-			}
-		}
-		
-		// Throttled mouse move handler
-		var mouseTimeout;
-		function handleMouseMove(e) {
+		// Update mouse position on move
+		document.addEventListener('mousemove', function(e) {
 			mouse.x = e.clientX;
 			mouse.y = e.clientY;
-			startAnimation();
-			
-			// Stop animation after period of inactivity
-			clearTimeout(mouseTimeout);
-			mouseTimeout = setTimeout(stopAnimation, 100);
-		}
-		
-		// Event listeners
-		document.addEventListener('mousemove', handleMouseMove, { passive: true });
+		}, { passive: true });
 		
 		// Interactive elements selector
 		var hoverSelector = 'a, button, input[type="submit"], input[type="button"], .clickable, [role="button"], [onclick], .wp-block-button__link';
@@ -708,11 +674,13 @@ function get_theme_primary_color() {
 			follower.classList.remove('click');
 		}, { passive: true });
 		
-		// Window visibility changes
-		document.addEventListener('visibilitychange', function() {
-			if (document.hidden) {
-				stopAnimation();
-			}
+		// Window leave/enter
+		document.addEventListener('mouseleave', function() {
+			follower.style.opacity = '0';
+		});
+		
+		document.addEventListener('mouseenter', function() {
+			follower.style.opacity = '0.8';
 		});
 		
 		// Handle window resize
@@ -727,14 +695,6 @@ function get_theme_primary_color() {
 				followerPos.y = mouse.y;
 			}, 150);
 		}, { passive: true });
-		
-		// Cleanup on page unload
-		window.addEventListener('beforeunload', function() {
-			stopAnimation();
-			if (follower.parentNode) {
-				follower.parentNode.removeChild(follower);
-			}
-		});
 		
 	})();
 	</script>
