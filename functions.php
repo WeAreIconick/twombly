@@ -11,6 +11,22 @@ namespace Twombly\Theme;
 
 /**
  * =============================================================================
+ * ACCESSIBILITY FEATURES
+ * =============================================================================
+ */
+
+/**
+ * Add skip-to-content link for better accessibility
+ *
+ * @return void
+ */
+function add_skip_to_content_link() {
+	echo '<a class="skip-link screen-reader-text" href="#main">Skip to content</a>';
+}
+\add_action( 'wp_body_open', __NAMESPACE__ . '\add_skip_to_content_link' );
+
+/**
+ * =============================================================================
  * THEME SETUP & ENQUEUES
  * =============================================================================
  */

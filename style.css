@@ -11,7 +11,7 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: twombly
-Tags: custom-menu, custom-logo, editor-style, featured-images, blog, portfolio
+Tags: custom-menu, custom-logo, editor-style, featured-images, blog, portfolio, full-site-editing
 */
 :root {
   --twombly--header-width: 300px;
@@ -190,6 +190,139 @@ Tags: custom-menu, custom-logo, editor-style, featured-images, blog, portfolio
 }
 :where(a):hover {
   transition: color 0.1s ease;
+}
+
+/* =============================================================================
+   ACCESSIBILITY - SKIP TO CONTENT LINK
+   ============================================================================= */
+/**
+ * Skip-to-content link for keyboard navigation
+ * Hidden by default, visible when focused via keyboard (Tab key)
+ */
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 6px;
+  z-index: 999999;
+  padding: 8px 16px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-100%);
+  transition: all 0.3s ease;
+}
+.skip-link:focus {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  clip: auto !important;
+  clip-path: none;
+  width: auto;
+  height: auto;
+  transform: translateY(0);
+  z-index: 100000;
+}
+.skip-link:hover, .skip-link:focus {
+  background-color: #333;
+  color: #fff;
+  text-decoration: underline;
+}
+.skip-link:focus-visible {
+  outline: 2px solid #005fcc;
+  outline-offset: 2px;
+}
+@media (prefers-contrast: high) {
+  .skip-link {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  .skip-link:hover, .skip-link:focus {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+  }
+}
+@media (max-width: 768px) {
+  .skip-link:focus {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}
+
+/**
+ * Screen reader text utility class
+ * Hides content visually while keeping it available to screen readers
+ */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.visually-hidden-focusable {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.visually-hidden-focusable:focus {
+  clip: auto !important;
+  clip-path: none;
+  height: auto;
+  width: auto;
+  overflow: visible;
+  position: static !important;
 }
 
 .wp-block-search .wp-block-search__button {

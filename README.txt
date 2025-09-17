@@ -15,3 +15,6 @@ Showcase your creative work with the sophisticated simplicity of Twombly, a prem
 
 = 1.0 =
 Initial release
+
+Twombly WordPress Theme, Copyright 2025 Nick Hamze
+Twombly is distributed under the terms of the GNU GPL

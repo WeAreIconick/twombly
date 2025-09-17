@@ -224,3 +224,166 @@
 		transition: color 0.1s ease;
 	}
 }
+
+/* =============================================================================
+   ACCESSIBILITY - SKIP TO CONTENT LINK
+   ============================================================================= */
+
+// Variables for easy customization
+$skip-link-bg: #000;
+$skip-link-color: #fff;
+$skip-link-hover-bg: #333;
+$skip-link-focus-color: #005fcc;
+$skip-link-padding: 8px 16px;
+$skip-link-padding-mobile: 12px 20px;
+$skip-link-font-size: 14px;
+$skip-link-font-size-mobile: 16px;
+$skip-link-border-radius: 3px;
+$skip-link-z-index: 100000;
+$skip-link-transition: all 0.3s ease;
+
+// Screen reader text variables
+$sr-bg: #f1f1f1;
+$sr-color: #21759b;
+$sr-padding: 15px 23px 14px;
+
+/**
+ * Skip-to-content link for keyboard navigation
+ * Hidden by default, visible when focused via keyboard (Tab key)
+ */
+.skip-link {
+	position: absolute;
+	top: -9999px;
+	left: 6px;
+	z-index: 999999;
+	padding: $skip-link-padding;
+	background-color: $skip-link-bg;
+	color: $skip-link-color;
+	text-decoration: none;
+	font-size: $skip-link-font-size;
+	font-weight: 600;
+	line-height: 1.4;
+	border-radius: $skip-link-border-radius;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+	transform: translateY(-100%);
+	transition: $skip-link-transition;
+
+	&:focus {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		clip: auto !important;
+		clip-path: none;
+		width: auto;
+		height: auto;
+		transform: translateY(0);
+		z-index: $skip-link-z-index;
+	}
+
+	&:hover,
+	&:focus {
+		background-color: $skip-link-hover-bg;
+		color: $skip-link-color;
+		text-decoration: underline;
+	}
+
+	// Optional: Smooth focus indicator
+	&:focus-visible {
+		outline: 2px solid $skip-link-focus-color;
+		outline-offset: 2px;
+	}
+
+	// Alternative high-contrast version
+	@media (prefers-contrast: high) {
+		background-color: $skip-link-bg;
+		color: $skip-link-color;
+		border: 2px solid $skip-link-color;
+		
+		&:hover,
+		&:focus {
+			background-color: $skip-link-color;
+			color: $skip-link-bg;
+			border-color: $skip-link-bg;
+		}
+	}
+
+	// Responsive adjustments
+	@media (max-width: 768px) {
+		&:focus {
+			font-size: $skip-link-font-size-mobile; // Prevents zoom on mobile
+			padding: $skip-link-padding-mobile;
+		}
+	}
+}
+
+/**
+ * Screen reader text utility class
+ * Hides content visually while keeping it available to screen readers
+ */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+
+	&:focus {
+		background-color: $sr-bg;
+		border-radius: $skip-link-border-radius;
+		box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+		clip: auto !important;
+		clip-path: none;
+		color: $sr-color;
+		display: block;
+		font-size: $skip-link-font-size;
+		font-weight: bold;
+		height: auto;
+		left: 5px;
+		line-height: normal;
+		padding: $sr-padding;
+		text-decoration: none;
+		top: 5px;
+		width: auto;
+		z-index: $skip-link-z-index;
+	}
+}
+
+// Mixins for reusable accessibility patterns
+@mixin visually-hidden {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+@mixin visually-hidden-focusable {
+	&:focus {
+		clip: auto !important;
+		clip-path: none;
+		height: auto;
+		width: auto;
+		overflow: visible;
+		position: static !important;
+	}
+}
+
+// Helper classes using mixins
+.visually-hidden {
+	@include visually-hidden;
+}
+
+.visually-hidden-focusable {
+	@include visually-hidden;
+	@include visually-hidden-focusable;
+}
