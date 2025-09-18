@@ -9,6 +9,11 @@
 
 namespace Twombly\Theme;
 
+// Prevent direct access
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 /**
  * =============================================================================
  * ACCESSIBILITY FEATURES
@@ -21,9 +26,9 @@ namespace Twombly\Theme;
  * @return void
  */
 function add_skip_to_content_link() {
-	echo '<a class="skip-link screen-reader-text" href="#main">Skip to content</a>';
+	echo '<a class="skip-link screen-reader-text" href="#main">' . esc_html__( 'Skip to content', 'twombly' ) . '</a>';
 }
-\add_action( 'wp_body_open', __NAMESPACE__ . '\add_skip_to_content_link' );
+add_action( 'wp_body_open', __NAMESPACE__ . '\add_skip_to_content_link' );
 
 /**
  * =============================================================================
@@ -37,15 +42,23 @@ function add_skip_to_content_link() {
  * @return void
  */
 function enqueue_block_assets() {
-	// Handle adding the theme's style.css for generic non-block-specific styles.
-	\wp_enqueue_style(
+	$theme_dir = get_stylesheet_directory();
+	$theme_uri = get_stylesheet_directory_uri();
+	$style_path = $theme_dir . '/style.css';
+	
+	// Check if file exists and is readable
+	if ( ! file_exists( $style_path ) || ! is_readable( $style_path ) ) {
+		return;
+	}
+	
+	wp_enqueue_style(
 		'twombly',
-		\get_stylesheet_uri(),
+		get_stylesheet_uri(),
 		array(),
-		(string) filemtime( __DIR__ . '/style.css' )
+		filemtime( $style_path )
 	);
 }
-\add_action( 'enqueue_block_assets', __NAMESPACE__ . '\enqueue_block_assets' );
+add_action( 'enqueue_block_assets', __NAMESPACE__ . '\enqueue_block_assets' );
 
 /**
  * Handle addition of any enqueues for the block editor only.
@@ -53,115 +66,23 @@ function enqueue_block_assets() {
  * @return void
  */
 function enqueue_block_editor_assets() {
-	\wp_enqueue_script(
-		'twombly',
-		\get_theme_file_uri( 'js/block-editor.js' ),
-		array(),
-		(string) filemtime( __DIR__ . '/js/block-editor.js' ),
-		true
-	);
-}
-\add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_block_editor_assets' );
-
-/**
- * =============================================================================
- * THEME ACTIVATION
- * =============================================================================
- */
-
-/**
- * Create Home and Posts pages automatically on theme activation
- *
- * @return void
- */
-function create_theme_pages_on_activation() {
-	// Check if pages already exist to avoid duplicates
-	if ( \get_page_by_path( 'home' ) || \get_page_by_path( 'posts' ) ) {
+	$theme_dir = get_stylesheet_directory();
+	$js_path = $theme_dir . '/js/block-editor.js';
+	
+	// Check if file exists and is readable
+	if ( ! file_exists( $js_path ) || ! is_readable( $js_path ) ) {
 		return;
 	}
 	
-	// Get the current admin URL for template editing links
-	$site_editor_url = \admin_url( 'site-editor.php?path=/wp_template' );
-	
-	// Create Home page (static homepage)
-	$home_page = array(
-		'post_title'   => 'Home',
-		'post_content' => '
-			<!-- wp:paragraph -->
-			<p>This is a placeholder homepage. This page doesn\'t do anything by itself - it\'s just here to set up your site structure.</p>
-			<!-- /wp:paragraph -->
-			
-			<!-- wp:paragraph -->
-			<p>To customize your homepage design and content:</p>
-			<!-- /wp:paragraph -->
-			
-			<!-- wp:list -->
-			<ul>
-				<li>Go to <strong>Appearance → Theme Editor</strong></li>
-				<li>Look for the <strong>"Front Page"</strong> template</li>
-				<li>Or <a href="' . $site_editor_url . '">click here to open the Site Editor</a></li>
-			</ul>
-			<!-- /wp:list -->
-			
-			<!-- wp:paragraph -->
-			<p><em>Template file: front-page.html</em></p>
-			<!-- /wp:paragraph -->
-		',
-		'post_status'  => 'publish',
-		'post_type'    => 'page',
-		'post_name'    => 'home'
+	wp_enqueue_script(
+		'twombly-editor',
+		get_theme_file_uri( 'js/block-editor.js' ),
+		array(),
+		filemtime( $js_path ),
+		true
 	);
-	
-	$home_id = \wp_insert_post( $home_page );
-	
-	// Create Posts page (blog archive)
-	$posts_page = array(
-		'post_title'   => 'Posts',
-		'post_content' => '
-			<!-- wp:paragraph -->
-			<p>This is a placeholder blog page. This page doesn\'t do anything by itself - it\'s just here to set up your site structure.</p>
-			<!-- /wp:paragraph -->
-			
-			<!-- wp:paragraph -->
-			<p>To customize your blog archive design and layout:</p>
-			<!-- /wp:paragraph -->
-			
-			<!-- wp:list -->
-			<ul>
-				<li>Go to <strong>Appearance → Theme Editor</strong></li>
-				<li>Look for the <strong>"Posts Page (Home)"</strong> template</li>
-				<li>Or <a href="' . $site_editor_url . '">click here to open the Site Editor</a></li>
-			</ul>
-			<!-- /wp:list -->
-			
-			<!-- wp:paragraph -->
-			<p><em>Template file: home.html</em></p>
-			<!-- /wp:paragraph -->
-		',
-		'post_status'  => 'publish',
-		'post_type'    => 'page',
-		'post_name'    => 'posts'
-	);
-	
-	$posts_id = \wp_insert_post( $posts_page );
-	
-	// Assign templates for block themes
-	if ( $home_id ) {
-		\update_post_meta( $home_id, '_wp_page_template', 'front-page.html' );
-	}
-	
-	if ( $posts_id ) {
-		\update_post_meta( $posts_id, '_wp_page_template', 'home.html' );
-	}
-	
-	// Configure WordPress reading settings
-	if ( $home_id && $posts_id ) {
-		\update_option( 'show_on_front', 'page' );
-		\update_option( 'page_on_front', $home_id );
-		\update_option( 'page_for_posts', $posts_id );
-	}
 }
-\add_action( 'after_switch_theme', __NAMESPACE__ . '\create_theme_pages_on_activation' );
+add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_block_editor_assets' );
 
 /**
  * =============================================================================
@@ -187,26 +108,45 @@ class View_Transitions {
 	/**
 	 * Browser compatibility cache
 	 * 
-	 * @var array
+	 * @var array|null
 	 */
 	private $browser_support = null;
+	
+	/**
+	 * Allowed transition names to prevent injection
+	 * 
+	 * @var array
+	 */
+	private $allowed_transition_names = array(
+		'post-title', 'post-thumbnail', 'post-content', 'post-meta', 
+		'post-excerpt', 'post-navigation', 'post-comments', 
+		'content-image', 'content-gallery', 'content-video', 'content-audio'
+	);
 	
 	/**
 	 * Initialize view transitions functionality
 	 */
 	public function __construct() {
-		\add_action( 'after_setup_theme', array( $this, 'setup_theme_support' ) );
-		\add_action( 'wp_head', array( $this, 'add_meta_tags' ), 1 );
-		\add_action( 'wp_head', array( $this, 'add_view_transition_css' ), 10 );
-		\add_filter( 'render_block', array( $this, 'add_transition_names' ), 10, 2 );
+		add_action( 'after_setup_theme', array( $this, 'setup_theme_support' ) );
+		add_action( 'wp_head', array( $this, 'add_meta_tags' ), 1 );
+		add_action( 'wp_head', array( $this, 'add_view_transition_css' ), 10 );
+		add_filter( 'render_block', array( $this, 'add_transition_names' ), 10, 2 );
 	}
 	
 	/**
 	 * Setup theme support with comprehensive configuration
 	 */
 	public function setup_theme_support() {
-		$this->config = \apply_filters( 'twombly_view_transitions_config', array(
-			'default-animation' => \get_option( 'twombly_view_transitions_animation', 'fade' ),
+		$default_animation = get_option( 'twombly_view_transitions_animation', 'fade' );
+		
+		// Validate animation option
+		$allowed_animations = array( 'fade', 'slide', 'none' );
+		if ( ! in_array( $default_animation, $allowed_animations, true ) ) {
+			$default_animation = 'fade';
+		}
+		
+		$this->config = apply_filters( 'twombly_view_transitions_config', array(
+			'default-animation' => $default_animation,
 			'respect-reduced-motion' => true,
 			'accessibility' => array(
 				'respect-reduced-motion' => true,
@@ -214,7 +154,7 @@ class View_Transitions {
 		) );
 		
 		if ( $this->should_enable_view_transitions() ) {
-			\add_theme_support( 'view-transitions', $this->config );
+			add_theme_support( 'view-transitions', $this->config );
 		}
 	}
 	
@@ -224,22 +164,40 @@ class View_Transitions {
 	 * @return bool Whether to enable view transitions
 	 */
 	private function should_enable_view_transitions() {
-		$should_enable = \apply_filters( 'twombly_enable_view_transitions', true );
+		$should_enable = apply_filters( 'twombly_enable_view_transitions', true );
 		
 		if ( ! $should_enable ) {
 			return false;
 		}
 		
-		$user_agent = isset( $_SERVER['HTTP_USER_AGENT'] ) ? 
-			\sanitize_text_field( \wp_unslash( $_SERVER['HTTP_USER_AGENT'] ) ) : '';
-		
+		$user_agent = $this->get_sanitized_user_agent();
 		$browser_info = $this->get_browser_support( $user_agent );
 		
 		return $browser_info['supports_view_transitions'];
 	}
 	
 	/**
-	 * Get browser support information
+	 * Get sanitized user agent string
+	 * 
+	 * @return string Sanitized user agent
+	 */
+	private function get_sanitized_user_agent() {
+		if ( ! isset( $_SERVER['HTTP_USER_AGENT'] ) ) {
+			return '';
+		}
+		
+		$user_agent = sanitize_text_field( wp_unslash( $_SERVER['HTTP_USER_AGENT'] ) );
+		
+		// Additional validation - ensure it's not suspiciously long
+		if ( strlen( $user_agent ) > 500 ) {
+			return '';
+		}
+		
+		return $user_agent;
+	}
+	
+	/**
+	 * Get browser support information with enhanced validation
 	 * 
 	 * @param string $user_agent User agent string
 	 * @return array Browser support information
@@ -250,22 +208,30 @@ class View_Transitions {
 		}
 		
 		$this->browser_support = array(
-			'supports_view_transitions' => true, // Progressive enhancement approach
+			'supports_view_transitions' => false, // Default to false for security
 			'browser' => 'unknown',
-			'version' => '0'
+			'version' => 0
 		);
 		
-		// Chrome 111+, Edge 111+, Safari 18+
-		if ( preg_match( '/Chrome\/(\d+)/', $user_agent, $matches ) ) {
-			$version = (int) $matches[1];
+		if ( empty( $user_agent ) ) {
+			return $this->browser_support;
+		}
+		
+		// Chrome 111+, Edge 111+ (more specific regex)
+		if ( preg_match( '/Chrome\/(\d+)\.[\d.]+/', $user_agent, $matches ) ) {
+			$version = absint( $matches[1] );
 			$this->browser_support['browser'] = 'chrome';
 			$this->browser_support['version'] = $version;
 			$this->browser_support['supports_view_transitions'] = $version >= 111;
-		} elseif ( preg_match( '/Safari\/(\d+)/', $user_agent, $matches ) && ! strpos( $user_agent, 'Chrome' ) ) {
-			$version = (int) $matches[1];
+		} 
+		// Safari (more specific detection, excluding Chrome)
+		elseif ( preg_match( '/Safari\/(\d+)\.[\d.]*/', $user_agent, $matches ) && 
+		         false === strpos( $user_agent, 'Chrome' ) && 
+		         false === strpos( $user_agent, 'Chromium' ) ) {
+			$version = absint( $matches[1] );
 			$this->browser_support['browser'] = 'safari';
 			$this->browser_support['version'] = $version;
-			// Safari 18+ support (approximation)
+			// Safari 18+ support (build number approximation)
 			$this->browser_support['supports_view_transitions'] = $version >= 605;
 		}
 		
@@ -273,14 +239,14 @@ class View_Transitions {
 	}
 	
 	/**
-	 * Add view transition names to blocks
+	 * Add view transition names to blocks with enhanced security
 	 * 
 	 * @param string $block_content Block content
 	 * @param array  $block Block data
 	 * @return string Modified block content
 	 */
 	public function add_transition_names( $block_content, $block ) {
-		if ( ! \current_theme_supports( 'view-transitions' ) || empty( $block_content ) ) {
+		if ( ! current_theme_supports( 'view-transitions' ) || empty( $block_content ) ) {
 			return $block_content;
 		}
 		
@@ -289,8 +255,14 @@ class View_Transitions {
 			return $block_content;
 		}
 		
-		$block_name = $block['blockName'] ?? '';
-		$transition_name = $this->get_transition_name_for_block( $block_name, $post->ID );
+		// Validate post ID
+		$post_id = absint( $post->ID );
+		if ( $post_id <= 0 ) {
+			return $block_content;
+		}
+		
+		$block_name = isset( $block['blockName'] ) ? sanitize_text_field( $block['blockName'] ) : '';
+		$transition_name = $this->get_transition_name_for_block( $block_name, $post_id );
 		
 		if ( ! $transition_name ) {
 			return $block_content;
@@ -300,15 +272,33 @@ class View_Transitions {
 	}
 	
 	/**
-	 * Add essential view transition CSS directly to head
+	 * Add essential view transition CSS directly to head with security measures
 	 */
 	public function add_view_transition_css() {
-		if ( ! \current_theme_supports( 'view-transitions' ) ) {
+		if ( ! current_theme_supports( 'view-transitions' ) ) {
 			return;
 		}
 		
-		?>
-		<style id="twombly-view-transitions-core">
+		// Use wp_add_inline_style for better security when possible
+		if ( wp_style_is( 'twombly', 'enqueued' ) ) {
+			$css = $this->get_view_transition_css();
+			wp_add_inline_style( 'twombly', $css );
+			return;
+		}
+		
+		// Fallback to direct output with proper escaping
+		echo '<style id="twombly-view-transitions-core">';
+		echo wp_strip_all_tags( $this->get_view_transition_css() );
+		echo '</style>';
+	}
+	
+	/**
+	 * Get view transition CSS
+	 * 
+	 * @return string CSS content
+	 */
+	private function get_view_transition_css() {
+		return '
 		/* Twombly View Transitions - Essential CSS */
 		@media (prefers-reduced-motion: no-preference) {
 			@view-transition {
@@ -346,16 +336,14 @@ class View_Transitions {
 		footer.wp-block-template-part,
 		.footer.wp-block-template-part {
 			view-transition-name: footer;
-		}
-		</style>
-		<?php
+		}';
 	}
 	
 	/**
-	 * Add meta tags for view transitions
+	 * Add meta tags for view transitions with proper escaping
 	 */
 	public function add_meta_tags() {
-		if ( ! \current_theme_supports( 'view-transitions' ) ) {
+		if ( ! current_theme_supports( 'view-transitions' ) ) {
 			return;
 		}
 		
@@ -364,7 +352,7 @@ class View_Transitions {
 	}
 	
 	/**
-	 * Get transition name for a specific block
+	 * Get transition name for a specific block with enhanced validation
 	 * 
 	 * @param string $block_name Block name
 	 * @param int    $post_id Post ID
@@ -393,31 +381,55 @@ class View_Transitions {
 		
 		$base_name = $transition_map[ $block_name ];
 		
-		// Create unique names using post ID for post-specific blocks
-		if ( in_array( $base_name, array( 'post-title', 'post-thumbnail', 'post-content', 'post-meta', 'post-excerpt' ), true ) ) {
-			return \sanitize_html_class( $base_name . '-' . $post_id );
+		// Validate against allowed names
+		if ( ! in_array( $base_name, $this->allowed_transition_names, true ) ) {
+			return false;
 		}
 		
-		return \sanitize_html_class( $base_name );
+		// Create unique names using post ID for post-specific blocks
+		$post_specific_blocks = array( 'post-title', 'post-thumbnail', 'post-content', 'post-meta', 'post-excerpt' );
+		if ( in_array( $base_name, $post_specific_blocks, true ) ) {
+			return sanitize_html_class( $base_name . '-' . absint( $post_id ) );
+		}
+		
+		return sanitize_html_class( $base_name );
 	}
 	
 	/**
-	 * Add transition name to content
+	 * Add transition name to content with enhanced security
 	 * 
 	 * @param string $content HTML content
 	 * @param string $transition_name Transition name
 	 * @return string Modified content
 	 */
 	private function add_transition_name_to_content( $content, $transition_name ) {
-		if ( ! class_exists( 'WP_HTML_Tag_Processor' ) ) {
-			return $this->add_transition_name_fallback( $content, $transition_name );
+		// Validate transition name
+		$transition_name = sanitize_html_class( $transition_name );
+		if ( empty( $transition_name ) ) {
+			return $content;
 		}
 		
+		// Use WP_HTML_Tag_Processor if available (WP 6.2+)
+		if ( class_exists( '\WP_HTML_Tag_Processor' ) ) {
+			return $this->add_transition_name_with_processor( $content, $transition_name );
+		}
+		
+		return $this->add_transition_name_fallback( $content, $transition_name );
+	}
+	
+	/**
+	 * Add transition name using WP_HTML_Tag_Processor
+	 * 
+	 * @param string $content HTML content
+	 * @param string $transition_name Validated transition name
+	 * @return string Modified content
+	 */
+	private function add_transition_name_with_processor( $content, $transition_name ) {
 		$processor = new \WP_HTML_Tag_Processor( $content );
 		
 		if ( $processor->next_tag() ) {
 			$existing_style = $processor->get_attribute( 'style' );
-			$transition_style = sprintf( 'view-transition-name: %s;', \esc_attr( $transition_name ) );
+			$transition_style = 'view-transition-name: ' . esc_attr( $transition_name ) . ';';
 			
 			$new_style = $existing_style ? 
 				rtrim( $existing_style, '; ' ) . '; ' . $transition_style : 
@@ -431,23 +443,25 @@ class View_Transitions {
 	}
 	
 	/**
-	 * Fallback method for adding transition names (pre-WP 6.2)
+	 * Fallback method for adding transition names with enhanced security
 	 * 
 	 * @param string $content HTML content
-	 * @param string $transition_name Transition name
+	 * @param string $transition_name Validated transition name
 	 * @return string Modified content
 	 */
 	private function add_transition_name_fallback( $content, $transition_name ) {
-		$transition_style = sprintf( 'view-transition-name: %s;', \esc_attr( $transition_name ) );
+		$transition_style = 'view-transition-name: ' . esc_attr( $transition_name ) . ';';
 		
-		$pattern = '/(<[a-zA-Z][^>]*?)(style\s*=\s*["\'])([^"\']*?)(["\'])/';
+		// More specific regex patterns for better security
+		$pattern = '/(<[a-zA-Z][a-zA-Z0-9\-]*[^>]*?)(style\s*=\s*["\'])([^"\']*?)(["\'])/';
 		$replacement = '$1$2$3; ' . $transition_style . '$4';
 		
 		if ( preg_match( $pattern, $content ) ) {
 			return preg_replace( $pattern, $replacement, $content, 1 );
 		}
 		
-		$pattern = '/(<[a-zA-Z][^>]*?)(\s*>)/';
+		// Fallback for elements without style attribute
+		$pattern = '/(<[a-zA-Z][a-zA-Z0-9\-]*[^>]*?)(\s*>)/';
 		$replacement = '$1 style="' . $transition_style . '"$2';
 		
 		return preg_replace( $pattern, $replacement, $content, 1 );
@@ -473,7 +487,7 @@ class View_Transitions {
 function init_view_transitions() {
 	View_Transitions::init();
 }
-\add_action( 'after_setup_theme', __NAMESPACE__ . '\init_view_transitions' );
+add_action( 'after_setup_theme', __NAMESPACE__ . '\init_view_transitions' );
 
 /**
  * Helper function to check if view transitions are active
@@ -481,7 +495,7 @@ function init_view_transitions() {
  * @return bool Whether view transitions are active
  */
 function has_view_transitions() {
-	return \current_theme_supports( 'view-transitions' );
+	return current_theme_supports( 'view-transitions' );
 }
 
 /**
@@ -492,7 +506,7 @@ function has_view_transitions() {
  * @return string Modified content
  */
 function add_view_transition_name( $content, $transition_name ) {
-	if ( ! has_view_transitions() ) {
+	if ( ! has_view_transitions() || empty( $content ) || empty( $transition_name ) ) {
 		return $content;
 	}
 	
@@ -507,43 +521,81 @@ function add_view_transition_name( $content, $transition_name ) {
  */
 
 /**
- * Get the primary theme color
+ * Validate hex color
+ * 
+ * @param string $color Color to validate
+ * @return string|false Valid hex color or false
+ */
+function validate_hex_color( $color ) {
+	$color = sanitize_text_field( $color );
+	
+	// Remove # if present
+	$color = ltrim( $color, '#' );
+	
+	// Check if it's a valid hex color (3 or 6 characters)
+	if ( preg_match( '/^([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/', $color ) ) {
+		return '#' . $color;
+	}
+	
+	return false;
+}
+
+/**
+ * Get the primary theme color with enhanced security
  * 
  * @return string Primary color hex value with fallback
  */
 function get_theme_primary_color() {
 	// Try to get from Global Styles first (WordPress 5.9+)
-	if ( class_exists( 'WP_Theme_JSON_Resolver' ) ) {
+	if ( class_exists( '\WP_Theme_JSON_Resolver' ) ) {
 		$theme_json = \WP_Theme_JSON_Resolver::get_merged_data();
-		$colors = $theme_json->get_settings()['color']['palette']['theme'] ?? array();
+		$settings = $theme_json->get_settings();
+		$colors = isset( $settings['color']['palette']['theme'] ) ? $settings['color']['palette']['theme'] : array();
 		
 		// Look for primary color in theme palette
 		foreach ( $colors as $color ) {
-			if ( isset( $color['slug'] ) && in_array( $color['slug'], array( 'primary', 'accent', 'main' ), true ) ) {
-				return $color['color'];
+			if ( isset( $color['slug'], $color['color'] ) && 
+			     in_array( $color['slug'], array( 'primary', 'accent', 'main' ), true ) ) {
+				$validated_color = validate_hex_color( $color['color'] );
+				if ( $validated_color ) {
+					return $validated_color;
+				}
 			}
 		}
 		
 		// Fallback to first color if no primary found
 		if ( ! empty( $colors ) && isset( $colors[0]['color'] ) ) {
-			return $colors[0]['color'];
+			$validated_color = validate_hex_color( $colors[0]['color'] );
+			if ( $validated_color ) {
+				return $validated_color;
+			}
 		}
 	}
 	
 	// Try customizer option (legacy themes)
-	$primary_color = \get_theme_mod( 'primary_color' );
+	$primary_color = get_theme_mod( 'primary_color' );
 	if ( $primary_color ) {
-		return $primary_color;
+		$validated_color = validate_hex_color( $primary_color );
+		if ( $validated_color ) {
+			return $validated_color;
+		}
 	}
 	
-	// Try CSS custom property detection (modern themes)
-	$custom_css = \wp_get_custom_css();
-	if ( preg_match( '/--wp--preset--color--primary:\s*([^;]+);/', $custom_css, $matches ) ) {
-		return trim( $matches[1] );
+	// Try CSS custom property detection (modern themes) - with validation
+	$custom_css = wp_get_custom_css();
+	if ( $custom_css && preg_match( '/--wp--preset--color--primary:\s*([^;]+);/', $custom_css, $matches ) ) {
+		$color = trim( $matches[1] );
+		$validated_color = validate_hex_color( $color );
+		if ( $validated_color ) {
+			return $validated_color;
+		}
 	}
 	
-	// Ultimate fallback
-	return \apply_filters( 'twombly_primary_color_fallback', '#54e27e' );
+	// Ultimate fallback - validated safe color
+	$fallback = apply_filters( 'twombly_primary_color_fallback', '#54e27e' );
+	$validated_fallback = validate_hex_color( $fallback );
+	
+	return $validated_fallback ? $validated_fallback : '#000000';
 }
 
 /**
@@ -553,24 +605,31 @@ function get_theme_primary_color() {
  */
 
 /**
- * Add custom cursor with trailing dot using theme primary color
- * Improved implementation with better performance and accessibility
+ * Add custom cursor with enhanced security and performance
  */
-\add_action( 'wp_footer', function() {
-	// Skip on admin pages and mobile devices
-	if ( \is_admin() || \wp_is_mobile() ) {
+add_action( 'wp_footer', function() {
+	// Skip on admin pages, mobile devices, and for logged-in users editing
+	if ( is_admin() || wp_is_mobile() ) {
 		return;
 	}
 	
-	// Get theme primary color
+	// Skip if user is in customizer or block editor
+	if ( is_customize_preview() || ( function_exists( 'is_block_editor' ) && is_block_editor() ) ) {
+		return;
+	}
+	
+	// Get and validate theme primary color
 	$primary_color = get_theme_primary_color();
+	
+	// Generate nonce for inline scripts (if CSP is implemented)
+	$nonce = wp_create_nonce( 'twombly_cursor_script' );
 	?>
 	<style id="twombly-custom-cursor">
 		/* Custom cursor styles */
 		.cursor-follower {
 			width: 10px;
 			height: 10px;
-			background-color: <?php echo \esc_attr( $primary_color ); ?>;
+			background-color: <?php echo esc_attr( $primary_color ); ?>;
 			border-radius: 50%;
 			position: fixed;
 			pointer-events: none;
@@ -608,31 +667,61 @@ function get_theme_primary_color() {
 		}
 	</style>
 	
-	<script id="twombly-cursor-script">
+	<script id="twombly-cursor-script" data-nonce="<?php echo esc_attr( $nonce ); ?>">
 	(function() {
 		'use strict';
 		
+		// Verify nonce for additional security (if needed for CSP)
+		var scriptElement = document.getElementById('twombly-cursor-script');
+		var nonce = scriptElement ? scriptElement.getAttribute('data-nonce') : '';
+		
 		// Exit early for touch devices or reduced motion preference
-		if ('ontouchstart' in window || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+		if ('ontouchstart' in window || 
+		    !window.requestAnimationFrame ||
+		    window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
 			return;
 		}
 		
-		// Create cursor follower element
-		var follower = document.createElement('div');
-		follower.className = 'cursor-follower';
-		follower.setAttribute('aria-hidden', 'true');
-		document.body.appendChild(follower);
+		// Debounced resize handler
+		function debounce(func, wait) {
+			var timeout;
+			return function executedFunction() {
+				var later = function() {
+					clearTimeout(timeout);
+					func.apply(this, arguments);
+				};
+				clearTimeout(timeout);
+				timeout = setTimeout(later, wait);
+			};
+		}
 		
-		// Initialize positions
-		var mouse = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
-		var followerPos = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+		// Create cursor follower element with error handling
+		var follower;
+		try {
+			follower = document.createElement('div');
+			follower.className = 'cursor-follower';
+			follower.setAttribute('aria-hidden', 'true');
+			follower.setAttribute('role', 'presentation');
+			document.body.appendChild(follower);
+		} catch (e) {
+			console.warn('Twombly: Could not create cursor follower');
+			return;
+		}
+		
+		// Initialize positions safely
+		var windowWidth = window.innerWidth || document.documentElement.clientWidth;
+		var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+		
+		var mouse = { x: windowWidth / 2, y: windowHeight / 2 };
+		var followerPos = { x: windowWidth / 2, y: windowHeight / 2 };
 		var animationId;
+		var isAnimating = false;
 		
-		// Configuration
+		// Configuration with validation
 		var config = {
-			speed: 0.15,          // Smooth following speed
-			offsetDistance: 30,   // Distance from cursor in pixels  
-			offsetAngle: 50       // Angle in degrees
+			speed: Math.max(0.05, Math.min(0.5, 0.15)),        // Constrain speed
+			offsetDistance: Math.max(10, Math.min(100, 30)),   // Constrain offset
+			offsetAngle: Math.max(0, Math.min(360, 50))        // Constrain angle
 		};
 		
 		// Calculate offset
@@ -640,79 +729,137 @@ function get_theme_primary_color() {
 		var offsetX = Math.cos(angleInRadians) * config.offsetDistance;
 		var offsetY = Math.sin(angleInRadians) * config.offsetDistance;
 		
-		// Start animation immediately
-		animate();
-		
-		// Optimized animation loop with requestAnimationFrame
-		function animate() {
-			var targetX = mouse.x + offsetX;
-			var targetY = mouse.y + offsetY;
-			
-			// Smooth interpolation
-			followerPos.x += (targetX - followerPos.x) * config.speed;
-			followerPos.y += (targetY - followerPos.y) * config.speed;
-			
-			// Apply position (CSS already handles centering with translate(-50%, -50%))
-			follower.style.left = followerPos.x + 'px';
-			follower.style.top = followerPos.y + 'px';
-			
-			animationId = requestAnimationFrame(animate);
+		// Start animation with error handling
+		function startAnimation() {
+			if (!isAnimating) {
+				isAnimating = true;
+				animate();
+			}
 		}
 		
-		// Update mouse position on move
-		document.addEventListener('mousemove', function(e) {
-			mouse.x = e.clientX;
-			mouse.y = e.clientY;
-		}, { passive: true });
-		
-		// Interactive elements selector
-		var hoverSelector = 'a, button, input[type="submit"], input[type="button"], .clickable, [role="button"], [onclick], .wp-block-button__link';
-		
-		// Hover effects with event delegation
-		document.addEventListener('mouseover', function(e) {
-			if (e.target.matches(hoverSelector) || e.target.closest(hoverSelector)) {
-				follower.classList.add('hover');
+		// Optimized animation loop with error handling
+		function animate() {
+			try {
+				var targetX = mouse.x + offsetX;
+				var targetY = mouse.y + offsetY;
+				
+				// Smooth interpolation with bounds checking
+				followerPos.x += (targetX - followerPos.x) * config.speed;
+				followerPos.y += (targetY - followerPos.y) * config.speed;
+				
+				// Bounds checking
+				followerPos.x = Math.max(-100, Math.min(windowWidth + 100, followerPos.x));
+				followerPos.y = Math.max(-100, Math.min(windowHeight + 100, followerPos.y));
+				
+				// Apply position with validation
+				if (follower && follower.style) {
+					follower.style.left = Math.round(followerPos.x) + 'px';
+					follower.style.top = Math.round(followerPos.y) + 'px';
+				}
+				
+				if (isAnimating) {
+					animationId = requestAnimationFrame(animate);
+				}
+			} catch (e) {
+				console.warn('Twombly: Animation error', e);
+				isAnimating = false;
 			}
-		}, { passive: true });
+		}
 		
-		document.addEventListener('mouseout', function(e) {
-			if (e.target.matches(hoverSelector) || e.target.closest(hoverSelector)) {
-				follower.classList.remove('hover');
+		// Update mouse position with bounds checking
+		function updateMousePosition(e) {
+			if (e && typeof e.clientX === 'number' && typeof e.clientY === 'number') {
+				mouse.x = Math.max(0, Math.min(windowWidth, e.clientX));
+				mouse.y = Math.max(0, Math.min(windowHeight, e.clientY));
 			}
-		}, { passive: true });
+		}
 		
-		// Click effects
-		document.addEventListener('mousedown', function() {
-			follower.classList.add('click');
-		}, { passive: true });
+		// Interactive elements selector (more secure)
+		var hoverElements = [
+			'a', 'button', 
+			'input[type="submit"]', 'input[type="button"]', 
+			'.clickable', '[role="button"]', '.wp-block-button__link'
+		];
+		var hoverSelector = hoverElements.join(', ');
 		
-		document.addEventListener('mouseup', function() {
-			follower.classList.remove('click');
-		}, { passive: true });
+		// Event handlers with error handling
+		function handleMouseMove(e) {
+			updateMousePosition(e);
+		}
 		
-		// Window leave/enter
-		document.addEventListener('mouseleave', function() {
-			follower.style.opacity = '0';
-		});
+		function handleMouseOver(e) {
+			try {
+				if (e.target && (e.target.matches(hoverSelector) || e.target.closest(hoverSelector))) {
+					if (follower) follower.classList.add('hover');
+				}
+			} catch (err) {
+				// Silent fail for selector errors
+			}
+		}
 		
-		document.addEventListener('mouseenter', function() {
-			follower.style.opacity = '0.8';
-		});
+		function handleMouseOut(e) {
+			try {
+				if (e.target && (e.target.matches(hoverSelector) || e.target.closest(hoverSelector))) {
+					if (follower) follower.classList.remove('hover');
+				}
+			} catch (err) {
+				// Silent fail for selector errors
+			}
+		}
 		
-		// Handle window resize
-		var resizeTimeout;
-		window.addEventListener('resize', function() {
-			clearTimeout(resizeTimeout);
-			resizeTimeout = setTimeout(function() {
-				// Reset position on resize
-				mouse.x = window.innerWidth / 2;
-				mouse.y = window.innerHeight / 2;
-				followerPos.x = mouse.x;
-				followerPos.y = mouse.y;
-			}, 150);
-		}, { passive: true });
+		function handleMouseDown() {
+			if (follower) follower.classList.add('click');
+		}
+		
+		function handleMouseUp() {
+			if (follower) follower.classList.remove('click');
+		}
+		
+		function handleMouseLeave() {
+			if (follower) follower.style.opacity = '0';
+		}
+		
+		function handleMouseEnter() {
+			if (follower) follower.style.opacity = '0.8';
+		}
+		
+		// Debounced resize handler
+		var handleResize = debounce(function() {
+			windowWidth = window.innerWidth || document.documentElement.clientWidth;
+			windowHeight = window.innerHeight || document.documentElement.clientHeight;
+			
+			// Reset position on resize
+			mouse.x = windowWidth / 2;
+			mouse.y = windowHeight / 2;
+			followerPos.x = mouse.x;
+			followerPos.y = mouse.y;
+		}, 150);
+		
+		// Add event listeners with passive option where appropriate
+		document.addEventListener('mousemove', handleMouseMove, { passive: true });
+		document.addEventListener('mouseover', handleMouseOver, { passive: true });
+		document.addEventListener('mouseout', handleMouseOut, { passive: true });
+		document.addEventListener('mousedown', handleMouseDown, { passive: true });
+		document.addEventListener('mouseup', handleMouseUp, { passive: true });
+		document.addEventListener('mouseleave', handleMouseLeave, { passive: true });
+		document.addEventListener('mouseenter', handleMouseEnter, { passive: true });
+		window.addEventListener('resize', handleResize, { passive: true });
+		
+		// Start animation
+		startAnimation();
+		
+		// Cleanup function (for potential future use)
+		window.twomblyCleanupCursor = function() {
+			isAnimating = false;
+			if (animationId) {
+				cancelAnimationFrame(animationId);
+			}
+			if (follower && follower.parentNode) {
+				follower.parentNode.removeChild(follower);
+			}
+		};
 		
 	})();
 	</script>
 	<?php
-}, 20); // Lower priority to ensure theme colors are available
+}, 20);
